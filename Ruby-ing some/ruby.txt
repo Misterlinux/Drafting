@@ -1,0 +1,116 @@
+ok so.
+ first_number = 71
+ second_number = 14
+ sum = first_number + second_number4
+ puts sum
+
+anyway, we set variables and then sum them.
+	current_president = "Barack Obama"1
+	puts "In 2016, the president was #{current_president}."
+
+here we work with variables with different types of values
+and then we print the result with another string.
+interpolation.
+
+Variable: location in which we stay some memory.
+
+in ruby you need to respect some rules for the names.
+first letter lovercase 8except if its a Constant=)
+also no number start, no punctuature and no reserved ruby values.
+
+dynamically type language (like pyton) no need to declare the type everytime and after.
+trongly typed language, will keep their type unless you say otherwise.
+
+= is for the assigment operation.
+still possible re assign.
+
+	sound = "squeak"
+	sound.upcase
+	sound
+
+anyway the sound would still be "squeak", the upcase worked on the value of the variable
+but not in its essence, PASS-BY-VALUE using a copy but keeping.
+
+about the methods, like we seen before we will need arguments.
+	some_method(25,"hello")
+anyway we call IRB (interactive ruby)
+REPL stands for Read, Evaluate, Print, Loop.
+programming environment, where taking input and returns result.
+
+name = "Joe"
+
+ def greeting(name)
+    puts "Hello, #{name}"
+ end
+
+ok so, we have to check scope, and inside the method is (def -> end)
+and where a variable or reference is declared.
+and up there doesnt work.
+it wouldnt work if we didnt define the (name) right after the method.
+
+if age > 3
+	"something"
+else 
+	"kinda not"
+end
+
+age < 2 ? "baby" : "not a baby
+
+anyway you could use parentesis to set up the order
+we already saw it but still ?(is it?) tis : this is it isnt
+
+in case of conditionals on the text or function remember to:
+this_tear = Time.now.year
+puts "print if the condition works out " if this_year == 2000
+
+we set conditions for the puts here. (we can also use -unless-)
+
+to allow us to work without the elsif we use the case.
+
+case value
+	when "first_case"
+		puts "first response"
+	when "second_response"
+		puts "and so on"
+	else
+		puts "last case"
+end
+
+we start with a keyvalue create on top.
+
+case keywalue
+
+end
+
+then you add the condition with:
+
+	when "straing searched or function"
+		puts "and here the code to execute"
+
+end
+
+value = gets.chomp
+
+case value
+	when "A"
+		puts "so, you chose a eh?"
+	else
+		puts "is this the way"
+end
+
+also in ruby the CASE works with WHEN.
+working with arrays.
+how to convert
+- string -> array: 
+	"hippo,giraffe,monkey,horse".split(",") => ["hippo", "giraffe", "monkey", "horse"]
+anyway we set the array as argument and the .split method with the ("element to plit on")
+if it were empty it would have splite every word.
+
+(1..10).to_a	(we use this to create an array with .. and the end numbers)
+	=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+array to string:
+	["a", "b", "c"].join(",") ok so, we can add also a string n common between all the joining
+	   => "a,b,c"
+and we join different elements into a string.
+

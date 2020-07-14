@@ -1,0 +1,52 @@
+operating systems like OS gives us a graphical interface to
+do, but a sympler way is the command line/ prompt / CLI.
+to open terminal:
+
+	crtl+alt+t
+ 
+Most of this is for linux systems:
+
+	$ echo "Hello World"
+	Hello World
+	$
+
+to print out some values, explain what you learned
+
+whats an interface: system used to operate a computer.
+hwo the information is showen, and how to work.
+about the disply of what is shown and commands for.
+
+Starting with CLI display: to open terminal Ctrl+Alt+T
+	ubuntu@chopin:~$
+	[user]@[hostname]:[current_directory]$
+
+here we have an example, we get the user and the computer name.
+the : is just for separation and we get in which directory we are or just a ~
+for the home directory:
+
+	to check list elements inside the folder ls/
+
+the elements that happear are 
+-prompt: which would be the folder you hare in.
+-the cursor, which would be the intermitted space in which you can put text
+-the input: what you type
+-output of your commands and programs: the response by the pc.
+
+	ctrl+à is for the ""
+
+we type echo "___" to rappresent some text in the terminal.
+it sends some text to the CLI output.
+
+	pwd to check out where you are.
+
+commands in [command] [arguments...] form, and can act on a file or
+be pre-build (like echo) the arguments in this case are Strings passed to the programs, information
+provided to it.
+
+	crtl+ò for the :
+
+archive, compress, and extract files with tar (granted you give it the info)
+with also some ending position, 
+
+	ctrl+3 is for the #
+

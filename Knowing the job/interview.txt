@@ -1,0 +1,50 @@
+ok so, time for some toast.
+Fibonacci frequence.
+ok so, the idea is simple, starting from the pairing 0,1
+all numbers in this sequence will be the sum of thei previous numbers.
+
+function something(n){
+	if (n===2){
+		return 1;
+		//this cover the first element (the 1, we will do the same for the 2)
+	}
+	else if(n===1){
+		return 0;
+		//this for the first very number 0.
+	}
+	else{
+		return something(n -1) + something(n -2);
+	}
+}
+
+for writing out your own testing you can try with.
+anyway memoize present for the precompiled first elements of an array.
+
+function something(n, memoize = {1:0, 2:1}){
+	if (n in memoize){
+		return memoize[n];
+	}
+}
+we get the first 2 elements resolved for the first interaction of the code.
+
+ok so, the exercise of a matrix in which the 0 and 1 
+the idea is to visualize the entire matrix as a graph.
+and then use algorithms graph traversal. 
+the idea is to iterate trought close cross squares
+and get the lenght of the river.
+
+ok so, if sendingemails try to put your phone number on it
+to more contactivity.
+
+responding warm regards / best regartry to thank for the time, etc and try to
+set up why you prefer this job, check interviewers and the company.
+or even the CEO or CTO, or about ex employeers.
+in interview speak less, and no mid-sounds.
+check their dressCode in their gallery.
+
+Put on you deciion to be what you planning.
+dont talk trash of past jobs talk about challenges or better chances.
+
+On what you built and problems solved, the created app, 
+talk about solutions not complainings, ask if you didnt understand something
+at the test,  

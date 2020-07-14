@@ -1,0 +1,432 @@
+-we have to see how to time functions
+
+some javascript:
+
+function convert(minutes) {
+	seconds = minutes*60
+	return seconds
+}
+
+1 line solution:
+
+	const convert = (minutes) => minutes * 60
+
+condition in functions, 
+if it exist/result its true no matter,
+or if 1liner:
+
+	function isSameNum(num1, num2) {
+		return num1 === num2 ? true : false;
+	}
+
+? (if yes) : (else)
+
+also the one liner doesnt work with function but just with CONST.
+
+	const isSameNum = (num1, num2) => num1 === num2;
+
+-
+	
+	"else if"
+
+----------------
+Test and how:
+Test.assertEquals((lamp = `off`, lampStatus()), false)
+
+	function lampStatus() {
+		if(lamp === `on`) {
+			return true
+		} else {
+			return false
+		}
+	}
+
+empty variables function function()
+
+also you can:
+
+	function lampStatus(){
+		return lamp === 'on'
+	}
+
+and:
+
+	const lampStatus = () => lamp === 'on';
+--------
+
+	function squared(b) {
+		return Math.pow(b,2);
+	}
+
+	const squared = (b) => Math.pow(b,2)
+
+-return values without conditions
+
+	function nSidedShape(n) {
+		return ['circle', 'semi-circle', 'triangle', 'square', 'pentagon', 'hexagon', 'heptagon', 'octagon', 'nonagon', 'decagon'][n-1];
+	}
+
+function nSidedShape(n) {
+	let shapes = {
+		1:	"circle",
+		2:	"semi-circle",
+		3:	"triangle",
+		4:	"square",
+		5:	"pentagon",
+		6:	"hexagon",
+		7:	"heptagon",
+		8:	"octagon",
+		9:	"nonagon",
+		10:	"decagon",
+	}
+	return shapes[n];
+}
+
+comment in js.
+	// a one line comment
+	 
+	/* this is a longer, 
+	 * multi-line comment
+	 */
+
+also bot what you set.
+	var
+		Declares a variable, optionally initializing it to a value.
+	let
+		Declares a block-scoped, local variable, optionally initializing it to a value.
+	const
+		Declares a block-scoped, read-only named constant.
+
+An ARRAY is an ordered set of values that you refer to with a name and an index.
+let arr = [42].
+let arr = Array(42) // [values] (n. of values)
+
+-locating element [array][position]
+
+ASCII number from:
+
+	const ctoa = (c) => c.charCodeAt(0)
+
+	function getDiscounts(nums, d) {
+		return nums.map(x => x * (parseInt(d) / 100));
+	}
+
+	const getDiscounts = (n, d) =>
+ 	n.map(x => x * parseFloat(d) / 100);
+
+.map (METHOD) is new array (no let) 
+
+-Loop:
+
+	for(var i=0;i<nums.length;i++){
+		arr.push(nums[i]*dis/100);
+	}
+
+divide /100:
+
+	(parseInt(d)*.01)
+
+how to EXERCISM:
+	C:\utenti\Misterlinux\exercism\javscript\
+
+to change stuff into a number.
+
+ok so, the resistors-color-duo exercise.
+-after an array of colors is set.
+-get a 2 cifres number and return the color based on its indexes
+-on the first and second number.
+
+	export const decodedValue = (arrayOfColors) => {
+	  const COLORS = ['black','brown','red','orange','yellow','green','blue','violet','grey','white']
+
+	  //initializing output... (setting string as response)
+	  let output = ""
+
+	  // ADD the color indexes as strings
+	  output += COLORS.indexOf(arrayOfColors[0])
+
+	  output += COLORS.indexOf(arrayOfColors[1])
+	  
+	  // Change the string to a number
+	  output = Number(output)
+	  
+	  return output
+	};
+
+-check out the INDEX of the first element of ARRAY INPUT, based on array COLORS.
+-do the same with the [1] element.
+change it to numbers -> return.
+
+we add (+) to the created array output (LET) with 
+they sum up in the same array we Number() and return.
+
+Sate in Js.
+
+	<p id="demo"></p>
+
+	<script>
+
+		var d = new Date();
+		document.getElementById("demo").innerHTML = d;
+
+	</script>
+
+how to transcribe current date in html, static, doest move with clock.
+
+		var d = new Date(2018, 11, 24, 10, 33, 30, 10);
+
+we set new Date(we,set,seven,digits,starting,from,year) to milliseconds
+(january is 0 decemeber 11) / min 2 for Y-M / only 1 num if MILLISECOND / 2 numbers for years will be 19__
+negative numbers as backwards
+
+new Date(dateString) string as data.
+
+	var d = new Date("October 13, 2014 11:13:00");
+
+-(new Date(Date.UTC(2011, 3, 25))) as ARGUMENT (millitime), 
+
+new Date() creates a date object [if its empty it uses the clock]
+
+Date.UTC(___) does indeed give us the milliseconds
+this is re-changed to regular data by the new Date(Date.UTC(___))
+altrought we cant still get the millisecnd by asking to change a Date in millis
+
+	return Date.UTC(millitime)
+	
+ok so, with New Date constructor we get an Object.
+
+	millitime = millitime.toString() we just get the more complete
+		"Mon Apr 25 2011 02:00:00 GMT+0200 (GMT+02:00)"
+		and it seems it cannot get Date.UTC( ___ ) still
+
+tracagnotto
+
+	millitime = millitime.getTime() METHOD to get mill
+
+	____.getFullYear() to just get the 4 digit number
+	____.getMonth() for the mounth and if name needed:
+	____.getDate() this is for the day.
+	____.getHours() for the hours in 24h format
+	____.getMinutes() the same for minutes
+	____.getSeconds() for the seconds
+	____.getMilliseconds() I guess for the current millies
+	____.getDay() from 0-6 for the weekday
+
+
+	CONST howManySeconds = hours => Number.isInteger(hours) ? hours*3600 : "error";
+	//idk where the Number, maybe its general
+
+ anyway if you had an array you can get the elements in 
+ 	return arr.pop()-arr.shift()
+ 	anyway you can also use the .sort(some rules here)
+
+ 	Math.pow(10,12)
+ 	1e12 (in which e is 10^12)
+
+ 	str.length to check if the string is empty (but I have still to check some out)
+
+
+	function FizzBuzz(num) {
+		if (num % 15 == 0) return "FizzBuzz" // (num%3==0 && num%5==0)
+		else if (num % 5 == 0) return "Buzz"
+		else if (num % 3 == 0) return "Fizz"
+		else return num.toString();
+	}
+
+[no {} or : for simple, we check the bigger first to cover or AND]
+
+-Eval(s t r i n g)
+argument a string, or, if its a expression, evaluetes
+of if JS STATEMENT will be evalued too
+arithmetic expression can be stored for future results
+
+Its kinda danger tho, privilege of the caller, vulnerable avoid
+
+	const equation = (s) => eval(s)
+
+no return needed
+
+-Math.max/min(a r r a y) but in case of Functions
+	
+	Math.max.apply(null,array)
+
+before it seems we used num.toString() to number to string
+
+	parseInt(string [, radix])
+	parseInt('15 * 3', 10)
+	parseInt(15.99, 10)
+	parseInt('1111', 2) all will return 15 (considered the base 2)
+
+"Hello" will NaN and doesnt count separatrion
+
+ok so, javascript doesnt have a REVERSE built in function,
+
+.SPLIT a string on particolars, METHOD in ordered substring.
+
+	str.split([separator[, limit]])
+	str.split(' ') to simply letter division (how to divide words? (" "))
+
+.REVERSE() method reverses the array in place
+
+	name = str.split(" ")
+	name = name.reverse()
+	return name.join(" ")
+
+to then re-link them, anyway to do it in sequence
+
+	return str.split(' ').reverse().join(' ');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+why does the ruturn of ??
+
+  	Math.max() < Math.min()
+
+if empty argument is -infinity, infinity
+how does Math.min(1) work?
+	
+	math.min(1) = 1
+	Math.min(1, infinity) = 1
+	math.min(1, -infinity) = -infinity
+
+2 cifres precision,
+	result = (value / 100).toFixed(2)
+
+018 — 017 = 3, those are octav numbers, base-8 numbers.
+its still used today coz it allow not to use words as numbers.
+ok so, the 0 prefix amke any number as octal.
+but having an 8 (which doesnt in octal, we get a decimal (10)- a octave number)
+
+Function Expression / Function Declaration different why?
+ok so a declaration has the keyword function at the start of it.
+a function expression begins with var , let or const, 
+
+function sum(x, y) { // declaration
+  return x + y;
+};
+
+var sum = function(x, y) { //expression
+  return x + y;
+};
+
+as you can see, the order and we declare sum in different places.
+the first is hoisted, which means its set a priority in the js code, which mean 
+you can declare it anywahere while the expression cannot.
+
+var, let and const.
+ok so, the var is the first released, but it has limits so we use let and const.
+about the re-assigment (const cannot)
+let tends to be better, var is more prone to errors and all 3 are hoiseted 
+but let avoid doing some pre-declared.
+var is function-scoped / let and const is block-scoped.
+tends to vary more like here :
+	var a = 0; 
+	let b = 0;
+	const c = 0;
+	if (true) {
+	  var a = 1;
+	  let b = 1; 
+	  const c = 1;
+	}
+	console.log(a); // 1
+	console.log(b); // 0
+	console.log(c); // 0
+
+anyway variable without a name can still exist as window.x = 1 for an
+x value with 1 but window.x = 1, anyway just use use strict.
+
+What’s the difference between Object Oriented Programming (OOP) and Functional Programming (FP)?
+anyway javascript can support both event, functional and object.
+the first is based on objects based on fields / propieties that fills them and
+methods, that are procedures.
+and javascript has object pre.build inside it like.
+math, JSON and data type.
+while FP is more based on the concept of pure functions.
+
+imperative and declarative programming, in which we can also see the difference between objects and 
+functions. they bpth refers to groups with different types of carateristic.
+object is on the imperative side while Function is declarative.
+object/imperative is based on how something is done with : for and while loops, if and switch
+while declarative goes for what to do with the values: 
+	const sumArray = array => { return array.reduce((x, y) => x + y) };
+ok so, Prototype-Based Inheritance. is the type of object that javascript uses.
+existing objects used as inheritance.
+
+ok so, Raspberry Pi and resistors.
+
+_ = none for setting empty variables I guess.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

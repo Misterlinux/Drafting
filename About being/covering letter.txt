@@ -1,0 +1,15 @@
+Hi Alice,
+
+I'm Bob, a web developer currently available for full-time employment.
+
+According to your company website, you're currently hiring web developers. Based on the information outlined there, I believe I would make a good addition to your team.
+
+You might notice that I don't have any commercial experience, so I would be applying to this role as a junior developer. While I've never worked as a full-time web developer before, I'm proficient with many of the technologies listed in your requirements, have deployed working software and believe I would contribute value to your development team from day one.
+
+Please find attached my CV with links to code samples and projects that demonstrate my abilities. Additionally, you can see my profile on github here: http://github.com/example-example-example
+
+It would be great to meet for a chat at some point if you have any interest in taking this further.
+
+Kind Regards,
+
+-Bob, http://bobthewebdeveloper.example.com/

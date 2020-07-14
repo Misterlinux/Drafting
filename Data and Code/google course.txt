@@ -1,0 +1,99 @@
+### about the google course
+
+piattaforma?? Is this just aws??
+big data, amd ML, are the services oriented for thos?
+
+GCP, esattamente come aws, same stuff, checking if I can actually use it
+wow carbon neutral.. nice, 
+
+ok lets gets some tips for the audio.
+
+ctrl t for crop. 
+light noise reduction, normalize the audio
+I guess light the audio is something that can be done more times.
+and compres, 
+qualize, and normalize again.
+impost limits about levels.
+
+creating a 'favorite'
+
+anwyay we cut a part of the mute audio to check the noise,
+we selec all the audio and then we process it.
+
+next we go to normalize and go to a -3 / 6 db.
+
+compression is about the hights, nice, 
+Single band compressor, 
+we get the soglia -12 db and the moltiplicator to reduce the peaks by a factor.
+
+we choose the parametric equalizer from filtro and EQ,
+fra le opzioni vediamo ottimizzatore vocale.
+
+dynamic processing can help in case of isolated peaks, 
+
+le app creano dati da conservare/storage..
+
+dati processati in informazioni.... dinamiche ML.
+
+servers in regions > zones and with 100 miles between regions.
+and can be done with the multi zone, 
+Virtual private cloud...cioe le rete fra I server.  cioe VPC.
+
+and also this is fragmented in regional subnets.. for each 
+ok so the vpc net is made of subnets that can communicate with each other.
+but its isolated so with different vpc even same-regions subnets are
+isolated.
+
+singolo indirizzo ip in cui montare risorse tra vari componenti in differenti
+regioni/indirizzi.
+
+Cloud load balancing. and they adapt themselves with different load / traffic.
+
+it offers also a cache , content delivery network.... so about data that
+the user request and then gets using a faster note.
+
+ok so, with the term resourse we talk about the virtual machine/ data that
+we are using trought this service, all of them /each,
+associated to a project.....and then in folder...
+project can be de-centralized, different accounts . and billing
+are calculated there.
+located trought ID, user named, or gcp number of series.
+
+folders cant contain other folders and projects, 
+to help the level tree of different teams / organize.
+
+organization nodo, to grant policy to some users, or to create project(use, costs)for such users.
+policy to folders, projects or from the node, 
+cascading, an upper level retains its policy, 
+
+it can be granted to a G account / group, and you can check what someone does with 
+setting the roles, (which define what it can do), 
+we get to a primitive level, which include predefinite roles such as
+
+check bills, read only, editor and owner who can add or remuve utents
+or project. (normally more thn 1)
+
+from primitive to predefine.
+about what resourses exactly it uses, 
+
+we can customize it even more with custom, not in folders but in 
+projects, etc.
+we cam create roles, 
+
+next to see N. 4.
+
+console web, interfaccia interattiva, operazionion amministrative.
+centralized, about resorces and services, controll over.
+and the resources git, 
+
+and also google cloud SDK, piu complesso e specific, 
+
+RESTful about json data between user and system, API, 
+
+google delivers, libraries for coders, meanwhie the client librar are community based.
+cloude shell is a terminal which allow us access with a terminal to
+our resources and any code.
+
+and freedom in editing.
+
+PT. 5.

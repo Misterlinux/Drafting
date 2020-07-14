@@ -1,0 +1,15 @@
+all .vue fies are mounted in the components file.
+and using for the bacground the app.vue and the app.css.
+which is the real single page. kinda
+
+we render everything with the <vue-router> tag.
+still dont know how that exactly work 
+
+about the file management, we can resume all of the data
+	yarn run build
+we create a file for production...
+there is also the 
+	yarn serve
+all in the dist file.
+
+

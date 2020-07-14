@@ -1,0 +1,117 @@
+ok, in case you had to read or use some more effort remember to make all in 
+data, umerical data and get the scheme (like the exercise of the words lenght and letter CAT)
+-Logic.
+-Joy solving problems.
+check not always same where and what is true.
+shapes need less that what you think.
+By Angle-Angle-Angle we can see from a right angle trianle how the
+short for one is the long of the other.
+
+ok so, about the flipping coins, in cases of GSG, in which I flip over both GG or SS
+and in combination of 3 we saw how only the ones like SGS could get a trio of G
+if flipped in pairs, and the G being 1 or 3 (odd) means that when flipped pairs (+2 still odd)
+or 1 flipped and 1 not (odd + 0), so we will be always be able to get all g/S (only if the number
+of total is odd).
+
+Cryptograms are puzzles that have numbers axpressed/ stands for as capital letters,
+and same letter used multiple times then its the same.
+
+ok emmmm if you find double numbers remember that XX will always be multiple of 11.
+anyway the sum of X + Y + Z = Z means that X + Y is 10 ALWAYS (2 digit numbers cant make 20)
+just this.
+
+ok so, about the cross numbers exercise, if there is a number, in the centre that is repeated 
+we count (all numbers we have + the repeated umber) = result * 2
+then we check reult * 2 - all numbers = repeated
+to get the result.
+
+if you have set of 3 numbers to equal a number remember to remuve the big ones that
+can in pairs give the result.
+or even better do the:
+sum of results (12* 4) + sum of avaiable (36) = 12
+spaces = 4 => 12/4 then go for the largest umber that can have other 3 within
+(in our case 6 , 3, 2, 1)
+
+ok so remember: "they have all of the odd numbers" =/= "all their numbers is odd"
+"all of my numbers are even" =/= "I have all of the even numbers"
+
+some logic language.
+syllogistic logic, propositional logic, and first-order logic.
+
+even if 2 groups are outside some same other group this doesnt mean they have/or dont have
+correlation.
+anyway this is syllogistic logic.
+
+also "or" can be inclusive which means it its true also if both true.
+
+In logic, a statement of the form, “If A, then B” is false only in 
+the case where A is true and B is false. Otherwise, the statement is true.
+
+ok so , in logic in a if .. then question, its false only if the first part
+is true and the second is false.
+BUT if we get that the IF ...  is false , it doesnt matter what comes after
+the statement is TRUE.
+
+"formal" Propositional logic, we start by settling propositional variables
+ P \equiv≡ Q (which is the triple =) for a "if and only if"
+ (which means both T or F without the if condion of before)
+ -P is negation so, not P.
+ with truth tables we can see the corralations.
+
+ 	P \equiv≡ (\neg¬P AND \neg¬Q)
+
+ P is a knight if and only if (what she says is true which mean)
+ P is a knive and so is Q 
+
+ check out between contradictive statement the weakest ones so to keep the simplest.
+
+ when we set a value in the average between 2 other it means sum/2
+ BUT ALSO first < average < second.
+
+ last digit of a xxy * xxy is just the y*y
+ ok emm muliplying 1*2*....*9 you have a 2*5 so it will always be 0
+ it seems that the last digits of power operation tend to loop
+
+	2^x -> 2-4-8-16
+
+while the powers of 6 is always _6
+
+ok so, if you have the name of a doctor remember that the
+first 2 letters could be Dr. then...the Caesar Shift is moving the letters
+from a certain space.
+Pigpen cipher sets letter by grids.
+
+modular arith-metic part of number theory for cyclical systems in which after
+steps first step, 
+
+Number bases:
+The acrophonic system by greeks, that only included addiction tho, called addictive number systems.
+our positional system, and base 10, each position on the binary istem is 
+the value of 2^*-1 100000 (6-1= 2, 2^5=32)
+also moltiplying any number by 2 just gets them a new 0 at the right.
+
+computers are very good at checking if a switch is on and off.
+that s why to store data we use binary.
+
+ok so anout the binary:
+
+	the zero as last position is the decimal zero.
+	0 doesnt mean 2*, only the position means 2* while the 1/0 just say how many
+	0, 1 , 10, 11, 100 (0,1,2,3,4) the 4 is the next position 2*2 not a 00 (that would just be 0)
+
+The ASCII code used to 7 bits that encode any typo on the PC, and where the 8th
+bit is used for non english typo or particulars.
+
+	for example for "A" we use 65 abd for "a" 97, in binary they would be:
+	100001 and 110001 here only 1 value changed
+
+the MAX number we can get from a L numbers is for example:
+	111 = 3 numbers = (2^numbers) -1 = 8-1
+	11111 = the max number expressable with 5 numbers = 2^5 -1, 31
+
+and so the MIN number expressable with L numbers is:
+	1000000 = 6 numbers = MIN possible number would be 2^ (Numbers-1) = 2^5 = 32
+
+anyway like in the PAC man glitch in which it wasnt aspected a post level 255 and the extra bit wasnt 
+space for it.
+

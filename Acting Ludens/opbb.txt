@@ -1,0 +1,195 @@
+ok so, about the fighting blood.
+
+bottons for damage to combo/
+unique to strong or effect/
+jump to quick evade, mix starter and movement option/ 
+guard vs most - movement /
+dash to break combo rythim countareble/
+guardbreak vs continous guard to free Y (long option vs dash)
+
+no combo from Y starter but can sometimes be mix with X
+
+Support as stats or passive but not shown in battle
+
+Manage:
+Ability on logia or haki, logia to instant evade combos
+visible, grabable and guardbreak and instant loss if vs haki
+chargeable if no attack and if 0 wait to complete
+usable also for special movements.
+Gauge, from giving/receiving used by half up to swap 
+actions/counters, awaken: +atk,def timed or final move.
+
+camera with option of distance and not plain 2D
+just different on left/right, linked to front
+movement free but still linked (camera not character)
+with:
+-y attacks with hitbox and distance (mostrly straight, some)
+-dash + X to connect on knokt with hitbox
+-special + jump different effects 
+
+-----------------------------------------------
+
+defined melee style fight (melle for the movement or combo play)
+like grand battle series/ spike chunsoft's style, team with cap max point based on characters? 
+(not important I guess)
+
+free-sandboxed-3D movement with basic attack strings allocated to a single button, 
+along with specific button combinations, which can allow access to special moves
+
+ranged option with back X, Y or break.
+
+hitbox just as front and position.
+
+options to vreak down combos:
+
+	-knokt down and invin. frames that can be timed 
+	-long distanced launch and knokt
+	-inconsistent flash-guard flash-counter or offsets
+	-swap, consuming the gauge for half
+	-logia, limited for some, punisheable consuming L and hakai attaks can go beyond
+	-limited counters, elusive or invin. atk that some
+
+in case of long distances or aproach, how to cover:
+
+	-walking, vulnerable but controlable and optionable
+	-L and jump, consumes L variable but dodge, guardable and punishable some
+	-dash + atk (also normal attacks tend to aim to the adv) cover more and heavy hitbox
+	-some attacks Y cover larg distance or specific special moves
+	-walk + jump attack to elude front attacks (area, time and result, like knokt vary on x,y)
+
+interaction:
+	3X attacks + break vs guard
+				 finish X vs normal
+				 special x/y/guard for damage or mix
+				 ranged or some special vs roll
+				 ranged break for longers rolls
+				 Y for some
+
+some chara list:
+
+	Luffy all round:
+		-jump + Y damage and interuption
+		-jump + X knokt and follow
+		-movement as chargeable and straight (-guard -roll)
+		-second movement 2X ability longer hit
+
+	Champ:
+		-chargeable Y for range hitbox and changeable at uppercut anytime.
+
+	Kun-Fu:
+		-Y for aproach chainable
+
+	whitbeard:
+		-S + X chainable break (chargeable)
+		-S + Y really-slow ranged vs guard
+		-S + guard slow grab vs logia/ guard
+		-movement / jump + Y for haki area "effect"
+
+	Sengoku:
+		-S + X timed zone areas bombs, slow, no immunity and self damage possible
+		(sengoku is slow so it s hard to block others inside, coz the bombs are behind so...)
+		-both S + Y/guard - roll (area front explo. move, same)
+		-ranged + break as grab
+		-transformation after awaken again...
+		-no ranged optiosn and movement as sprint
+		-a lot of armot tho
+
+	Akainu: 
+		-S + X fast chargeable ending
+		-S + Y -guard - roll forced swap + hit
+		-S + guard some armor counter/trap 
+		-movements as instant + timed hitbox
+
+	Zoro:
+		-ok so , a heavy with a sword, I kinda of aspect good range but middle movement
+		-but does it have range? I mean power doesnt mean slow so...
+		-jump + Y fast falling damage interuption
+		-special movement consumes ability overtimw
+
+	Frank:
+		-Y as power up timed and stackable
+		-ranged Y as fast fast explisive projectile
+		-S + X damage front controll controllable with stick
+		-S + Y heavy damage consumes 1/3 charge (mandated charge if end)
+		-S + guard less damage not consumes
+		-awaken as immediate form
+			-longer X (without special selection)
+			-Y continouse close range repeated sword
+		-NOT LISTED IN THE MOVES, ranged counter as long ranged explosice laser
+
+	Kid:
+		-hand to 2 level stack charge how?
+			-normal X combo
+			-S + guard can be charged for a 2+
+		-S + Y heavy ranged comsumable attack
+		-loses ++ if hakai or knokt
+		-break and minor jump and some movement (great to aproach)
+		-limited on start considering both S need the +
+
+	Mihawk:
+		-S + X fast repeteable
+		-S + Y ranged timeable
+
+	Fuji:
+		-S + X long ranged aread (kinda) - roll (?) - guard
+		-S + guard ranged area front down effect to conect
+
+	Zoro shora:
+		-S + guard ranged without movement
+		-ranged guard own area covering (even if I think its most graphical)
+
+	Kizaru:
+		-chargeable short Y
+		-S + Y ranged explosive 
+		-S + guard slow input movement if connect repeteable to front instead of back
+
+	Aokiji:
+		-S + guard counter
+		-S + Y ranged and continous linkable (freez/slow effect like most)
+		-Y regular freeze, linkable (ranged version vs jump)
+		-S + X projectile chainable with jump and special move
+		-break as areas freeze (I still dont know if just visual)
+
+	Blackbeard:
+		-S + X like white. but no break
+		-S + Y ranged grab (to defuf from abilities)
+		-S + guard area forced swap 
+		-ranged y to try counter crying
+		-break as shoot (I should check for range)
+
+	Sanji:
+		-automatic loss vs females
+		-S + X jump movement continous attack (chainable with jump and repeteable too)
+		-chainable with S + Y/guard repeteables
+		-small movement for break and Y
+
+	Tesoro:
+		-S + guard ranged area restrain hit and let movement after first
+		-S + X ranged chargeable for more range
+		-ranged Y as upper
+		-S + Y long multi hit attack (good vs knokt and to pressure)
+		-spring as movement tho
+
+	Drake:
+		-S + guard counter with starter hitbox
+		-awaken as superarmor with push (X) area (Y) grab (guard)
+
+	Ace:
+		-chainable and repeteable Y that distance and pressure vs knokt
+		-S + guard area and pillar if connect (counter but maybe interroption -guard?)
+		-S + X faster multi projectie
+		-S + Y chargeable ranged projectile
+		-logia movement and jump with y for range
+
+	Shanks:
+		-movement as haki area that down (to down near but no move)
+		-S + guard counter
+
+	Sabo:
+		-bad jump but ranged S + Y chainable
+		-Y movement
+		-S + X jump and movement attack
+		-multi hit break (but alone not in X chain)
+		-S + guard slow but area
+
+	

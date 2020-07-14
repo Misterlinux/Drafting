@@ -1,0 +1,154 @@
+What was used in micracode.
+
+Settings; VS code, Ide (Integrated development Envirodment)
+includes terminal and file tree view.
+
+command file to:
+-install tools
+-start a server
+-source controll
+
+sAIRA STENCIL ONE
+
+commands:
+
+-Cd (change directory)
+-ls (also ls ____ for content)
+-pwd (prints directory way)
+-mr (also -r to remuve a folder)
+
+source controll GIT.
+recoverability and management.
+
+git directories published and shared in GitHub.
+
+How to work:
+-FORK a directory (copy)
+
+ok so, To import project to repository.
+-dont start with README
+-Git init
+-git add .
+-git commit .m "text of the commit"
+-copy the HTTPS 
+-git remote add origin _copied adress_
+-git remote -v (cheking destination)
+-git push origin master
+
+
+-- ok so about adding updated files
+
+-
+
+
+setting up the git
+Javascipt / NodeJs / React
+VS code as Integrated Development Envirodment
+search file easily
+command line (create delete files, install tools, version controll (git), starting servers)
+
+
+
+HTTP PROTOCOL, rules communication between, request response.
+req, res, .PUT/DELETE/POST and stuff
+
+API, (Aplication Programming Interface)
+
+ok so, express as framework Node.js, backend, simplified features
+Dependencies (packatage.json), 
+npm (Node Package Manager) 
+Building a server to test backend, Computer programs, receive Request by clients
+and send response (Data)
+
+Importing / requesting, using its methods, functionlity of library and module (re-usable code)
+
+(to check the name go to the package json file)
+var express = require('_____');
+
+Call a function express (we set before)
+"listening", setting the endpoint (numeric) from where request will come.
+server is rnning (adress?)
+we can set the endpoint in the arguments.
+
+callback funtion (as first action from the working server)
+
+to run the server, (node keyword ?)
+
+handler functions: to respond request, 
+request and response as OBJECTS, (with properties, mathods)
+=/= variables, name:value pairs 
+
+get() [method define handler functions] 2 PARAMETERS
+
+remember ending with comma (even if not)
+
+ok so, differences between console.log / res.send
+the first will appear only in the terminal line of the server 
+will the other will be expresses in the localhost:3000
+
+routing, multiple endpoints, from which to send responses.
+
+"/second" [settig the second endpoint (which will be after the first on e n "/")]
+
+static assets, files that doesnt change from how is stored in the server to deivery to clients.
+
+serving assets from public folders with:
+	app.use(express.static("public"));
+
+ok so the:
+	function (req, res) {
+	    res.send("Hello World!");
+	}
+
+can be used to send messages but for static files:
+
+	app.use(express.static("public"));
+
+HTTP methods, GET,PUT, POST, DELETE.
+
+ok so, when used from the html we set them as "method="POST"
+action = "/create-post" (where the data will be sent after yhe action (button))
+name (attribute) to reference the data.
+
+ok so, from the method ="POST" we set a response on the server.
+
+	app.post( "/create-post", function(req,res){
+	    console.log("text");
+	})
+
+ok so, with this we just set an anwser for the endpoint "/create-post" (the "text")
+to access the data we moved.
+consol.log(req.body) (we would get undefined in the server, the data is still as formdata)
+
+middleware functions like express-formidable to extract from the formData
+
+after setting the require you activate (use) it in:
+
+	app.use(formidable());
+
+with the key {blogppost: "inserted text"}
+
+JSON for structuring data, to send data across.
+
+ok so, passing from Json to javascript and vice with
+JSON.parse()   JSON.stringify()
+
+ok so, data passing trought the server, save in hard disk, fs (file-system / module)
+method to write in the hard drive will be:
+
+	fs.writeFile('location-of-your-file-goes-here', yourData, function (error) {
+    	// do something
+	});
+
+ok so, to read data, the callback function has the second argument (the file being read)
+
+	fs.readFile(__dirname + '/data/posts.json', function (error, file) {
+	    console.log(file);
+	});
+
+ok so, __dirname (Node global object) path to the directory
+
+buffer format Buffer: 7b 0a 20 20 20 20 22 31 34 36 37 33 39 30 33 35 36 32 39 31 22 3a 20 22 54
+to readable:
+	just file.toString()
+

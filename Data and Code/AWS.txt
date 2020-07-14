@@ -1,0 +1,17 @@
+artificial, sense proceeve envirodment and take actio in bas eof it.
+AI, intelligent behavior, machines.
+act react human, we provide information.
+knowgledge engineering, the mechanism behind probel solving.
+transfere expertise....modeling process.
+AI- Ml- DP. 
+Ml is about pattern and spedding up proceses.
+artificial neural network, symuling th synopsis.
+AI, show a model but isnt ez with difference.
+DP, data processing without a method but just request.
+algoritms and always data, fast hardware.
+Data -> analytics -> products -> users
+generates production, recognation API, training and hosting models.
+
+servers, storge data (databases), Iaas (infrastructure as a service)
+and Paas (platform as a service), Saas (software).
+defined by CPU, memory and storage.

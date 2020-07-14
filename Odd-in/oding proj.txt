@@ -1,0 +1,65 @@
+ok so, we chose the nodeJs path.
+build and mantain websites. 
+anyway if you need to use 'code'
+in discord remember ''' here '''
+/help, @username ++ to give reps I guess.
+browser
+internet as a net and protocol to set up how to communicate in in.
+packets to fraction elements in smaller, with the information of destination
+and where is going, each computer has ip addresses (number)
+a domain to get them all togheter.
+and then routers pass the data to their destination. and in the packets
+we get the instruction of how it has to be mounted.
+when we say net we refers to wires underground.
+servers(computers) are connected directly to the internet.
+and webpages as files (folders)/ ip for servers.
+normal pc is a Client and connects to a server that then do the rest.
+ISP (internet server provider)
+routers direct and work each time change direction in the wire.
+each packet gets a different layer with your data/request on it and when
+the servers gives it back you have the same layers redy unpacked by the
+routers etc.
+
+Web browser, not operative system that work with the files of your pc and stuff.
+and not even a search engine(that searches in the internet)
+IT IS  a program in your pc that helps you see webpages.
+anyway the internet started as military in the '60 while going public in the '80
+network of networks (with a network of routers for large amounts)
+modem, considering that we already have cables in our house(telephone infrastructure)
+that connects. now we have a network but we need to sent data to the 
+network we want to so, Internet Server Provider.
+these companies have special routers, and can access other ISP, 
+each has a Internet protocol, Ip, 
+
+Web page: folder, file, document that can be displayed by a web browser.
+Website: collection of web pages, 
+web server: computer that host a website on the internet.
+Search engine: a web service, (from the web browser)
+
+Web server(multiples web-sites)-search engine(index, to search in).
+Web site: a group of linked web pages under the same domain, 
+when searched it will show the homepage.
+hosted by a web server.
+and user requesting it will send the data it has of the web site to the client.
+search engine, special kind of website, to search web pages from other websites.
+Browser is a software that display web pages, while the search is a website.
+infrastructure / service.
+
+virtual envelope, packet, sent to internet hub (trought routers etc) and then n response
+it gets reduced into minimal packets. with different hubs, 
+
+-internet: NET-work of computers, communicate with each others.
+-packets, envelopes, information sent under a specific language.
+-web servers has the data to show a web page, it is shown in your pc trought a
+web browser (program that displays) and you can search for them with a search engine, 
+another server from which you search, trought a webèag etc.
+-client, internet device that request from server
+-server receive request.
+-DNS servers, translate domain names into IP adresses
+
+software helps us work with hardware.
+like Operating Sistems, 
+we use virtual machine managers to set up OS in another OS.
+
+ok so we use the - for the (/) and the alt-ctrl-t
+on the terminal, 

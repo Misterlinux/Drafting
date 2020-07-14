@@ -1,0 +1,120 @@
+Vue, framework, javascript but it uses 
+	EL: (for elements)
+
+check version:
+
+> npm list vue
+
+we used: Gridsome (partner netlify)
+
+------------------------------
+
+creating **instances** 
+
+	var _____ = new Vue{
+		el: "#app"
+		data:{
+			value: ____;
+		}
+	}
+
+EL (property) to link it to the DOM, 
+{{ ___ }} to reference it (dynamic language)
+
+src image, and v-bind.
+ 
+	data: {
+		immaggine: "./"
+	}
+
+
+	img v-bind:src="immaggine"
+
+
+v-if and v-else for **expression** true/false
+
+	data:{
+		valore: 'true'
+	}
+
+v-else-if: in cases you want to more conditions
+
+Links to new pages, **router-links** and v-for.
+
+<ul id="example-1">
+  <li v-for="item in items">
+    {{ item.message }}
+  </li>
+</ul>
+
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    items: [
+      { message: 'Foo' },
+      { message: 'Bar' }
+    ]
+  }
+})
+
+items is array where -message data is located
+
+setting a name and PROP(s)erties, to export and define the data.
+
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+
+defining data type, place and content.
+
+    <h1>{{ msg }}</h1>
+    <h5>{{ testo }}</h5>
+
+you add it as another element to the pops:
+
+  name: 'HelloWorld',
+  props: {
+	   msg: String,
+	   testo: String
+ },
+
+defining it into the helloworld:
+
+    <HelloWorld 
+      msg="Welcome to Your Vue.js App"
+      testo="and this is the second line"
+    />
+
+to then string at:
+
+	<a :href="testo"> this is a link</a>
+
+
+inport and use vue-router (after installing) MAIN.JS
+
+	import VueRouter from 'vue-router'
+	Vue.use(VueRouter)
+
+we import the created routes
+
+	import routes from './routes';
+
+in ROUTES.JS
+
+	import Home from './components/Home.vue';
+	import Register from './components/Register.vue';
+	import Login from './components/Login.vue';
+
+	const routes = [
+	    { path: '/', component: Home },
+	    { path: '/register', component: Register },
+	    { path: '/login', component: Login },
+	];
+
+	export default routes;
+
+we import the pages (.vue files) and set their paths and name (the same as imported)
+

@@ -1,0 +1,31 @@
+I already knew that the level of research to say and express everything I have o say would be hue but
+I never expected to have to re search for data after just after 17 words of my forst post, anyway it 
+was referring to the measure of data strage and the number 5571.
+
+anyway lets start with the bits and how we can work with those numbers.
+units of measure....anyway we are talking about digital information.
+ok so, BINary digit = Bit (I guess where the t come from tho, maybe they dont have anything in common)
+anyway 1/0 on off of the electronic data/ NO, values.
+
+8 bits = 1 byte . for a ASCHII / ASCII character. digit.
+kKB kilobyte: It should be 1000... and its close, 1024.which is 2^10 
+remember thet computers think in base 2, not base 10 like us.
+(binary math vs decimal math)
+
+1kb = 1024 bytes
+
+anyway now we think on MB and GB.
+
+1Mb = 1024 kb = 1024^2 bytes which are then 1024^£ bits.
+1Gb = 1024 Mb.
+
+anyway 1Tb is about a library and 1500 Cd.
+ok so, what about the b and the B.
+well if 3Mbps we are talking about 3 megabits for second 0.3 bytes
+while the opposite would be 0.3 MBps (anyway mea is about 10^ 2 I gues)
+ok so, mega is referred to 1 000 000.
+
+ok so the difference between 3 Mbits and 3Mbytes is simple 8
+which means that the first is just 0.375 Mbytes of the other (just ignore the mega)
+
+1Mb is a book so.

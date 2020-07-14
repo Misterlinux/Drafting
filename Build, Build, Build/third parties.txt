@@ -1,0 +1,32 @@
+about the third parties.
+
+**font awesome** for logos and css responsive.
+
+fa-spin class:
+
+  <i class="fa fa-spinner fa-spin fa-3x fa-f>
+
+rotate or flip(opposite:
+
+  <i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br>
+  <i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br>
+
+and If you wanna add icon on icons.
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x"></i>
+    </span>
+
+adding fa-stack and then you set inside the elements you want.
+also, if you want to reverse color or volumes use:
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+    </span>
+
+-----------------------------------
+
+ATMOSPHERE, javascript packages, after installing meteor
+

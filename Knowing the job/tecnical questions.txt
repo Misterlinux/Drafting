@@ -1,0 +1,11 @@
+Version control strategy and tooling 
+Is it industry standard? Git, TFS, SVN or Mercurial? If you’ve heard of it, it should be okay.
+Is there CI/CD tooling and environments in place?
+Deployments should be as automated as possible. It’ll make your life so much easier.
+How often are deployments?
+What frameworks/languages will I be working in?
+What tooling do you use? Which IDE?
+Visual Studio, Rider or IntelliJ are some good options.
+What kind of projects will I be working on?
+What kinds of technologies will the company be looking to use next? Also, what kind of horizon are these changes at?
+How far off are they from becoming day-to-day in use at the company?

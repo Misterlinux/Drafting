@@ -1,0 +1,140 @@
+Piano con brio
+
+so, piano and basic botton, 
+
+La SI do re mi fa sol
+
+A  B  C  D  E  F  G
+
+how? Suono and Ritmo, Rythim for ciò that happens in a certain time, X Y
+rythim musicale moto ordinato of sounds, successione regolare dei suoni nel tempo
+sound, 
+
+what Sound, acustic sensation from vivraton from elastic, solid, liquid gas corpus.
+32/ 40K simple vivration at the minuto secondo, transmitten then by elastic mean, air
+
+sound has:
+	-Altezza: graves and acute
+	-Intensita: un-changed intonation but volume (I guess, ear louder or not)
+	-timbro: same altezza but different instrument.
+
+regular vivraton as sound if not rumor.
+
+a piano on  ottave while flute 4 kinda.
+
+to the pentagrama we add tagli, 
+
+FL Studio:
+anyway to start the colldown use the spacebar.
+
+Music theory.
+Wenster tonal music, 600 years ago from eu, 
+to label ad explain what you already know sounds.
+
+Tonal = tonal center, a note that the others roam near, base of.
+first and last, tonal pitch
+Atonal if no central.
+
+ok so a tonic pith doesnt need to sound.....
+single tonic = single key 
+
+scales: the tonic as important goal.
+scale as a series of 7 centered (no need for it to be in order)
+
+in C major (tonic note + mode(?)) 
+
+Harmonic function + harmonic hierarchy
+Tonic harmony (when the pitch is the lowest note) when its needed to change cord
+
+harmony: chords togheter, with an op tension and end.
+tonic chords op end.
+
+stable + unstable +  predominant, (stable enought not to ask for a closure)
+
+Harmonic hierarchy: tonic key and 
+harmony (with tonic predom and dom)
+and chords below, not necessary but style
+
+acustic and tuning.
+a guitar cant be tuned in all keys, 
+flat and sharp for bemolle and diesis.
+
+octave as whute keys between, 
+half a cord is an octave more
+HZ vibrtion for second
+and what about 1 third, the 5th note up the standard is the perfect
+on the 2/3 on the same octave while a plus on the shorter.
+tuning is compromise, some will be out of tune if by octaves or by fifths
+(like going up b fifths and under scaling, slity differences)
+
+Harmonitation....
+
+chromatic scale, an octave with all its 12 notes....
+distances as half step for (diesis bemolle)
+center of piano C4 , 262HZ
+complete called Scores while in jazz (charts)
+
+in five lines and four space staves (singular staff)
+the notes that the notes in it signifies depend on the
+Treble clef (di violino, kiave) G klef
+
+F5, as the last line.
+and the last is E4
+
+based on women voices I guess
+
+lower voices go for.
+Base clef, in which the max-line is A3
+F clef, and the last is G2
+
+Alto clef, the middle staff is middle C
+but the position of the center is not fixed
+
+2 quarter note = half note
+
+ledger line for extra temporaly out of staff notes
+
+piano gets a grand staff with the 2 clef one for each hand
+
+note value, like eight note, in which we have the note head (the point in the staff)
+and a stem (that goes up or down balancing how up the note is)
+also if down remember to put it at the left
+flags added if a 16th or 32th
+
+Beams if more flags togheter, when different duration always inside the longer stems
+
+whole note with un filled note head and no stem, 
+
+a tie to sum notations not multipy of 2
+or add a dot for half its value to the right of the note
+double dot for half half added
+
+rests for pauses, 
+
+measure and bar that have to filled with notes or pauses
+bar lines.
+its 4 4 not 4/4 no fraction.
+ok so the first on how many [ while the second of note value]
+meter signature
+
+garce note, it doesnt count in the total beats in a measure (??)
+
+it can start with an incomplete as a pick up note. anacrusis just to start
+sharp or flats on the left of the note
+
+accidental for signs that work only on the measure
+unless they are connected, 
+
+dynamic markings for piano and forte, 
+
+crescendo marks, numer on notes can indicate the finger to use
+thumb for 1, little finger 5
+
+ok so, the complete scale for the piano
+ok so, for the lower in the BASS clef.
+last note in a string G2 -> B2 but after its C3 > B3
+anyway the note on the temporal string between the Bass clef
+and the note on the line between the 2 up and down lines is C4
+the last line of the Tremble clef is E4
+
+if you want to check some BASS clef try trombone

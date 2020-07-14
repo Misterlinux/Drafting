@@ -1,0 +1,165 @@
+about the Grip and the rest:
+
+--ok so, for first we start with some racing game trailers I guess
+
+Racing fighting games, Combat racing games.
+(mario kart? no, NO)
+you dont have a switch so lets go see if there is someting beyond ok?
+
+
+
+ok so, <-- I am gonna point some games as bad --> so lets first set up what we are working with:
+Combat racing, what is racing?
+
+Car-s, not enought, we get a track, a goal, mechanics,
+with all the drift, acceleration, curves, brake stuff etc, dynamichs.
+the goal is to finish a track a fast as possible
+thats the reason why is a gamemode in any game of the category.
+
+a race? yes but how do we interact with the others partecipants, its nice to see partecipantsat the
+start all togheter but getting firt/ getting a good time and interacting/ramming other
+partecipants dont interact/include each other or get us any interaction
+
+and thats when we get to the combat part, giving options to the player to interact with
+the others trought movement options or, most of the times, items that can skip the distances that tend
+to be in a race shorten up,
+
+so, a safiscatory driving experienze with options to interact with other players and
+envirodment in case, without having any of the two slow down the other.
+
+------------------------------------------------------------
+
+Grip,hardcore combat racing game, gravity defying physics (yeah I noticed)
+bristling arsenal (ok..), scale walls and stuff, ok ok ok, so. 
+
+-is Grip fast? yes, you feel it outside of the numbers
+(it influences steering speed and stuff, more on this later)
+-Can Grip go faster? yes, power ups offer options with nice visual effects (za warudo) and you got a 
+rechargeable boost to.... use, and some platform.
+-is it smooth? why do I ask that? just respond, sometimes? most of the times? ok...
+-does it have variety? well... other questions?
+no? good, ok so,  why this game isnt what I was searching for:
+
+one word, r e s e t, what is r e s e t, reset if what you have yo do once you
+stop going fast (a.k.a. playing)
+
+what is fast? well long distances in shorth time, longer steering time
+and a smaller reaction time, 
+
+how does this work in conjunction with inmuvoble obstacles at the center or extremes
+(in the walls you were expected to scale)
+of the track, or small ramps, or portions of walls inside the tube areas, 
+it doesnt.
+
+you got hit by something while turning, or you start steering too late while on high speed.
+well no problem most of the tracks include extra space, on the walls to scale to, so we can recover and r e s e t
+at first I tried to get to that ramp but it seems I wont be able to, I guess I will lose some speed with
+bumping, r e s e t 
+bad landing and get in the wrong direction, well the design of the car isnt really shape focusedd in
+ay of its side I am sure I dont have to completely turn around and..... r e s e t
+
+ok so, to be fair most of these reaction were at the start of my first races but you get the gist
+but wait, this isnt anything new right, I mean 
+most games have this as automatic reactions to the player going out of the race, 
+yes, but here s the deal, YOU have to choose when to r e s e t
+
+what does that mean? well you get a botton to start a delay that will set you back in the track at
+what is wrong with that? EVERYTHING
+even If I look forward to mechanics that include the player in as many actions as possible
+this should be one of them, you are basically asking the player if ut want to stop playing
+lose postioning and speed (re start grants you from 100 to 250 km circa)
+and no mechanic in the game counters or mitigates the r e s e t itsef
+
+you got a rechargeable boost bit its not influenced by you bumping or landing in the wrong director or your 
+after r e s e t, it recharges faster if you are in the last positions but unless you
+were purposely saving it to r e s e t (stop playing) it doesnt resolve the problem.
+
+<--
+but it doesnt just affect the plain track it also affects the walls you should be ablt to scale to
+and some partial walla inside the tube-like part fo the track
+and also some small ramps (do I have to take it by a wheel or in the middle fo the car)
+..>
+
+so, is scaling here?, yes, the idea is good, the high speed requiers more space to
+steer, and why not using the wall, of course there are other instances of that but, lets continue
+
+is the scaling enought?, not always, like I said we get some circuit that arent totally covered
+and you end up in ugly out of track, (and sometimes you get put back from barriarers you
+didnt expect to be there)
+
+something about power ups and variety:
+
+
+unlocking veicles depend on levels, while some power ups are limited on some tournaments
+you can "drift" (I mean it already drift but most curves tend to be large enought)
+
+
+-------------------------------
+
+
+"just remember that getting a proper handle on the cars takes time, and it becomes very rewarding once you do. Also, keep in mind that the car is going very, very fast, so turning isn't instant and hitting anything immovable is likely to slow you considerably or send your car into the air. Such is the nature of the beast"
+
+ok so it seems you can do acrobacies 
+"To use air control, let go of the gas and press the steering inputs to roll left or right, or push the joystick up or down to pitch the car.
+
+(pitching only works with a gamepad)"
+
+scorpion missile, 1 sec to deploy and can damage you, and vs obstacles.
+how to power up up?
+
+Raptor, machine gun, sends them veering off course
+(it indeed feels good and doesnt requiere a lot of aim, but the consuguence can be anooying imma check )
+
+assasin , first position vs, charged for area, 
+
+hydra, multiples:
+The energy missiles strip cars of their grip, and if you nail a car with a 
+full barrage it's likely to do some serious damage.
+
+SPEARHEAD explosive darts:
+The Spearhead lodges three explosive darts into any car in its sights:
+how? do you aim? maybe is locked
+
+PAINKILLER protective shield:
+cover behind while charged can ram others.
+
+FIRESTORM turbo:
+
+RAMRAIDER road clearer:
+When you need to clear cars out of your path, the Ramraider is your power-up of choice. 
+Get close to the pack to push opponents aside.
+
+DISRUPTOR pack compressor:
+The Disruptor slows down time for all racers except the user, 
+basing how slowed they are on race position. A great tool for catching up, 
+but also bringing the pack closer together.
+
+A charged Disruptor will drop you right behind the racer in front of you after it's finished.
+interesting but kinda confusing.
+
+now if you wana drift, its not like its needed most of the times, you 
+"ull drift, it must be at the limit of it's turning circle and you have to be holding the gas. Tap the handbrake and the camera will shift, with the car's turning circle tightening"
+
+yeah, its not a true drift but I am almost gratefull for that considering that the speed loss would have been
+not worth it, 
+
+3 seconds for reset and not usable while targeted.
+
+how to jmp tho, to avoid , barels?
+access area, or speedpads
+
+boost chargs faster for last.
+
+you can slow down to reduce inpact.
+
+
+to get early acceleration, accelerate just before the start.
+
+green speedboost, hold the botton to power up up.
+
+leveling trought tiers.
+it is said that comes back to 250, 
+but it vary and can even be as low as 100
+
+
+or more like the lack of incentive to chosing the more risking options

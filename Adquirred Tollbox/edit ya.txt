@@ -1,0 +1,76 @@
+about the editing
+
+idk why we should use openshot.
+
+OBS has some plug ins for later-
+
+Slip tool to change start end without cutting (meh)
+
+slide and roll but the latter is more precise.
+(shorthcut, V H C select drag cut)
+TM trademark num lk + alt + 0153  on text
+
+rate stretch for the time.
+
+Tracking, objective with camera moving to a point /layer you created previous
+check frames up/down and you can correct, to then link effects/text to the point
+go to VIEWER if you dont see.
+
+ALT if you want to move the quad and not the focus.
+
+ok so, COPY of a tracker:
+create another point, PARENT it, reset position, move center.
+
+Quad effect to image to 4 sides to PARENT.
+
+Top for mask effect, and if no backround
+Blend -> screen
+
+we can select areas with MASK
+or simply insert new layers/effects
+FEATHR_STRENGHT to blur the arounds (used for effects and masks)
+
+crtl + D:
+to copy and re-position something
+
+IDK how to use the pre-render proxy, anyway for audio between clips go to editor
+
+I in and O out when cutting pre-view
+
+FREEHAND MASK goes with points
+
+Rotoscoping when we mask, contorn edit something moving, keying
+
+Light wrap (effect) to parent the lightness of another, radio/ opacity for adjust
+
+camera moving too much, we cut the moving background BUT
+we stick the important part as mask ??
+Blend -> difference
+to move to get as black for less differences then:
+Blend -> normal
+
+INVERT for the negative
+CLOCK WIPE a 360 circle dissolve 
+PUSH image coming from out
+IRIS for the circle effect in/out
+
+volume of part can be lowered any cut
+
+TRACKING on the biggest layer, parented on point, it will get position
+
+CLONE, cover up, on biggest after we created a top layer pixel of the zone we want
+we change position and un-see the previous pixel
+
+ok so, for the background keying, luminance key.
+
+COLOR DIFFERENCE in case of green/red/blue screens
+
+--ok so, about the text we get in any transitional effect
+we ust get to the text and modify without adding text.
+
+ok so, you can change the font size before modyfing it, I guess
+
+
+for weird effects on shapes go for generate-> reflections
+
+anyway for the scale unlick the icon near the %

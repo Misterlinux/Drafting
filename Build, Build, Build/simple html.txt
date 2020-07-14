@@ -1,0 +1,378 @@
+  !DOCTYPE html
+
+and about the meta data or just add the class text-uppercase to the tag.to put in the head tag.
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+then if you have to load the css external files you can.
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <link rel="stylesheet" href="css/hero-slider-style.css">  
+
+
+if you want to select a class within a class just remember to use the dot.
+
+    .cd-slider-nav .nav-link:focus {
+        background-color: #1a2d4b;
+    }
+
+the class text-uppercase used in the tag modify.
+
+this is just a way to change the dimenzions directly on the tag
+<div class="lefto">
+  <img src="https://meme.xyz/uploads/posts/t/l-31270-undercover-cop-at-a-festival-starter-pack.jpg" 
+  alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
+</div>
+
+kinda a list with a principal text element.
+
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>  
+
+or in other case table-dark
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+Here is my view and I hope it will be yours as well while being here in my own designed development path.
+ok so, we can divide a text in columns.
+
+  div {
+    column-count: 3;
+    column-rule-style: dotted;
+    column-rule-color: lightblue;
+    column-rule-width: 1px;
+    column-width: 300px;
+  }
+
+we also get a -style proposition, complesitory. selector
+and if you want to work them all togheter.
+
+  div{
+    column-rule: 1px solid lightblue;
+  }
+
+anyway if you want to have a title on the columns.
+
+  h2 {
+    column-span: all;
+  }
+
+and with width you get the space of the columns.
+transition is like border a shorthand property.
+
+we start with defining the html:
+
+  <div class="box"></div>
+
+and then the css.
+
+  .box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+
+  .box:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+
+ok so, we define the area and the transition works only if there is a :hover
+and like always we set [target][time][way]
+or we can use the:
+
+  transition: all 0.5s ease;
+
+to refer to all the values within.
+you can also set different types of transition.
+
+  transition: background 0.2s ease,
+              padding 0.8s linear;
+
+some propierties arent animatable.
+anyway if you did that for hoven and not the pricipal you would have get a transition
+on but not out (considering that hoven worked only when in)
+
+in the past I used to work with:
+  git clone https://github.com/<your_username_here>/exceptional-realty1
+  cd exceptional-realt
+
+cloning a github file and then entering it.
+CSS cascading style sheests, a destop-down or a mobile-up.
+so, about a media query is built.
+
+  @media only screen and (max-width: 992px) {
+     body {
+       background-color: blue;3
+     }
+  }
+
+not, only: media queries inehit the past properties so you need to chnge only the 
+new ones.
+
+<eta name="viewport" content="width=device-width, initial-scale=1.0">
+is something we can use in the metadata on the head of my html file.
+setting the zoom as the same as the width of the page.
+
+ok so, lets try the css selector.
+  tag.class
+it seems we can do this to select a class in a tag.
+
+firstag secondtag.class
+if we are going trought give the first and second with a space.
+
+for multiple selectors just 
+  first,second
+
+anyway use * to select all.
+
+  tag > * (everything on a plate)
+
+  tag + tag (to select with tag anything close/ immedianly after a plate)
+
+ok so, ternary operation to do the conditions faster.
+
+  bento + .small, .small + pickle
+
+in case you wish for 2 consecuent elements after bento.
+
+anyway if you want to select the first tag INSIDE another tag (not sucessive like > (I guess))
+____ > ____:first-child
+
+_____ > _____, _____ to select a list of elements that are after the first.
+
+.small:last-child
+
+ok so, depending on which position are you inside a tag (unless you are the only one
+in that case it is first-child, only-child, last-child)
+anyway what we did up there is chosing all the .small elements that are inside another tag
+AND are last (if its inside another and there is first then it doesnt count)
+also remember the -small refers to the element itself not the container
+
+and we can use numerical order with :nth-child(position)
+and 0 doesnt count
+
+and we have order even for the :last-child
+in fact we can call:
+  
+  :nth-last-child(3)
+
+with which we choose any element that is the 3 last (starting from the botton)
+[this includes all sub tags]
+so if we chose ____:nth-last-child(3)
+we chose the 3 last between the same tags as ___
+(so if the 2^ to last has others minis inside, those arent counted not like it was with 
+the simpler :)
+
+  ____:first-of-type
+
+we select the first of a particular type.
+
+bootstrap can defne colors by the class and we use the classes:
+row and col- line-height: 1.5
+
+ok so, if we are selecting specific elements, all the odd or even
+  
+  :nth-of-type(even)
+
+this is for all the elements inside of it.
+
+  :nth-of-type(2n+3)
+
+ok so, this is for the same principle and we set up a rule and we set the +_ 
+as a starting point to then add the _n (and you cant change the order of n and +)
+
+html: structural information,
+CSS hojas de estiloen cascada.
+
+---------------------------------
+
+NAVBAR, without using font awesome:
+
+
+    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+        &#9776;
+    </button>
+
+and to see its function in the script
+
+  $('#tmNavbar a').click(function(){
+    $('#tmNavbar').collapse('hide');     
+  });
+
+while here some css:
+
+.navbar-toggler {
+  float: right;
+  font-size: 1.75rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255,255,255,0.7);
+  border-radius: 0;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+I guess to have it tapped
+
+                <li class="selected">
+
+
+ok so, to take screenshots just logo + 
+
+
+.thin_border{
+  border: 1px solid black;
+}
+
+<h1 class="Primo" style="margin-left: 200px"> Showdown teambuilding </h1>
+
+styling directly.
+
+<em> <strong> Scrafty </strong> </em>  kinda corsivo
+
+to give a space between next to other text -> &nbsp 
+
+(maybe in the text already)
+
+
+anyway javascipt
+  The <span id="nombre" onclick="Surprise();">
+    worst
+  </span> 
+  member of the team 
+  
+calling the function on a specific event (onclick)
+
+.muestra{
+  white-space: pre;
+  overflow: hidden;
+  max-height: 100px;
+}
+on our first page we got text on a column of white with limited text and setted height
+
+
+<ul class="list-group">
+<li class="list-group-item active">
+
+bootstrap list (-active to get the text in blue)
+
+to get the text as you wrote it on the html -> white-space: pre;
+
+changing set ID with a loop.
+
+        var counter = 0;
+        function count(){
+          counter = counter +1;
+          if (counter == 1){
+            $("#posto").text(counter + " volta");           
+          }
+          else{
+            $("#posto").text(counter + " volte");
+          }
+        }
+
+The .off() method removes event handlers that were attached with .on(). 
+
+
+
+
+    <nav class="navbar navbar-default">
+      <!--navbar-default = white space-->
+      <div class="container-fluid">
+      <!-- its a container but without the spaces on the edges-->
+        <div class="navbar-header">
+        <!-- header dimensions -->
+          <button
+            type="button"
+            class="collapsed navbar-toggle"
+            data-target="#first_navbar"
+            data-toggle="collapse"
+            aria-expanded: false;
+          >
+          </button>
+        </div>
+        <!--ok so, the TYPE is no needed but usefull, 
+            the CLASS to css
+            DATA TARGET interact,
+            DATA TOGGLE current status "collapse"-->
+
+        <div 
+          class="collapse navbar-collapse"
+          id="first_navbar"
+        >
+        <!-- this list of elements will collapse when the up navbar collapses-->
+
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class=""><a href="#" id="crack-botton">Craker's Firms</a></li>
+            <li class=""><a href="#" id="fan-botton">Fan gallery</a></li>
+            <button>close</button>
+          </ul>
+
+        </div>        
+      </div>
+    </nav>
+
+
+SEARCHBOX: 
+      <div class="navbar-form navbar-right">
+        <input id="searchbox" type="text" class="form-control" placeholder="works only on fanart SKS">
+      </div>
+
+
+Breadcrumb and link 
+        <ol class="breadcrumb">
+          <li>
+          <!-- white space and / -->
+            <a href="#" id="list-botton">
+              index
+            </a>
+          </li>
+        </ol>
+
+(carousek and modal later)

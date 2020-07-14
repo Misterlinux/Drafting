@@ -1,0 +1,30 @@
+about the Ray-man of light.
+
+so, the first thing to impress me on at the opening of the game manu was the music, perfect.
+a platforment but with the idea of an adventure trought places of legends and magic.
+and also that I set the volume too high.
+
+so, lets start with rayman itself, rayman is the demonstration how to improve volume trought
+acrion and movement, again what does this mean? 2D platform but not just 
+jump, walljump, Float, heavy fall, attack, charged atk.
+this allow margin of manouver for jumps and allow
+more possible interaction against obstacles, 
+
+probably the less impactufull but more fun, or at least different from the jump or movement 
+it never focalized in anything similar to combat, its more like to remuve obstacles under the form
+of enemies, this is reflected to the simple health bar, 1 hit or 2 if finding some specific or after minichallenges
+but having automatic game over on pits or bigger enemies.
+
+is rayman fast or slow? you will end up running and the difficuty is ofter found in repetitions of particular
+pats of the stage in which you are supposed to react fast, but most of the levels rely in
+repetition and exploration, which tend to be vertical, cheking roof or trying to
+get acces in areas keeping itself safe troght slow and carefull movement, thats the reason the coing 
+checks if you get it after being it, it being vertical reflects the role of 
+walljump and glide ability, to be able to controll one position in the air.
+but this slowers the game.
+But then you get music levels in which keeping the streek of movement (lol) with the music is the only point
+with also the time bomb extra missions and the pre-lude to the final boss of each world.
+the minimission you find in the world to free the extra things are close-up spaces in which
+specific movement, not fast one, is required.
+
+anyway more to say? 

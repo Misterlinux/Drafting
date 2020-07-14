@@ -1,0 +1,22 @@
+adquiring BMSS
+
+ok so, there are options but lets check some code.
+some python and REPET  REPET-GUI  uREPET
+
+FASST (Flexible Audio Source Separation Toolbox) class
+
+blind musical source separation if needed I guess
+
+ still dont know if melodyne works, Transcribing music with Melodyne
+
+ Sound separation could be needed for singular parts while the trabscription
+ for the notes and FL for the mixin
+
+ ISSE : An Interactive Source Separation Editor
+
+ selecting on areas create a second selector with empty or a first where the first is
+ more visible
+
+ still not sure if extracting improves the anthem quality
+
+ 

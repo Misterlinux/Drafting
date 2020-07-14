@@ -1,0 +1,63 @@
+ok so, if you want a fast gradient for the images here it is.
+from c40815 to 62040a with a 30/40 visibility+
+
+ok so, lets try something new. desaturate > seppia 0.6
+then we set the trasparency at 40% and lets see.
+
+ok lets deposit some data for each new argument.
+
+
+  <div class="col-md-6 argument">
+
+  <router-link to="/microe">
+
+    <div class="product-item-title d-flex ">
+      <div class="bg-faded p-lg-2 ml-auto rounded">
+        <div class="p-3 mr-2">
+            <a href="#" class="underlined underlined--reverse">About the Design of things</a>
+        </div>
+      </div>
+    </div>
+
+    <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/microe3.jpg" alt="">
+
+  </router-link>
+    <div class="product-item-description d-flex ml-auto">
+      <div class="bg-faded p-5 rounded">
+        <div class="d-flex justify-content-between">
+          <div class="">December | 2019</div>
+          <div class=""> core </div>
+        </div>
+        <div class="h4"><em><b>Design</b></em></div>
+        the world is based on mechanics and being able to developt them as 
+        dynamics means having the world in a pocket. or at least being ablr to create them
+        each any single part.
+
+        <footer class="blockquote-footer text-right">about the core</footer>
+
+      </div>
+    </div>
+
+  </div>
+
+just a template.
+
+      <del> deleted part </del> 
+      and also the idea of 
+      <u> having something underlined </u> 
+      and also we can work with 
+      <small> the smaller part </small>
+      and what about the abreviation is
+      <abbr title="smaller texto">like</abbr> 
+
+ok so, if you wat a simple new element key in the json file just.
+
+    "Secondo": [
+        {
+            "id": "suono",
+            "date": "25 agosto, 2019",
+            "title": "this is the second",
+            "description": "it should be all ok."
+        }
+    ],
+

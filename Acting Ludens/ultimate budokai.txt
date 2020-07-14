@@ -1,0 +1,30 @@
+ultimate budokai
+
+so, how does the 3d budokai top works?
+4 botton for options on:
+
+-Y ranged attack
+-X shield and tele
+-A attack 
+-B movement, dodge or grab
+
+-R and L to up and down (complete 3D)
+
+-Z power up Ki
+
+Z + B for power close or 2X for back (vs guard) consumes Ki 
+to cover up distancing attacks.
+
+different stances when lock on... differences in B and some special moves that need to back off some.
+
+lateral B in close but doesnt grant same invincibility as B
+
+max power allows ultimate moves (finish it and limited time)
+
+special Y as long option (beans and stuff) dodgeable with x and timing or partially shield or even dodge
+
+special X for utility most, like shields/instat dodge etc consuming both stats
+(levels that rechard automatically)
+
+while control stick used to change teamate or tranform.
+

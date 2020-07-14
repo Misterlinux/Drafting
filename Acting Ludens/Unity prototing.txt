@@ -1,0 +1,9 @@
+About the Unity.
+
+ok so, we start with withboxing or grayboxing setting up or primitives
+(basic bulding blocks) and also planes.
+we create a gamePlan in Jpg for example then we import it in the assets
+Gameobject plane and from there.
+
+to move the camera with right click.
+anyway up-lrft you get the options for scale, rotate and move.

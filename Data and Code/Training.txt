@@ -1,0 +1,172 @@
+learning framework or library..stil not sure about that but still.
+Computer Science it seems.
+like recursion, functional and object-oriented programming, and algorithms.
+Shopify, 
+ 
+getting insoired by the details you care about, search for data and people
+who may know data.
+give fats to the audience. connections. simple. paragraèh schort.
+
+well you can search quizes, anyway I guess you have to be clear about what you are
+scare about, clear, ry being clear when needed, 
+
+you cannot claim you are working for others if your workforce doesnt resemble the
+external world.
+celebrate the product but not ignoring the question they raise.
+its seem that the industry trakes itself too seriously excot
+when talking about its own problems/ responsabilities.
+
+whiteboard: which is tecnical and social, you wil probably use a pre-existing library.
+search accademic and publicv speech , readibility first.
+gradual, no need to code immedianly, you can search in.
+
+InterviewBit
+HackerRank
+Codewars
+Codefights
+AlgoExpert
+CarrerCup
+Interview Cake
+LeetCode
+Geeks for geeks
+Pramp
+HackerEarth
+HiredInTech
+
+communication and connection during interview.
+its instinct only if you dont understand how it works.
+you have to be let talk but be concise, clear.
+
+write everyday on.
+and when redy find a way, just one?, yes, be consistent.
+-publish for pay, sponsor, mentor, set up interviews, videos, merchandise yourself.
+write for others, the reader is a costumer and whats something from reading you.
+human centeric deisgn empatetich. write for them and not just to sell to them.
+approchable, write first, wait a day and then edit.
+different states of mind, make clear what you feel.
+subscriptions I guess.
+
+check out when and how confy are they with their inneficienties.
+dont ask why as a branded but check how ways and put you in their position.
+
+wtheck is transhuman and biohack stuff, sheesh.
+ok so, enhance intelligence:
+intelligence: ability to accomplish complex goals.
+so in shorts aplied and multi-directional.
+ok so, different type of intelligence.
+classic: logic, creativity strategy, problem solving.
+applied intelligence: energy,emocional controll, focus.
+social: empaty, Persuasiveness, "social skill".
+dynamic: learning how, memory, knowledge.
+(I mean memory is what knowledge means but whatever)
+intelectual abilities, ok so, about the bio-hacking check
+mitochondria-enhancing exercise, anyway with all of this we
+would get biological inequality, considering that the max age of rich in 30 years 
+grown of 6 years while the lower middle stayed the same and the poorest decreased a little.
+goals, anyway to start we need the aplien intelligence to get into motions.
+high-quality deep downtime, modafinil, habits.
+do what you need to get into motion. I guess that for deep work we talkig about no distractions.
+Braindead after lunch? Don’t have lunch, cit.
+ok so, it seems that biohacking hels in social interaction(intelligence), ?
+beta-blockers? lol, its about having ormones that get us more 
+enhance body-language?, more confident, 
+ok so, how does sleep work and why?
+accumulation sleep pressure (adenosine), circadian rhythm  which is a mix of
+internal clock and melatonin, there has to be a rythim between them.
+maybe glasses to stop blue light, gunnars.
+dont drink tea if 9hours sleep, ok so, sleep pils just make us
+lose coscience =/= sleep.
+how do anti depresant works tho...get litium.
+focus sensations and emotions, findind that in your body, and watch.
+watch out the amigdala.
+physiological need, in a time efficiet way, anyway the male ego is kinda distracted so get it
+out of the way. about the eating.
+autophagy, about remuvg the unnecessary and outdated cells.
+were we designed to burn fat and no grain? ketosis.
+anyway ketone to get a faster metabolism.
+predictible irrationals, MDMA, Modafinil.
+how can testosterone influence mortality and gender difference.
+
+so, what about creating a script to check keyworkds in work list?
+also you should do that with a vpm and time...
+search bots.... turn features into services.
+data structures, algorithms, and system design.
+go for less verbose languages.
+LeetCode, HackerRank, and Project Euler.
+Get your own set of fine-point markers.
+on your resume, completed projects.
+Facebook/Google — very mechanical. The standard interviewing process
+Pinterest — not the best interviewing experience, but a cool product and company
+Amazon — standard interviewing process. About 50% of the people love it, the others don’t.
+Twitter — incredibly fun and personal. Loved the interviewing process, gave a lot of emphasis on the individual and what I’d done in the past
+
+so, how it is inside twitter:anyway mindset with books.
+anyway remember than differenly from startups (ship fast no need quality)
+most of the cost in software development long term maintenance of software.
+anyway you can break things if you have alerts and metrics in-place (also controll over 
+the blast radious for errors).
+how to knowledge with large group of people: processes to build consistence.
+cost is gave in days.
+goals and no goals of any problem. so how to deal with mistakes.
+blame-less: support trought giving possibilty to do mistakes and learn.
+code refactoring, trying to reduce the code debt (polishing) to avoid it grown.
+lunch presetation for new things.
+the best people own adn dont just complain about problems. 
+
+so, whats an url?
+URL is an acronym for Uniform Resource Locator, so, is it unique, and it locates the 
+resource, like an adress I would say.
+retrieve.
+https:// the scheme, we set the protocol we are using to start retrieveng, by the browser.
+protocols are needed to send data to the internet. (https for example (with ssl))
+then we get the domainName.com also called the host.
+host or server we are requestin data to, the .com is domain suffix.
+www. is the subdomain. when you see a number.
+:80 its the port, its the number of the gate used into the server.
+they can be well-known numbers. normally its omitted or just another separator.
+80 for http and 443 for https.
+and then the path, like in folders.the lashes work as to maintain the hierarchical syntax.
+then you wil get a ?quertystring it enables the server to return specific.
+#anchor, a specicic section of the page (used in html to set view on specific part)
+
+ok so, any document has a password hash, and like hashing browns (fried potatoes after cutting)
+you will need first to slash some, shreds, grating, with a hashing algorith.
+anyway the dude used perl and JtR (john the ripper and with specific parameters.)
+
+high speed programming: get used to others code and be ready to read.
+train the eye to check on bad projects.
+dont overdue meetings, avoid developing systems everythime.
+
+people wants to listen to "experts" kinda.
+division of labour was seen by Adam smith tho, engine capitalism.
+
+Know your run time complexities, Big-O.
+Data structures. know them and which to use. learn logic.
+
+front end, structure and visual client experiense, Foundation, Backbone, AngularJS, and EmberJS
+to help like boostrap, translating all the data into web-speak.
+Back-end, at the back of a site there is a server, an application and adatabase.
+enables the front side and mantain the structure.
+PHP, Ruby, Python, Java, and .Net to build an application, MySQL, Oracle, and SQL Server
+for find, search the data to use.
+plus version control, linux and SQL framework.
+also have to check with stakeholder for needs and budget, handling data.
+anyway about the data of any site and it send it to your device.
+
+Full-stack, linux servers and server side API, 
+
+ok so, what will you need (now you have also the space to.)
+the dude mounted an application, CRUD application, PHP/MySQL.
+complexion and version control.
+anyway try to have user group, working for companies.
+some simple projects to put on.
+
+dynamic programming:
+identify it as DP, the variable, express the recurrence relation
+base cases, to implement it iteratively or recursively
+memoization and time complexity.
+
+DP is a mthod of resolving problems into a collection of simpler 
+subproblems, resolving them and storing their solutions.
+resolve all cases and store thier solutions so to save time and space.
+

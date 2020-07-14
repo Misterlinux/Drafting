@@ -1,0 +1,45 @@
+ok, search for Miltos maletas (coz we need to see what he did)
+and also about Jeff Minter and Valeria Favoccia
+
+I guess its about art and narrative or design.
+and the work of Llamasoft.
+
+developing an interactive narrative.
+guiding an experienze serving itself with reinforcemnt.
+
+method for the recruitment of gamedev
+we need to study the persuadive part of the games.
+
+and the processing of audio (I would also say composing)
+and about tecnical art. 
+
+attention to the custom support ?
+
+so what else?
+and about freedom:
+
+Per i liberali questo punto è scontato (o dovrebbe esserlo). Sia che abbiate una visione radicale dei diritti individuali à la Nozick o più semplicemente una concezione classica del liberalismo – pensate a Locke e al suo Secondo Trattato sul Governo: “Ciascun uomo ha la proprietà della sua propria persona” – sarete fortemente scettici sul potere dello stato di rinchiudere qualcuno dentro i propri confini per la sola ragione che i talenti di questa persona debbano essere dedicati ai residenti di quello stato.
+
+Joseph Carens, ad esempio, critica le restrizioni all’immigrazione rifacendosi al contrattualismo di John Rawls; Mathias Risse ha riflettuto su come politiche migratorie restrittive ostacolino lo sviluppo delle potenzialità umane, in un approccio che si rifà all’etica delle capacità di Sen e Nussbaum; e tanti filosofi utilitaristi ed economisti hanno presentato sofisticate analisi su come i benefici del libero movimento di persone siano molto più dei malefici, incluso quello della fuga dei capaci
+
+
+////////////////
+
+an Hash table in which loops arent needed to search values, just Keys.
+an Object defined by group of proprieties.
+Big O notation for the speed of the program.
+Algorithm tree with a Node and roots down, the pre-set order goes from left 
+and up or continues with the children/roots.
+
+////////////// this is the detention course
+Data cleaning, Atm we have Text recognition, to identify specific values.
+we can use brackets like: 
+	c[ae]t (for more elasticity)
+	_____ | ____ (to choose between 2 text options)
+	[^_] (to eclude specific values)
+	[ ][ ] (the wildcards used to check the presence alone of characters)
+	[A-Za-z] (here we define ranges to check a typo as )
+	\d \w \s (for any Number, maybe differet typos, spaces)
+	\w {__-__} (qualifiers on what and how much repeat with MIN-MAX with the first element as what to)
+
+/////////////////

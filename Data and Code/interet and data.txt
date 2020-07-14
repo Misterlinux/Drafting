@@ -1,0 +1,5 @@
+BROWSER sends request to server (HTTP header = info direction and devide used)
+
+Drive: Physical device, be both disc or volume (storing data)
+
+Volume: interactive part of a disk by user. 

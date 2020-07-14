@@ -1,0 +1,81 @@
+Computer Vision
+
+ok so, Computer vision, we have Jeff Bier.
+Embedded Digital Signal Processing, to fit Digital signal Processing Algorith
+in portable devices, from 2010 Computer vision, to deploy it in real life products.
+Jungsong Yuan, Patter recognition, Visual analytics.
+
+to make computer "SEE" and "interpret" the "world" like "Humans" and even specialize.
+based on visual tasks processes by Biological systems, how do computation do that.
+what kind of machine can, neurosciense and computer science used.
+anyway image -> retinas -> processing -> optical nerves -> brain
+Visual cortex analysing (back of brain) 
+objective = automatic extraction, analysis of info from image.
+an automatic understanding with theoretical and algorithmic 
+
+computational model for human visul system, and autonomous systems for tasks.
+extracting 3d, proprties of human systems are used as isnpiration (??) by engieneers.
+try to simulate context awareness.
+there is easy in faces but also lack on illusions.
+used in cameras and cars that check objects, and factories on products.
+
+interdisciplinar on digital signal processing, neuroscience , AI.
+and with the ladder it shares patter recognition and Machine learning.
+Computer vision topics can also be studies pre mathematics, 
+like methods of computer vision with statistic/ optimitation or geometry.
+
+computer vision advancng trought computer architecture / software engineering
+Image acquisition, and stydy on solid state physics, 
+adquiring trought electromagnetic radiation = visibe or infrared light.
+Optic is also used, visual information as digital signals, 
+and so using digital signals processing tecniques, like with 
+one-variable signals (temporal signals) cn be extended for 2 variable
+like visuals, 
+developed methods that cannot be re conduced to 1 variable.
+
+Digital image processing with image to image transformation.
+in compression, restoration, enhancement.
+and this is the first step to then.
+pre-process for high level analysis.
+this is where neuroscience. styding to extrapolate
+how real vision works to solve vision-related tasks.
+
+Computer graphics that produces image data (2d) from 3d.
+while computer vision takes from 2d to 3d.
+
+Machine vision: apply tecnologies and methods TO image-based authomatic inspection
+to process controll, robot guidance 
+PHOTOgrammetry, calcolating distances from photos.(from modern photograpy)
+
+computer vision from AI, image processing, machine learning, robotics
+
+OpenCV as toolbox
+
+computer vision isnt so ne (decades) but expensive and complicated, 
+people change slower than tecnology.
+
+zaratebellido.1809733@studenti.uniroma1.it 
+
+started in 1950 in: replicating the eye/ visual cortex / rest of brain
+1957 perceptron machine, and pixels, SCANNING mages to computer.
+due to memory in grid, digital image. (baby)
+1963, starting the 3d in 2d images.
+in the '70 first commercial use:
+Opticla character Recognition OCR.
+digital camera in '75
+(anyway use can be line extraction, edges, movement prediction flow)
+at end of '90 computer graphics used in.
+neural network in 2005, using GPU's
+2012 imageNet challenge AlexNet.
+Convolutional Neural Networks: use for faces, traffic signals, robots in factories.
+Generative Adversarial Networks, used to learn.
+
+use dfor robots interact outside, internet of things.
+also for the blind, 
+power cable, camera, processor and communication or wireless.
+Vision processing Unit for demand on fast processing on types of cameras (like gopro)
+s u r v e i l a n c e.
+drones and BIOmetrics (like fingers, iris)
+on filters or ogmented reality.
+image re-targeting (not simple to fit imge different aspect ratio)
+navigation, Panorama stitching (like in street wiew)

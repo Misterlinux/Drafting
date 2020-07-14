@@ -1,0 +1,26 @@
+ok azure.
+cloud computing for the gestion of a company...
+trought virtual machines or containers.... or serveless.
+the second dont have an operative system so we get faster.
+or divide an application in separated functions.
+(different machiens with operating systems / apps / single functions)
+different spenses.
+
+CapEx (which is an anticipation and covers the fisic structure (deducible by taxes))
+OpEx (immediate fatturation of use (in theory deducible by taxes))
+autmatic sclability. 
+
+public sharing of resources.
+private clouding. (reserved for public or financial)
+or hybrid. for clou d bursting (if you pass te limit in public and pass something to private)
+
+Iaas, infrastructure as a service, in which you just rent the hardware.
+in which there is also shared responsability for the esecution of the service
+(one provinding the cloud infrastructure and the other the deployment, configurated)
+used to storage, test etc.
+
+Paas, platform as a service to create app, with a pre set infrastructure.
+
+Software as service, Saas, SKYPE office and stuff like that.
+
+going even further with less responsability for the user.

@@ -1,0 +1,284 @@
+MatLab.
+
+some tips.
+ok so, matlab works with command lines after the >>
+case sensitives, variables can only contain letters or _
+to save workplace as a file just save _____.mat (I guess its like hitfilm)
+
+pi is P-greek and even if shown 4 decimal is used much presisely.
+3.1416, 
+code can be organized in scripts. divided in sections.
+as a mat file or static pdf.
+and creating variales you can, l = 3 and l = r
+
+and order is important when setting variables.
+you can add new Breacks and choose when to add
+Text and Code.
+
+all variables are arrays, from singular cell = scalar
+matrix, vector (column + row)
+
+like x = 2 / x = [2 9] (spaces or commas) / while x = [2;9]
+ok so, the variable content you put as code will be shown graphically
+how to matrix (lika all of things starting in X)
+so x = [1 2 3; 4 5 6]   1 2 3
+                        4 5 6 
+
+values that need to be processes can still be put in an array x = [sqrt(10) abs(-4)]
+
+MATrix LABoratory, if numeric vectors and linear you can:
+x = 2:5 (with both included)
+
+standard spacing is 1 but you can set it x = 1: 0.5: 5
+(ok so we get the spacing in the middle and the last number at the end)
+
+now you can set the numbers of elements in the array between:
+x = linspace(1, 12, 3) (a total of 2 elemenst with 1,6, 12 it includes both starts)
+
+and the past operation created row arrays/vectors
+if changing x = x' from a row to a vector
+
+some pre-built matrixes like random numbers 
+-x = rand(2) 
+here for how many for side; and if you wana controll that use 
+x = rand (X, Y)
+or
+x = zeros(X, Y)
+ok so, if you wanna check a matrix dimensions
+size(x) 
+and you can use it as meter to create new matrixes
+rand(size(x))
+
+so having a pre-existing matrix you can index out a value with
+x = ____(x,y)
+and if you search the last element in a X, Y
+x = _____(end,Y) in this case searching the last of a colum
+
+and in case of second to last end-1
+x = ____(end-1, Y)
+
+: colon operator
+
+ok so, if you need to cut a particular part.
+x = _____(:, Y) in this case taking the whole Y column
+
+ok so, now imagine having to create an array from pre-existing
+x = ____(:, 3,4) ok so we get the last columns the 3 and 4, (included all the x in :)
+
+ok so, and if you have 1 dimension matrix use:
+x = ____(4)
+and if a range of:
+x = ____(4:8) from the 4th to the 8th
+
+ok so, if you need to change a value:
+___(2) = 0.5 target the value and change it
+you can do this even for 2 coordinates
+
+ok so, array can have added values simply, creating new matrix
+x = ___ +1
+
+statistical operation like checking the Max value on an array
+x = max(____)
+and operations can be performed in all.
+x = round(___)
+
+ok so multiplication =/= matrix multiplication
+so to multiply the values INSIDE the matric use:
+final = first .* secon (both being matrixes)
+anwyay there can be more selective operations
+
+x = [1 2; 3 4; 5 6] .* [2; 3 ; 4]
+here any element of the different row is multiplied by a different value
+
+ok so, the results of the size(x) function can be declared in numbers and variablees.
+-[onevar, sec_var] = size(_____)
+
+ok so, having a vector and trying to get 2 values
+[firsto, secondo] = max(_____)
+you get as first MAX while the second POSITION
+
+in case you wanted to concentrate on 1 variable 
+-[~,ivMax] = max(v2)
+
+ok so, random numbers in a matrix use method:
+- x = randi([range start, range end], [number of rows, colums])
+
+- doc randi 
+if for a direct command
+
+ok so, what would happen if we took 2 vector same lenght
+would we get a matrix? or a kind of L
+well no, you get a grafic.
+
+plot(x_vector, y_vector)
+
+and the line used to connect the dots, 
+
+plot(x_vector, y_vector, "simbols for the line OR dots")
+
+like "; , --, -, -."
+ok so, if you want to add more vectors to an already existing matrix or grapgh
+
+hold on <- command
+plot(x_vectors, y_vectors, "ks") 
+
+to commands to methods just break the line.
+
+hold off
+
+if you plot one vector you will just get the function/plot
+with another vector n+1 style
+
+ok so, you can customize the line with ""
+
+plot(vector, "LineWidth", 3) 
+
+here for example we get the property to set the linewidth.
+
+the plot( ) creates lines and with properties
+while histogram has Y bars.
+
+title("you can put a label title on it")
+
+and in case you wanted to add the 
+
+ylabel("Y axis text")
+
+ok so, having 2 different type of dots you can set a legend to differentiate it
+
+legend("first type of dots", "the second")
+
+anyway if you want to add more element in the title and also adding vector elements
+
+title("welcome " + "to the " + "sample(3)") for example
+
+ok so imagine havig a matrix and wanting to load it.
+and then to use it.
+
+load electricity
+usage
+
+Nan (Not a number)
+ok so, If I want to use the matrix in it
+
+usage(2,3) = 2.74
+
+ok so, imagine having a matrix with 2 vectors and havng to add comparatives
+
+plot(x,y, "r--")
+hold on
+plot(x,y, "k-.")
+plot(x,y, "y.")
+hold off
+
+ok so, we use the first hold on to keep us in the matrix then we add the others
+to then hold off(?) which is not necessary but still.
+
+ok so, having to count the numbers of element in a vector
+
+numel(y)
+
+ok so, you can divide, then set new variables to plot with
+
+ok so fourier, information about the frequency, 
+they tend to be complex numbers so use abs after the fft
+
+abs(fft(Y))
+
+ok so x limits....
+
+xlim ([0 1000])
+
+ok so, in case you want to extract a variale with data (or a column, I will see)
+_____._____  (first as matrix while the second as variable)
+
+if pre-existent metrix gets operations on that include the other variables a new
+variable will be created in te matrix
+
+ok so, you can interact with variables values using the frop down near them
+and you will get a update button option.
+
+but you can do that 1 colon at the time, 
+ok so I was right, to get rows its different
+
+_____(1, :) at the first yiu can use 1:_ to get more, it will be a table.
+
+true false as 1/0
+going for a simple relationa operation will give the result
+
+pi < 4 
+1
+
+ok so you can compare values to vectors and matrix
+giving a string of results comparing every element
+
+v1 < 4 
+[will result in 0 1 1 0 0 0 1]
+
+ok so, if you wanna go beyond and actually create an array with the values
+on a variable stored
+
+v = v1(v1 < 4) you need to repeat to get the values and not just the true/false report
+
+ok so logical indexing on different vectors
+elements in sample corresponding to where v1 is less than 4 (??)
+
+V = sample( v4 < 4)
+
+ok so, modyfing values which have qualities
+
+v1(v1 < 4) = 0
+SETTING values in v1 that are less that 4 as 0, and ending v1
+
+and & / or |
+you can set conditions
+
+v1(v1 < 4 & v1 > 8) ok so, all elements as a vector less than 4 more than 6
+v1(v1 < 10 | v1 > 3) more that 3 OR less than 10
+
+ok so, conditionals and loops
+maybe ... are used when breaking the line
+
+elseif
+used here
+
+ok so:
+
+for idx = 1:7
+
+end
+
+ok so, set a counter start finish and : as intermex as before
+ok so, in case you wanna repeat the loop for as long the vector is
+
+for 1:lenght(density) function, linked to the metrix vector
+
+red if moving away while blue if closer, thats color influence on star movement
+
+ok so Remember, column vector and steps (start: step: end)
+and in case you do that and you wanted a column just at the end '
+
+take the column 
+spectra(:,6)
+
+loglog(__,__," ") (as the plot function)
+
+ok so, imagine having to set a variable with multiple properties
+
+[first, second] = min(s)
+here for example we get the min value AND its index (2 outputs)
+
+the second is the index, and check the value corresponding to the index
+in another matrix
+
+lambda (idx)
+
+ok so, you can modify the index used more easily
+controls -> numeric slide -> right click -> configure on steps and stuff
+
+a semi colon can hide the results of the imput
+
+you can use the up arrow to chage previous results
+
+clc to clean all the previous 
+

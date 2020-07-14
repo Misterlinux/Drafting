@@ -1,0 +1,25 @@
+Recursion, solving problems function calls as subroutine, reducing problems 
+to subproblems, base and set of rules.
+
+Flow of Release/Update, Developers and operators, use of automatic tools, Devops.
+
+Machine learning =/= Deep Learning, simulate neural network by ALgorithms(Nivelli di unata no allineata).
+Scalability, quantity and type of data used.
+
+Each level different by Abstraction to -> Extract,Characterize and Transform.
+
+Competition between 2 neural networks with GAN(Generative Advanced Network)
+0 sum game on 20k's of captcha syntentized and translated.
+
+DLD (Digital Logic Dence) , the Logical circuit, in which swichs carry logical
+operation (AND /OR /NOT /NOR /NAND), organized into logic gates to controll the flow of the circuit.
+flow of Binary information, as physical quantit (voltage) then processed.
+Anyway also Logical operation with logical inputs, for a singular output.
+
+Machine learning expertise -> mathematical-computatinal methods.
+result = performance, we can Ispezionare/not ispezionare.
+both data but, one named data(etiquete)/other not (semi).
+Rinforzo = reconpenses and penalties on learning.
+
+
+

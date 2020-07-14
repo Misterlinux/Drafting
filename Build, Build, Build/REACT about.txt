@@ -1,0 +1,12 @@
+lets check the react.
+
+We start React:
+
+> _npm run build_ 
+
+Build static HTML files with React server-side rendering 
+
+to start my Vue blog 
+
+> npm run
+

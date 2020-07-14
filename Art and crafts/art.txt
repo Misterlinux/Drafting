@@ -1,0 +1,132 @@
+blending modes.
+ok so, take some notes:
+remember to set up your drawing in empty layers and to keep an eye in layers option
+-multiply adds the shade of similar colors on the same making it darker.
+-while screen remuves its own traces and lighten up any possible darken.
+multiply ends always in darken color from the original tho.
+screen and multiply are like the opposite of one another.
+ok so, the dark will not be seen mostrly on a screen view while something clear on a multiply...
+blending modes are about how layers react to each others.
+
+plan same color reacts with multiply, darken, allow for high variety of tones.
+ok so, if you need to blend colors I guess we can do that offscreen or just use a wet 
+pencel.
+
+on Gimp: use X to change back/fore ground color.
+anyway you can cut/paste normally using shortcuts.
+ctrl + mouseroll for the focus and just press for the zoom.
+layer mask works on opacity and transparency:
+white(opacity) black (transparency), the one uncover the lower
+while the second eleve the up one.
+(use the opposite color)
+
+the importance of straigen the image, 
+avoid using too much colors-> exposure on, if jpeg avoid using too much of it
+(I guess), still need some help for the auto-white balance.
+more lightness less saturation, the wand is useful for selecting specific areas.
+
+design is function, and function is action, or response to action.
+study the treathleo, evolitipn.
+quaities sets differences. 
+reactiong to your own lines, drawn to llok intentional, 
+a graet selection of options just mean that it wasnt possoble o grup them in simpley options.
+it seems ypu work for your own drawing.
+set rules (not tecnica por se) with the viewer.
+
+each brus or pencil has a way/ meaning, remember to use grays
+to accentuate colors. 
+
+digital sastrery...
+
+talking about fighting games we see how stuff is about precision
+on the art figures, and 3/4 communicate of them.
+
+this of art as general, not defined by the end...I guess
+
+in the edit options you have the fill options for a certain selections.
+anyway for the FILL / FADE /status
+we can just open it in another layer and then set it as a specific.
+
+if you want to have multiple seleted areas use SHIPT while doing so.
+rememeber that all the colors options of hue and stuff is in Filters.
+
+(5)
+
+ok so, about the layers ans inherance.
+we can create sub layer with the keyword -> ctrl+shift+g <- on the selected
+layer (to add more sub level use the same or if you want multiples just copy the sub)
+how it selectes the zone to save its still a bit hiffy.
+
+(5)
+
+dont focus on color to communicate. siluette, shape or movement.
+focal mass and mass, about what to look and the total.
+
+its hard to watch movies with movie critics.
+designers can see how everything is perfect before the start drawing thats where problems start-
+being functions, be able to present stuff in a box, storyboard.
+something that can be passed to somebody else.
+if you get asked a style dont copy the style, copy what the original author was
+looking at before making what they ask you.
+get a gist of things with possibilties of more to handle to somebody else.
+
+first jap comic, pergamene choju jinbutsu giga, 12th century.
+about interpretacion of life with antro animals, on a view on society, 
+during closeness of edo period from 1603 to 1868, in 1862 the japan puch
+magazine for english, satiric, ponchi-e (for the type of illustration) 
+manga term first used in to chenge the foreineght term, hokusai katsushika during 
+universal exposition paris 1867, new term but they already existed
+as (shunga proto-H), jui-shinpo the first comic-like.
+the manga developt as story-manga, (1947 the new treasure island)
+with disney and dynamic imaginery, bugs bunny as yokai, mizuki shigeru
+gaucho without left hand, searching old stories and tales, (kitara dei cimiteri)
+and war, 1976 (verso una nobile morte).
+limited for younger audience untill gekira, tatsumi yoshiharu first.
+pulp and gloomy, watakushi manga by tsuge yoshiharu tainting with
+biograpy elements, poetry, born before the will einster.
+Tezuka, modelatore di media, taking manga to modern age, litteral adaptemnt (neo faust)
+gender identity in the la principessa zaffiro and women in Brabara, and teh 3 adolfs.
+yonkoma (4 vignetes vertical), the isalnd is his, publish manga daikaku(coz too may request)
+atro boy, A.I na dthe pinocchio complex (anyway he gets rejected by his ideatpr)
+seppur ancore in nu(o)ce, astro boy (from atom as teh energy that once destructive now can)
+a963, its anime for TV, so start modern anime, 
+Garo, at the end of the '50' we see antologies week or mounth, taking the angura (underground) to
+pop, 7 artist were needed and so they used pseudonimins, '64, 
+tsurita kuniko, heta uma (one of them ended in eartbound) to AX.
+
+I guess this is the background:
+ok so, we first try to get the more color out of it by lowering the temperature to 3000
+
+,rgb(98, 4, 10) 0%, rgba(147, 6, 16, 0.7) 30%, rgba(147, 6, 16, 0.7) 70%, rgb(98, 4, 10) 100%
+
+W.H. Auden’s
+can search titles from:
+	jason john arne sæterøy
+	giorgio carpinteri to search some notes
+	Blueberry in case to check some style.
+
+anyway in GIMP we can use the + function to get a group layer in which to dump 
+other layers
+
+(5)
+you can also use the + botton to simply add an empty leyer to the mix
+
+ok so, the Alpha inherit allows us to LIMIT the trace just on the layers BELOW the alpha iherit
+and so not to dirt the rest.
+
+for adjecting ue and saturation go to:
+	filtrers-> adject
+
+anyway it seems that the color selector works well with the mulitply and stuff.
+
+ok so to colorize we first Add a colorize mask and then we press the pincel selector next to the
+colordrop.
+
+to be able to blend better the shadows of the multiply just remmeber to select with the
+color selector and to check the adjust filter.
+
+ok so, doing the shades and then using the adject on it seems nice, you cal also create a mask on it
+to then use black to reduce the effect of what you did on an specific layer
+which is below the first.
+
+color dodge for intense and contrast color.

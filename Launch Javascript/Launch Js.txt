@@ -1,0 +1,98 @@
+based on mastery and opinionated pedagogy.
+mobile development with IOS using swift and Android using Java.
+
+-Designer: User interface design. ("photoshop", typograpy, color theory)
+-Front end developer: front-end assest (html, css, jquery)
+-Back-end: 	Implement server-side logic to process request, and issue response back. Works with a server-side language (Ruby, Python, JavaScript, Java, etc) and interacts with APIs and databases, databases
+-Quality Assurance: attention to detail to check before launch and write test scripts
+-Devops [System/Network admins]: Two main areas: Unix and Windows, Manages servers and server infrastructure, with users, permissions and access.
+-Database Administrator: focused on database and database architexture, works on data stores.
+-Platform/Infrastructure Engineer: networking, data processing, algorithmic complexity, concurrency, and other systems-level knowledge.
+
+to be precise for the Backend: HTTP, relational databases, frameworks in some cases.
+and on the Frontend: cheking out what you will need.
+
+	How to express ideas in code
+	How to structure and organize code
+	Architectural patterns
+	Available library and tools
+	Debugging skills
+	How to evaluate code
+	How to collaborate with other developers
+
+libraries can be specific of one language?
+
+"how to be a learner"
+abstraction on computer science: to build app (which would be high lever of
+abstraction) you dont need lower lves (like the ones to nwo assembly langage or the RAM, CPU of the
+machine), we would need a bit of how data is rappresented in machine-readable form.
+
+need to know the command line of the OS(operating system) and a version control manager.
+
+about the command line, the terminal, windows uses PowerShell 
+
+-------------------------------
+
+NodeJs for the backend while we use React for frontEnd.
+
+terminal for source controll (and starting servers, intalling tools and navigating trought tools)
+
+CD, Ls, mkDIR (for new directories), PWD, while touch for new files (with . extansion)
+rm, rm -r (to remuve file or entire repository)
+
+Git version control system, source controll , ?like dropbox?
+referredd to versions of a file in time, 
+Github to share git repositories, 
+-git init
+-git add . (to add local to the index?)
+-git commit -m "Good explanation of your file changes" to commit files to local repo
+-git remote add origin GitRepoRemoteUrl (in case of new url)
+-git remote -v (to verify the url)
+-git push -u origin master to push commits to the remote url
+
+"Integrated Development Environment", IDE, with autocomplete, file tree view
+
+dont type fr the student, 
+
+Structure, presentation, behavior, 
+nesting when we have tags inside other, pareting, 
+semantic tags for accesibilty
+
+main.js
+
+Link and Script tag to add css and js.
+css in the head tag while the script in the end of body
+
+assets directory for the 2 types of files
+
+Properties to select get attributes in css
+
+html element as a box, margin - border - padding then content
+branches for same but different versions/ copies
+
+prettier in code vs I guess
+
+variable as shortcut.
+
+string as type of data, 
+
+	var message = "This is a string";
+	var messageType = typeof message;
+
+	console.log(messageType);	 operator
+
+like in pyton we have a way to check the type of the data.
+
+functions for tasks declaring a function
+
+avoid adding readme or gitignore
+-go with bash to your reposiroty
+-git init
+-git add .
+-'git reset HEAD YOUR-FILE' if you want to 
+-git commit -m "it"
+-git remote add origin     remote repository URL
+-git push origin master
+
+-Verbal comments that reinforce social structures of domination
+

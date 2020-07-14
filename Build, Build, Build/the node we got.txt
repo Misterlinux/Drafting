@@ -1,0 +1,16 @@
+##-Using Node
+
+to check your version of Node use:
+
+> node -v 
+
+we can check Vue
+
+> npm list vue
+
+to jumpstart node-modules: 
+
+  git clone git@github.com:serverless/site.git
+  npm install
+  npm start
+

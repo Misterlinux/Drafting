@@ -1,0 +1,269 @@
+we install our python to make the Vs extension work in 
+C:\Users\Misterlinux\AppData\Local\Programs\Python\Python38-32
+and we run code just with the > on the top right
+
+variable = 0 (= as assigment operator)
+no need (like java, C++) declare type beforehand (string, boolean and integral)
+
+we can call specific built-in functions like
+print("something") or type()
+that prints its argument on the terminal
+or an expression that we can manipolate beforehands
+with operation on string and an integrer
+viking_song = "Spam " * spam_amount
+print(viking_song) 
+
+#you can comment with a hash on a single lined
+
+	if spam_amount > 0:
+
+remember the semicolon ":" and the lack of {}
+we set code blocks indenting the line after the : 
+
+float are number with decimal place
+//division without float(clear cut) anyway python dont follow
+exactly the PENDAS so use parentesis
+
+operations between int + float gives float.
+
+In kaggle use q0.hint/solution() in the code to get
+some lines of help, q_question number.
+
+to inter-change values:
+
+c = a
+a = b
+b = c
+
+you give the c the value of a BEFORE a changes its values for b (first step)
+then in c (where we "stored the original a") we give in the b.
+it can also be done with 
+Tuples is a way to interchange variables in couples.
+
+headrer function introduced by the keyword "def"
+
+def _____(argument):
+	indented code here start getting elaborated.
+	return still_works_here
+
+no dot-comma ;
+return stops the function and passes the value, not {}
+
+to get some info about the functions help(function)
+"""docstring""" to get some text for custom functions
+and get some indications with help()
+
+functon withiout return tend to have side-effect(like print or help)
+even if wont do anything by their own.
+
+Optional arguments:
+print("something", sep="when having elements SEParated by something or \n to keep lines
+between results")
+
+we use the round() to cut and get round numbers from 10^limit
+	round(number, limit)
+	round(23451.504, -4) => 20000
+
+"BOOLean" value is present on the true/ false statement.
+returned in the operations of operations: 
+==(strict, on both value and type "3" == 3 false) != > < 
+
+def can_run_for_president(age, is_natural_born_citizen):
+    return is_natural_born_citizen and (age >= 35)
+
+	print(can_run_for_president(55, False))
+
+return in either order "and" used to link both arguments.
+
+	prepared_for_weather = (
+	    have_umbrella 
+	    or ((rain_level < 5) and have_hood) 
+	    or (not (rain_level > 0 and is_workday))
+	)
+
+TRUE if umbrella, or light rain and hood, OR I am NOT if raining and workday
+
+	def inspect(x):
+	    if x == 0:
+	        print(x, "is zero")
+	    elif x > 0:
+	        print(x, "is positive")
+
+bool() [ like int() and float() that turned the arguments into specific kinds of numbers]
+return true for all numbers and any string/false for 0 and empty ("") strings.
+
+	def risultato(valore):
+	    constante = "not good" if valore < 90 else "NAISA"
+	    print("here what ya got.... " + constante)
+
+for the one-liner:
+result - expression - if conditional - else /elif - result
+
+sign() isnt a built-in function like in others languages.
+
+Keep only 1 return and on last.
+
+	print ("splitting ", total_candies, "candy" if total_candies == 1 else "candies")
+
+the commas, cant be seen in the print
+
+something returning = True without declaration.
+to set some specific return use "and"
+
+	return ketchup and mustard and onion
+
+fro Exclusive OR use ^ (short for xor)
+
+	return ketchup ^ mustard
+
+	return not ketchup and not mustard and not onion  ==
+	return not (ketchup or mustard or onion)
+
+to return one of three:
+
+	return (ketchup + mustard + onion) == 1
+	int(True) = 1
+
+BOOLEAN are number immediany without operation
+LIST create:
+
+	primes = [2, "number third", 5, "7"]
+
+with comma, and called by:
+
+	primes[2]
+
+0 based indexing and LAST with:
+
+	primes[-1]
+
+range of values with "slicing"
+
+	primes[0:2] //taking from position 0 to 2
+
+// ...........................
+
+leaving it empty gives from grantes start 0 [:3] or end of the list/array [2:]
+and we can use also the negative values.
+
+	primes[1:-1] //excluding the first and last
+	primes[-3:] //from the third last
+
+mutuable, "changing elements in place"
+with a simple:
+	array[position] = "new element"
+	primes[2] = "second"
+
+-len(primes) gives you the lenght.
+-sorted(primes) gives you them in alfhabetical order (counting the first element and couting 
+any number as 1th values)
+-sum(primes) sums the list elements (and fails if unsupported operand type for +: 'int' and 'list'
+you set both string elements on list)
+-max(primes) (or also min) to get the correspondant value, if works with string as well giving you the latest
+(or even arrays using the first element only)
+
+ok so, about the versions of python, its not retroactve for all objects.
+to make operations with list use.
+
+ok so, about modyfing list:
+	planets[:3] = ['Mur', 'Vee', 'Ur']
+	-changes all the values untill the second
+
+everything in python is a number. it can carry data and express it trought  dots
+
+	object.command
+
+for example with extracting the "imaginary" numeric part of something
+
+	print(x.imag)
+
+ok so the .imag was an attribute of the object while complex functions that work on the
+object are called .METHODS
+
+	x.bit_length() #with parentesis
+
+List methods:
+	#to add just ONE element as last
+	planets.append('Pluto')
+	help(planets.append)
+
+an object is needed to ask for help()
+	help(list.append)
+
+we cant just put help(append) coz append exist as name withn list
+not as standalone builtin function like max / len.
+
+	list.pop()
+	#returns or cut the last element of the list
+
+	planets.index('Earth')
+	list.index("search_for?")
+	#to get where is the list and returns the positions with index 0
+
+	#you can also question is something is there thanks to the:
+	print(3 in counters) 
+	which will return True/False depends on the
+	list after the IN.
+
+if you want to find out all of the possible methods use 
+	help(list)
+	#stangely it doesnt work on tuples
+
+	turtle = (1, 2, 3)
+	different syntax from list ( istead of [])
+
+	print(x.as_integer_ratio())
+	#it returnes a tuple, which are the numerator and denominator for teh number (a float)
+
+	a = 1
+	b = 0
+	a, b = b, a
+	print(a, b)
+
+here it seems that we interchange the values using turples (even if we dont use ())
+considering they are immutable we dont have the problem of repeating values
+
+ok so if you need a small array just check it with AND None can exist alone:
+
+	    if len(L) < 2:
+      		return None
+    	return L[1]
+
+when talking about 2 dymenzional arrays we just use the:
+
+	return teams[-1][1]
+
+when asked to tip the second last team and second element in it
+ok so, if we want to change the position of first and last (and select the last):
+
+	middle = racers[0]
+    racers[0] = racers[-1]
+    racers[-1] = middle
+
+also in the exercise we ignored the return, I tried to use the tuples but it didnt worked.
+ok so, we can set 0 as a lenght value and the d is len as 2 even for not clear integer
+
+	c = []
+	d = [1, 2, 3][1:]
+
+ok so, if we have an array that has to be divided by 2 and has an odd elements
+we try to round up by excess:
+
+	print (round(7/2))
+
+it seems that in case of _.5 it rounds by excess
+anyway I did something different, in case of an array of 7 in which we have
+to check if between the half (even if odd) and not the last
+
+	    fashion = arrivals[round(len(arrivals)/2):-1]
+    	return name in fashion
+
+    	order = arrivals.index(name)
+    	return order >= len(arrivals) / 2 and order != len(arrivals) - 1
+
+ok so, we check the index of the said dude arrived, then we check thet it returns true if
+in our case we use round coz the arrays cant take a persed value.
+anyway in the second case we check if the order is over the HALF the arrival
+(here the round is not a problem coz a 3 will always be lower than 3.5) and order is 
+NOT the last value.
+

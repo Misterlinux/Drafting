@@ -1,0 +1,51 @@
+Responsive Web Design:
+learn/use concepts from interaction design
+to build an interactive website capable to adapt 
+to different screen sizes/devices with the use of responsive grid layouts.
+and trought the use of Javascript objects and templates to separate data from display and allow
+a more productive and cleaner coding.
+
+this course focused on: 
+1.the inportance of the User experience in allowing the user to navigate efficently 
+trought the content of the page organized in effective layout
+with navbars and other design elements 
+in order to design impruve the usability and build an interactive website.
+
+4. Use Bootstrap components to realise page designs
+Create wireframe mockups of web pages
+to set up a basic Bootstrap site and build Bootstrap collapsible, responsive navbars using 
+breadcrumb trails and you'll also be able to build multiple layouts in one with a responsive grid. 
+at installing Bootstrap themes.
+
+and build responsive navbars with Bootstrap collapsible, 
+build multiple layouts and use breadcrumb trails to guide
+in one with a responsive grid Bootstrap themes.
+ 
+Use the Handlebars template library to convert data to HTML 
+We are gonna start putting some complex usability tools into
+our page,
+managing/dynamically display our data/objects in a more ordered way trought 
+to store objects in an array and display them with a 
+template, with complex data structures
+Add interactivity to templates using JavaScript event listeners 
+
+7. Add interactivity to templates using JavaScript event listeners
+Use JavaScript data structures such as arrays and objects to define the data used in a web page
+separate page structure from page content, use JavaScript objects 
+and implement JavaScript templates with Handlebars as well as being able to display different 
+data with the same template and the same data with different templates. Finally we will be looking 
+at using a Bootstrap modal.
+to store objects in an array and display them with a template, and dynamically display data
+from an array. We will also be looking at implementing a search function, and by working with complex 
+data structures, switching between different templates.
+-set up a basic Bootstrap site Create wireframe mockups of web pages 
+
+
+6. Use the Handlebars template library to convert data to HTML 
+you will learn how to separate data and display using Java Script 
+objects and templates
+
+
+
+
+

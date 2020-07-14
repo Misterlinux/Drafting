@@ -1,0 +1,104 @@
+okso, what is this blogk.
+
+we use a Json file for al the metadata about each article.
+inside the src -> statics (it seems they have to be there)
+
+how does the component work?
+
+{
+    "Introduction": [
+        {
+            "id": "5571",
+            "date": "30 agosto, 2019",
+            "title": "5571 lines and a Blogk",
+            "description": "About the language and the story of this Blogk",
+            "src": "//live.staticflickr.com/65535/49193979161_783de3db6a_z.jpg"
+        },
+        {
+
+        }
+    ],
+
+ok so, each article has metadata that can and will be used to opder the articles (idl if its for
+the API function. used where?)
+
+where is the .md files?
+
+order is still important and we get the markdown files in the same folder.
+markdown -> arguments -> .md article
+[each one is present in the Json file now for the name but for the position.]
+
+role of the main.js which is different from the vue.config
+in which we import and external framework and specific conponent
+(plus the order to mount all togheter)
+we set up the import and the use for those plus the 
+use of specific components, plus the specific vue and router.
+
+import Vue from 'vue'
+import App from './App.vue'
+import VueRouter from 'vue-router'
+import VuePageTransition from 'vue-page-transition'
+import 'bootstrap/dist/css/bootstrap.css'
+
+import routes from './routes';
+
+Vue.use(VuePageTransition)
+Vue.component('vue-headful', vueHeadful);
+
+and in the router.js,
+in which we import the pages to be mouted in app plus the specific routes
+that are accesible 
+
+import pagina from '@/components/Home.vue'
+import Blogs from '@/statics/blogs'
+
+plus the array in thw main.js.
+
+const routes= [
+      {path: '/', name: 'first',component: pagina},
+      ...blogRoutes
+]
+
+(what is blogRoutes? well te one for the pages and articles)
+
+const blogRoutes = Object.keys(Blogs).map(section => {
+    const children = Blogs[section].map(child => ({
+      path: child.id,
+      name: child.id,
+      component: () => import(`./markdowns/${section}/${child.id}.md`)
+    }))
+    return {
+      path: `/${section}`,
+      name: section,
+      component: () => import('./components/bak.vue'),
+      children
+    }
+  })
+
+
+
+and its the part I modyfied the less.
+
+the readme just inform over the deply commands with nmp.
+
+about the config.
+we export modules that we downloaded.....(?)
+anyway we use the vue-loader for the vue and the
+use of markdown-loader for the md files. (interprets)
+
+
+module.exports = {
+  chainWebpack(config){
+    config.module.rule('md')
+      .test(/\.md/)
+      .use('vue-loader')
+      .loader('vue-loader')
+      .end()
+      .use('vue-markdown-loader')
+      .loader('vue-markdown-loader/lib/markdown-compiler')
+      .options({
+        raw: true
+      })
+  }
+}
+
