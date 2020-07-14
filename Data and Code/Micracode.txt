@@ -38,8 +38,10 @@ ok so, To import project to repository.
 
 -- ok so about adding updated files
 
--ok so, here the change
-
+-git add . (ok so, if there is already a git hidden file)
+-git commit -m "what will be said"
+-git remote add origin
+-git push origin master
 
 setting up the git
 Javascipt / NodeJs / React
