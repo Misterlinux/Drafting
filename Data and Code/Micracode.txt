@@ -1,31 +1,38 @@
 What was used in micracode.
 
+Studying the Javascipt / NodeJs / React.
+
 Settings; VS code, Ide (Integrated development Envirodment)
+-compiter /interpreter, debugger
+-refactoring (shoertering blocks of code ordenar)
 includes terminal and file tree view.
 
-command file to:
+Command line [ctrl alt T (unbuntuto enter)] no grafic interface to:
 -install tools
 -start a server
 -source controll
 
-sAIRA STENCIL ONE
+Git, source controll recoverability and management, records on changes, to set up:
+-git config --global user.name "Mona Lisa"
+-git config --global user.email "email@example.com"
+
+Shared in Github,
 
 commands:
 
 -Cd (change directory)
--ls (also ls ____ for content)
--pwd (prints directory way)
--mr (also -r to remuve a folder)
+-ls (also ls ____ for content, not on windows)
+-pwd (prints working directory)
+-rm (also -r to remuve a folder)
+-mkdir (make directory)
+-code . (should open direct file)
+-git log (log on activities)
+-mv _what_   _on where_ (moving files)
 
-source controll GIT.
-recoverability and management.
-
-git directories published and shared in GitHub.
-
-How to work:
+Github:
 -FORK a directory (copy)
 
-ok so, To import project to repository.
+Import local project:
 -dont start with README
 -Git init
 -git add .
@@ -35,121 +42,60 @@ ok so, To import project to repository.
 -git remote -v (cheking destination)
 -git push origin master
 
+somre explenation.
+-git init (not needed for copies, will create the hidden folder git)
+-git add . (ALL files in the index, cache, Git Status to check colors)
+-git coomit -m "__ " (setting the message while in local Repository)
+-git remote add origin ___________ (setting the link)
+-git remote -v (to chech the destination)
+-git push -u origin master
 
--- ok so about adding updated files
-
+Updating:
 -git add . (ok so, if there is already a git hidden file)
 -git commit -m "what will be said"
 -git push origin master
 
-setting up the git
-Javascipt / NodeJs / React
-VS code as Integrated Development Envirodment
-search file easily
-command line (create delete files, install tools, version controll (git), starting servers)
+Importing:
+-Git Clone (after setting the route desired)
+
+Vs code:
+-crtl D column mode, repeat to get the same words.
 
 
+-------------------------
 
-HTTP PROTOCOL, rules communication between, request response.
-req, res, .PUT/DELETE/POST and stuff
+Classes:
+Espanol = 2 / English= 1
 
-API, (Aplication Programming Interface)
+Es:
+Aziz, chimico, sirio tarragona. online quarantena
+Melina, u amigo le dijo, ni requrerda el nombre
+Adriana, con el chico, 
+Alfonzo, primer curso tibio, O face, de empresa.
+Zaquiel, de correo, smith, 
+jhoanna, reto personal , 
+jorje, chimico.
+Chris, russia, cambio sector.
+nani, venez, curiosidad
+jonh bravo, after quarantena.
 
-ok so, express as framework Node.js, backend, simplified features
-Dependencies (packatage.json), 
-npm (Node Package Manager) 
-Building a server to test backend, Computer programs, receive Request by clients
-and send response (Data)
 
-Importing / requesting, using its methods, functionlity of library and module (re-usable code)
+ok so postSQL, database, 
+Data, structured, store, retieve organize.
+now we were doing with files, but now not only static but updates avaiable
+also structured for different types of data.
+like relational databases, key/value, graph databases, document database (NoSQL)
+relational databases, Object-relational database system
+scale data workloads, (Structured Query Language)
+PostgreSQL is a RDBMS, Relational Database Management System.
+Data stored in matrix, 2 dimensions arrays.
 
-(to check the name go to the package json file)
-var express = require('_____');
+port number of of server, 
+stored and modaled, TABLES.
 
-Call a function express (we set before)
-"listening", setting the endpoint (numeric) from where request will come.
-server is rnning (adress?)
-we can set the endpoint in the arguments.
+crtl D to column mode to select specific words.
 
-callback funtion (as first action from the working server)
+ok so 2 espanol
+1 english
 
-to run the server, (node keyword ?)
-
-handler functions: to respond request, 
-request and response as OBJECTS, (with properties, mathods)
-=/= variables, name:value pairs 
-
-get() [method define handler functions] 2 PARAMETERS
-
-remember ending with comma (even if not)
-
-ok so, differences between console.log / res.send
-the first will appear only in the terminal line of the server 
-will the other will be expresses in the localhost:3000
-
-routing, multiple endpoints, from which to send responses.
-
-"/second" [settig the second endpoint (which will be after the first on e n "/")]
-
-static assets, files that doesnt change from how is stored in the server to deivery to clients.
-
-serving assets from public folders with:
-	app.use(express.static("public"));
-
-ok so the:
-	function (req, res) {
-	    res.send("Hello World!");
-	}
-
-can be used to send messages but for static files:
-
-	app.use(express.static("public"));
-
-HTTP methods, GET,PUT, POST, DELETE.
-
-ok so, when used from the html we set them as "method="POST"
-action = "/create-post" (where the data will be sent after yhe action (button))
-name (attribute) to reference the data.
-
-ok so, from the method ="POST" we set a response on the server.
-
-	app.post( "/create-post", function(req,res){
-	    console.log("text");
-	})
-
-ok so, with this we just set an anwser for the endpoint "/create-post" (the "text")
-to access the data we moved.
-consol.log(req.body) (we would get undefined in the server, the data is still as formdata)
-
-middleware functions like express-formidable to extract from the formData
-
-after setting the require you activate (use) it in:
-
-	app.use(formidable());
-
-with the key {blogppost: "inserted text"}
-
-JSON for structuring data, to send data across.
-
-ok so, passing from Json to javascript and vice with
-JSON.parse()   JSON.stringify()
-
-ok so, data passing trought the server, save in hard disk, fs (file-system / module)
-method to write in the hard drive will be:
-
-	fs.writeFile('location-of-your-file-goes-here', yourData, function (error) {
-    	// do something
-	});
-
-ok so, to read data, the callback function has the second argument (the file being read)
-
-	fs.readFile(__dirname + '/data/posts.json', function (error, file) {
-	    console.log(file);
-	});
-
-ok so, __dirname (Node global object) path to the directory
-
-buffer format Buffer: 7b 0a 20 20 20 20 22 31 34 36 37 33 39 30 33 35 36 32 39 31 22 3a 20 22 54
-to readable:
-	just file.toString()
-
+*39wZg8TLY*q

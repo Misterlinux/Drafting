@@ -1,0 +1,8 @@
+some CSS always usefull.
+
+in our case for the biggest wrapper we got to:
+
+  margin: 0 auto;
+
+ 0 px top bottom while left right is auto.
+

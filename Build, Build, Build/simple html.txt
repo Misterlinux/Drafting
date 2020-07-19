@@ -19,6 +19,18 @@ if you want to select a class within a class just remember to use the dot.
         background-color: #1a2d4b;
     }
 
+
+-if you have to just assign classes use Div TAG
+<!-- this is a comment, text not code -->
+
+
+
+
+
+
+
+
+
 the class text-uppercase used in the tag modify.
 
 this is just a way to change the dimenzions directly on the tag
