@@ -79,23 +79,3 @@ Chris, russia, cambio sector.
 nani, venez, curiosidad
 jonh bravo, after quarantena.
 
-
-ok so postSQL, database, 
-Data, structured, store, retieve organize.
-now we were doing with files, but now not only static but updates avaiable
-also structured for different types of data.
-like relational databases, key/value, graph databases, document database (NoSQL)
-relational databases, Object-relational database system
-scale data workloads, (Structured Query Language)
-PostgreSQL is a RDBMS, Relational Database Management System.
-Data stored in matrix, 2 dimensions arrays.
-
-port number of of server, 
-stored and modaled, TABLES.
-
-crtl D to column mode to select specific words.
-
-ok so 2 espanol
-1 english
-
-*39wZg8TLY*q

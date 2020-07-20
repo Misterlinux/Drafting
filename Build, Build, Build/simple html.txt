@@ -1,4 +1,4 @@
-  !DOCTYPE html
+  <!DOCTYPE html>
 
 and about the meta data or just add the class text-uppercase to the tag.to put in the head tag.
 
@@ -11,6 +11,24 @@ then if you have to load the css external files you can.
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
     <link rel="stylesheet" href="css/hero-slider-style.css">  
+
+ok so a bit of order:
+
+<html>
+
+<head>
+  <title>
+
+  </title>
+</head>
+
+<!-- here goes the meta/link stuff -->
+
+</html>
+
+
+
+
 
 
 if you want to select a class within a class just remember to use the dot.

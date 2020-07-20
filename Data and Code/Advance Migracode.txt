@@ -1,5 +1,50 @@
 Advanced (kinda) Migracode
 
+What is a server:
+Computer Programs, receive request from other programs.
+Respond to the Clients.
+
+Client (as browser) request to display -> Server (to the adress) responds
+
+NodeJs, to:
+-create dynamic websites
+-development.
+
+Javascript and Node different:
+-JS for client-side activity, 
+-Node send messages, has internet services.
+-accessing hard disk, 
+
+we use a Framwork for NodeJs, Expresss.
+for the application Backend, 
+
+Based on a request / response object.
+
+To create a local server:
+-mdkir _____
+-npm init (to create a .json file)
+(in the set up, entry point: indes.js .> server.js)
+
+Intalling Express and having it in the .Json file
+-npm install express --save
+
+Added as dependency.
+After creating server.js in folder to start the server:
+-node app.js
+
+Routing, setting endpoint as responses for clients requests.
+a URL (path) and a HTTP request method (GET, POST)
+
+the last elemenst of the URL "/" is the endpoint.
+
+Protocol + host + Resource path (the / folder path) 
+
+Setting multiple App.get() to then an App.listen() at the end.
+
+
+
+
+
 HTTP PROTOCOL, rules communication between, request response.
 req, res, .PUT/DELETE/POST and stuff
 
@@ -41,7 +86,8 @@ routing, multiple endpoints, from which to send responses.
 
 "/second" [settig the second endpoint (which will be after the first on e n "/")]
 
-static assets, files that doesnt change from how is stored in the server to deivery to clients.
+static as
+sets, files that doesnt change from how is stored in the server to deivery to clients.
 
 serving assets from public folders with:
 	app.use(express.static("public"));
