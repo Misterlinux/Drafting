@@ -118,3 +118,5 @@ in ROUTES.JS
 
 we import the pages (.vue files) and set their paths and name (the same as imported)
 
+
+Carrer de Roc Boronat, 142

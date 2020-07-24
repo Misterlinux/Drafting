@@ -26,6 +26,50 @@ ok so a bit of order:
 
 </html>
 
+ok so, long list and limited space, 
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+to get the scroll (on more space) and being overflow-x kinda useless for the space
+(can go alone no need of pre-requisites)
+
+header > a {
+  background-clip: text; <!-- to put the color in the background -->
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background:-webkit-linear-gradient(#eee,green);
+}
+
+*,:after, :before  
+used to modyfied everything or modifications
+
+
+
+div (old tag, division) 
+<header> <footer>
+MDN to search for awnser, 
+
+
+
+
+william gomez
+Andre Torgal
+ATTRIBUTES
+poniendo reglas {
+  properties have multiple values
+}
+
+padding, border, margin
+
+
+selectors access html classes and stuff
+pSEUDO selector under particular conditions
+:link /visited / hover / active
+<br> (es de break)
+
+
+
 
 
 
@@ -43,6 +87,12 @@ if you want to select a class within a class just remember to use the dot.
 
 
 
+-controla otra vez como tienes que comenzar un html file
+-se supone que head este encima del body no adentro
+-requerda de controlar que los tags esten abiertos y serrados
+-te olvidaste el <title>
+-conecta el css al html en el <head>
+-no se nesecita e <style> en css file
 
 
 

@@ -41,6 +41,17 @@ Protocol + host + Resource path (the / folder path)
 
 Setting multiple App.get() to then an App.listen() at the end.
 
+Bien
+-repito, no uses px para definir la pagina entera (% de pagina existe)
+-puedes poner un border a una imagen, el #logo no sirve
+-antes de sabado ententa enparejar el nav con la imagen (mismo height)
+
+
+Hello! To be clear about the Homeworks:
+-You need to maintain a repository on github with a working html-css files.
+-Update the repository using what was learned during the classes with clear -commit
+so we can check them.
+-to re-pass: https://migracode-barcelona.github.io/syllabus/html-css/week-1/lesson.html
 
 
 

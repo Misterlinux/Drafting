@@ -36,7 +36,7 @@ Import local project:
 -dont start with README
 -Git init
 -git add .
--git commit .m "text of the commit"
+-git commit -m "text of the commit"
 -copy the HTTPS 
 -git remote add origin _copied adress_
 -git remote -v (cheking destination)
@@ -61,21 +61,90 @@ Importing:
 Vs code:
 -crtl D column mode, repeat to get the same words.
 
+------------
+
+Tips for the students:
+
+-margin-top para el primero, mergin-bottom para las siguientes para controlar el espacio blanco.
+-# for id / class go as plain selectors
+-margin: % % % (for up / left-right / bottom), % % (top-bottom / left-right) para definir espacios pagina
+-
+
+h1{
+-text-align: center
+}
+no tan mala idea
+
+-hay un error muy gordo en la linea 97 del css
+-si tienes un standard para todos los h1, no repitas propieties en los otros selectors
+-si un tag te aparece en rojo <center> es mejor no utilizarlo (usa css para style)
+-pon los selectors css por orden de aparicion
+-no anadas properties solo para decir que es :normal, si no sirve no pongas
+-boton border no tiene border
+-nombre-boton class no titne uso
+-si cada uno de los texto en h1 tiene las mismas propeties de #titulo1, unelos en un unico.
+-linea 62, no excribas adentro de un tag
+-no crees properties solo para poner 0px o 0%
+-es mejor no usar style en los tags Y css
+-
+-
+
+
+08003 
+BOQqlX8BY5a4
+
+    border-collapse: separate;
+
+<a id="confirmacion">
+para conectar de la pagina (<a href="#confirmacion">)
+    </hr> para raya negra en orizontal
+    <hr> para simple espacio
+
+rowspan="4" in a tag
+<th>
+<table>
+
+-es mejor limitar el contenido de un <a> tag (imagen o titulo)
+-
+
+
+
+
+INFORMACI&Oacute;N
 
 -------------------------
 
 Classes:
 Espanol = 2 / English= 1
 
+
 Es:
 Aziz, chimico, sirio tarragona. online quarantena
-Melina, u amigo le dijo, ni requrerda el nombre
-Adriana, con el chico, 
-Alfonzo, primer curso tibio, O face, de empresa.
+
+Melina, u amigo le dijo, ni requrerda el nombre, cine and interested in computers
+
+Adrianab Ceròn, vino con el chico, copywriter? mexican publicista
+
+Alfonzo, primr curso tibio, O face, de empresa.
+
 Zaquiel, de correo, smith, 
-jhoanna, reto personal , 
+
+jhoanna, reto personal , romania
+
 jorje, chimico.
+
 Chris, russia, cambio sector.
-nani, venez, curiosidad
+
+nani, venez, curiosidad, 
+
 jonh bravo, after quarantena.
 
+
+
+
+
+
+SHA256:Jyo+q8WhsSsmjiKsf4YRGUSN6Ohm8Js3I+C1157TMN8 mrlzarate8@gmail.com
+fingertips of shh key
+
+The authenticity of host 'github.com (140.82.118.3)' can't be established.
