@@ -68,6 +68,25 @@ pSEUDO selector under particular conditions
 :link /visited / hover / active
 <br> (es de break)
 
+------------------------------
+
+TRaining the Flex:
+ok so, we already start with a container, 
+to alter elements to fill space, 
+
+for starters, the parent has to have:
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+that allow flex to the internal.
+also, DIRECTION of elements.
+
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
 
 
 
