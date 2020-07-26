@@ -27,6 +27,15 @@ sometimes they forget the px in css classes,
 even if its a list the space between them has to be set by you 
 in margin/padding and stuff
 
+if you want to select a class within a class just remember to use the dot.
+
+    .cd-slider-nav .nav-link:focus {
+        background-color: #1a2d4b;
+    }
+
+
+-------------------------
+
 https://github.com/mariarosa2006?tab=repositories
 
 

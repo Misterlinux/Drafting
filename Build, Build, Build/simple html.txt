@@ -14,28 +14,54 @@ then if you have to load the css external files you can.
 
 ok so a bit of order:
 
+<DOCTYPE HTML>
 <html>
 
 <head>
   <title>
 
   </title>
+  <!-- here goes the meta/link stuff -->
 </head>
+<body>
 
-<!-- here goes the meta/link stuff -->
+</body>
 
 </html>
 
-ok so, long list and limited space, 
+<div> is between the oldest tags.
+
+Selectors {
+  properties: values;
+}
+
+<!-- this is a comment, text not code -->
+
+how to style in the tag simply:
+<div>
+  <img src="https://pack.jpg" 
+  alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
+</div>
+
+
+
+h1{
+-text-align: center
+}
+
+
+
+------------------------
+
+ok so, elements for limited space, 
 
     overflow-y: auto;
     overflow-x: hidden;
 
-to get the scroll (on more space) and being overflow-x kinda useless for the space
-(can go alone no need of pre-requisites)
+to treat the text space as a background and give it a gradient.
 
 header > a {
-  background-clip: text; <!-- to put the color in the background -->
+  background-clip: text;
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   background:-webkit-linear-gradient(#eee,green);
@@ -44,29 +70,31 @@ header > a {
 *,:after, :before  
 used to modyfied everything or modifications
 
+-to set up a line fo code as a endpoint.
+<a id="confirmacion">
 
+-and to link it:
+<a href="#confirmacion">
 
-div (old tag, division) 
-<header> <footer>
-MDN to search for awnser, 
-
-
-
-
-william gomez
-Andre Torgal
-ATTRIBUTES
-poniendo reglas {
-  properties have multiple values
-}
+  </hr> para raya negra en orizontal
+  <hr> para simple espacio
+  <br> (break)
 
 padding, border, margin
 
+pseudo selectors (:) to work under conditions
+[:link /visited / hover / active]
 
-selectors access html classes and stuff
-pSEUDO selector under particular conditions
-:link /visited / hover / active
-<br> (es de break)
+--------------------------
+
+Some text I got here.
+
+INFORMACI&Oacute;N
+virgulilla n
+vaina
+
+
+
 
 ------------------------------
 
@@ -90,43 +118,7 @@ also, DIRECTION of elements.
 
 
 
-
-
-
-
-if you want to select a class within a class just remember to use the dot.
-
-    .cd-slider-nav .nav-link:focus {
-        background-color: #1a2d4b;
-    }
-
-
--if you have to just assign classes use Div TAG
-<!-- this is a comment, text not code -->
-
-
-
--controla otra vez como tienes que comenzar un html file
--se supone que head este encima del body no adentro
--requerda de controlar que los tags esten abiertos y serrados
--te olvidaste el <title>
--conecta el css al html en el <head>
--no se nesecita e <style> en css file
-
-
-
-
-
-
-the class text-uppercase used in the tag modify.
-
-this is just a way to change the dimenzions directly on the tag
-<div class="lefto">
-  <img src="https://meme.xyz/uploads/posts/t/l-31270-undercover-cop-at-a-festival-starter-pack.jpg" 
-  alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
-</div>
-
-kinda a list with a principal text element.
+how to list and table:
 
   <dl>
     <dt>Coffee</dt>
