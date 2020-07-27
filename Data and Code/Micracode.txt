@@ -68,12 +68,11 @@ Tips for the students:
 -margin-top para el primero, mergin-bottom para las siguientes para controlar el espacio blanco.
 -# for id / class go as plain selectors
 -margin: % % % (for up / left-right / bottom), % % (top-bottom / left-right) para definir espacios pagina
+
+knowing how to use Excel:
+-to add columns just in the tabs got to insert and column to (left-right)
 -
 
-
-rowspan="4" in a tag
-<th>
-<table>
 
 -------------------------
 
@@ -86,7 +85,7 @@ Aziz, chimico, sirio tarragona. online quarantena
 
 Melina, u amigo le dijo, ni requrerda el nombre, cine and interested in computers
 
-Adrianab Ceròn, vino con el chico, copywriter? mexican publicista
+Adriana Ceròn, vino con el chico, copywriter? mexican publicista
 
 Alfonzo, primr curso tibio, O face, de empresa.
 
@@ -111,4 +110,9 @@ English:
 
 Profesores:
 
+-Andre Torgal
 -
+
+
+
+

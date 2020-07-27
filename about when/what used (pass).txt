@@ -47,3 +47,11 @@ https://app.slack.com/client/TMSJ4SYVD/C015MRN5QAK
 the other email:
 https://mail.google.com/mail/u/2/#inbox
 
+ok I checked and:
+-the css doesnt work with ".css1" (remuve the 1)
+-in the html <link href="index.html (forgot to close and href is the css file (name only if in same folder))
+
+this was a fast check, remember to #homework-questions and #one-to-ones
+
+https://docs.google.com/spreadsheets/d/1t0z3__5FhONC2uJW0z6_yruukTqr8MZNpIrEngmJsJM/edit#gid=0
+(homework list)
