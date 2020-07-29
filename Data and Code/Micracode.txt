@@ -58,6 +58,9 @@ Updating:
 Importing:
 -Git Clone (after setting the route desired)
 
+Updating from Github:
+-git pull url_git
+
 Vs code:
 -crtl D column mode, repeat to get the same words.
 
