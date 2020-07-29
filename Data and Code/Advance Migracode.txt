@@ -179,7 +179,17 @@ ok so this is where I text the commands needed to enter postsql in ubuntu
 also some annotation for the files of students
 
 port number of of server, 
-stored and modaled, TABLES.
+stored and modaled, TABLES
+
+------------this is where I copy the sql part
+
+ok so postSQL (using ubuntu)
+sudo -i -u postgres this gets you into.....postgre I dont know yet
+ wont work ok so, doing a createdb cyf_hotels, coz its needed a role
+ but using (sudo -i -u postgres ) then you enter even further
+ psql cyf_hotels, after creating a database you enter it.
+ you were supposed to write it in terminal but thanks t beaver we can do it out
+ 
 
 
 *39wZg8TLY*q passwords
