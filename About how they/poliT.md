@@ -61,3 +61,6 @@ lauren boebert, after winning primaries over moderate and trump supported in col
 so extreme that democrats are investing in advantage.
 fucili d'assalto attemt by o'route while she kept restorant open and weps in full wiew
 (even fter receiving order from tribunal)
+
+so, refugees from syria at the borders of greece, after turks died in bombardment on rebels
+in syria, 
