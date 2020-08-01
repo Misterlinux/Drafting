@@ -25,34 +25,3 @@ open cultural default
 ok so, the ZIP for the open center 08003.
 Carrer del Rec
 
-#migracode >qDYq9Dq
-
-wLSiVsz3oN4i
-
-08003 para comprar.
-
-BOQqlX8BY5a4 (no udea what it is)
-
-SHA256:Jyo+q8WhsSsmjiKsf4YRGUSN6Ohm8Js3I+C1157TMN8 mrlzarate8@gmail.com
-fingertips of shh key
-
-
-https://docs.google.com/spreadsheets/u/2/d/1yE7CYQG9Hs4dPGvmgvFl4BDQ0DRuLZDHDc2ZVnQ8lnc/edit?pli=1#gid=0
-https://docs.google.com/spreadsheets/u/2/d/1TKd_X-bsx1qbInkAv7x5d3slkJF9sEExfCnFRyjllBk/edit#gid=0
-
-for the students.
-
-https://app.slack.com/client/TMSJ4SYVD/C015MRN5QAK
-
-the other email:
-https://mail.google.com/mail/u/2/#inbox
-
-ok I checked and:
--the css doesnt work with ".css1" (remuve the 1)
--in the html <link href="index.html (forgot to close and href is the css file (name only if in same folder))
-
-this was a fast check, remember to #homework-questions and #one-to-ones
-
-https://docs.google.com/spreadsheets/d/1t0z3__5FhONC2uJW0z6_yruukTqr8MZNpIrEngmJsJM/edit#gid=0
-(homework list)
-

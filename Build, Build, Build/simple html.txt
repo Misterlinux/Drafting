@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+  !DOCTYPE html
 
 and about the meta data or just add the class text-uppercase to the tag.to put in the head tag.
 
@@ -12,114 +12,22 @@ then if you have to load the css external files you can.
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
     <link rel="stylesheet" href="css/hero-slider-style.css">  
 
-ok so a bit of order:
 
-<DOCTYPE HTML>
-<html>
+if you want to select a class within a class just remember to use the dot.
 
-<head>
-  <title>
+    .cd-slider-nav .nav-link:focus {
+        background-color: #1a2d4b;
+    }
 
-  </title>
-  <!-- here goes the meta/link stuff -->
-</head>
-<body>
+the class text-uppercase used in the tag modify.
 
-</body>
-
-</html>
-
-<div> is between the oldest tags.
-
-Selectors {
-  properties: values;
-}
-
-<!-- this is a comment, text not code -->
-
-how to style in the tag simply:
-<div>
-  <img src="https://pack.jpg" 
+this is just a way to change the dimenzions directly on the tag
+<div class="lefto">
+  <img src="https://meme.xyz/uploads/posts/t/l-31270-undercover-cop-at-a-festival-starter-pack.jpg" 
   alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
 </div>
 
-
-
-h1{
--text-align: center
-}
-
-
-
-------------------------
-
-ok so, elements for limited space, 
-
-    overflow-y: auto;
-    overflow-x: hidden;
-
-to treat the text space as a background and give it a gradient.
-
-header > a {
-  background-clip: text;
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background:-webkit-linear-gradient(#eee,green);
-}
-
-*,:after, :before  
-used to modyfied everything or modifications
-
--to set up a line fo code as a endpoint.
-<a id="confirmacion">
-
--and to link it:
-<a href="#confirmacion">
-
-  </hr> para raya negra en orizontal
-  <hr> para simple espacio
-  <br> (break)
-
-padding, border, margin
-
-pseudo selectors (:) to work under conditions
-[:link /visited / hover / active]
-
---------------------------
-
-Some text I got here.
-
-INFORMACI&Oacute;N
-virgulilla n
-vaina
-
-
-
-
-------------------------------
-
-TRaining the Flex:
-ok so, we already start with a container, 
-to alter elements to fill space, 
-
-for starters, the parent has to have:
-
-.container {
-  display: flex; /* or inline-flex */
-}
-
-that allow flex to the internal.
-also, DIRECTION of elements.
-
-.container {
-  flex-direction: row | row-reverse | column | column-reverse;
-}
-
-
-
-
-
-how to list and table:
+kinda a list with a principal text element.
 
   <dl>
     <dt>Coffee</dt>

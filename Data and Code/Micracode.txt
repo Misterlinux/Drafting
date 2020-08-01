@@ -1,124 +1,154 @@
 What was used in micracode.
 
-Studying the Javascipt / NodeJs / React.
-
 Settings; VS code, Ide (Integrated development Envirodment)
--compiter /interpreter, debugger
--refactoring (shoertering blocks of code ordenar)
 includes terminal and file tree view.
 
-Command line [ctrl alt T (unbuntuto enter)] no grafic interface to:
+command file to:
 -install tools
 -start a server
 -source controll
 
-Git, source controll recoverability and management, records on changes, to set up:
--git config --global user.name "Mona Lisa"
--git config --global user.email "email@example.com"
-
-Shared in Github,
+sAIRA STENCIL ONE
 
 commands:
 
 -Cd (change directory)
--ls (also ls ____ for content, not on windows)
--pwd (prints working directory)
--rm (also -r to remuve a folder)
--mkdir (make directory)
--code . (should open direct file)
--git log (log on activities)
--mv _what_   _on where_ (moving files)
+-ls (also ls ____ for content)
+-pwd (prints directory way)
+-mr (also -r to remuve a folder)
 
-Github:
+source controll GIT.
+recoverability and management.
+
+git directories published and shared in GitHub.
+
+How to work:
 -FORK a directory (copy)
 
-Import local project:
+ok so, To import project to repository.
 -dont start with README
 -Git init
 -git add .
--git commit -m "text of the commit"
+-git commit .m "text of the commit"
 -copy the HTTPS 
 -git remote add origin _copied adress_
 -git remote -v (cheking destination)
 -git push origin master
 
-somre explenation.
--git init (not needed for copies, will create the hidden folder git)
--git add . (ALL files in the index, cache, Git Status to check colors)
--git coomit -m "__ " (setting the message while in local Repository)
--git remote add origin ___________ (setting the link)
--git remote -v (to chech the destination)
--git push -u origin master
 
-Updating:
--git add . (ok so, if there is already a git hidden file)
--git commit -m "what will be said"
--git push origin master
+-- ok so about adding updated files
 
-Importing:
--Git Clone (after setting the route desired)
-
-Updating from Github:
--git pull url_git
-
-Vs code:
--crtl D column mode, repeat to get the same words.
-
-------------
-
-Tips for the students:
-
--margin-top para el primero, mergin-bottom para las siguientes para controlar el espacio blanco.
--# for id / class go as plain selectors
--margin: % % % (for up / left-right / bottom), % % (top-bottom / left-right) para definir espacios pagina
-
-knowing how to use Excel:
--to add columns just in the tabs got to insert and column to (left-right)
 -
 
 
--------------------------
-
-Classes:
-Espanol = 2 / English= 1
-
-
-Es:
-Aziz, chimico, sirio tarragona. online quarantena
-
-Melina, u amigo le dijo, ni requrerda el nombre, cine and interested in computers
-
-Adriana Ceròn, vino con el chico, copywriter? mexican publicista
-
-Alfonzo, primr curso tibio, O face, de empresa.
-
-Zaquiel, de correo, smith, 
-
-jhoanna, reto personal , romania
-
-jorje, chimico.
-
-Chris, russia, cambio sector.
-
-nani, venez, curiosidad, 
-
-jonh bravo, after quarantena.
-
-
-English:
-
--Ali raza Ashraf for the week.
-
--vaina
-
-Profesores:
-
--Andre Torgal
--
+setting up the git
+Javascipt / NodeJs / React
+VS code as Integrated Development Envirodment
+search file easily
+command line (create delete files, install tools, version controll (git), starting servers)
 
 
 
+HTTP PROTOCOL, rules communication between, request response.
+req, res, .PUT/DELETE/POST and stuff
 
-hello, checking your homework:
-1: where is your express homework (express-workshop)
-2: I can see the sql tables but not the commit of homework on it
+API, (Aplication Programming Interface)
+
+ok so, express as framework Node.js, backend, simplified features
+Dependencies (packatage.json), 
+npm (Node Package Manager) 
+Building a server to test backend, Computer programs, receive Request by clients
+and send response (Data)
+
+Importing / requesting, using its methods, functionlity of library and module (re-usable code)
+
+(to check the name go to the package json file)
+var express = require('_____');
+
+Call a function express (we set before)
+"listening", setting the endpoint (numeric) from where request will come.
+server is rnning (adress?)
+we can set the endpoint in the arguments.
+
+callback funtion (as first action from the working server)
+
+to run the server, (node keyword ?)
+
+handler functions: to respond request, 
+request and response as OBJECTS, (with properties, mathods)
+=/= variables, name:value pairs 
+
+get() [method define handler functions] 2 PARAMETERS
+
+remember ending with comma (even if not)
+
+ok so, differences between console.log / res.send
+the first will appear only in the terminal line of the server 
+will the other will be expresses in the localhost:3000
+
+routing, multiple endpoints, from which to send responses.
+
+"/second" [settig the second endpoint (which will be after the first on e n "/")]
+
+static assets, files that doesnt change from how is stored in the server to deivery to clients.
+
+serving assets from public folders with:
+	app.use(express.static("public"));
+
+ok so the:
+	function (req, res) {
+	    res.send("Hello World!");
+	}
+
+can be used to send messages but for static files:
+
+	app.use(express.static("public"));
+
+HTTP methods, GET,PUT, POST, DELETE.
+
+ok so, when used from the html we set them as "method="POST"
+action = "/create-post" (where the data will be sent after yhe action (button))
+name (attribute) to reference the data.
+
+ok so, from the method ="POST" we set a response on the server.
+
+	app.post( "/create-post", function(req,res){
+	    console.log("text");
+	})
+
+ok so, with this we just set an anwser for the endpoint "/create-post" (the "text")
+to access the data we moved.
+consol.log(req.body) (we would get undefined in the server, the data is still as formdata)
+
+middleware functions like express-formidable to extract from the formData
+
+after setting the require you activate (use) it in:
+
+	app.use(formidable());
+
+with the key {blogppost: "inserted text"}
+
+JSON for structuring data, to send data across.
+
+ok so, passing from Json to javascript and vice with
+JSON.parse()   JSON.stringify()
+
+ok so, data passing trought the server, save in hard disk, fs (file-system / module)
+method to write in the hard drive will be:
+
+	fs.writeFile('location-of-your-file-goes-here', yourData, function (error) {
+    	// do something
+	});
+
+ok so, to read data, the callback function has the second argument (the file being read)
+
+	fs.readFile(__dirname + '/data/posts.json', function (error, file) {
+	    console.log(file);
+	});
+
+ok so, __dirname (Node global object) path to the directory
+
+buffer format Buffer: 7b 0a 20 20 20 20 22 31 34 36 37 33 39 30 33 35 36 32 39 31 22 3a 20 22 54
+to readable:
+	just file.toString()
+
