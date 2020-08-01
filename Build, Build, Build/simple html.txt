@@ -16,65 +16,6 @@ then if you have to load the css external files you can.
 
 if you want to select a class within a class just remember to use the dot.
 
-<<<<<<< HEAD
-    .cd-slider-nav .nav-link:focus {
-        background-color: #1a2d4b;
-    }
-
-the class text-uppercase used in the tag modify.
-
-this is just a way to change the dimenzions directly on the tag
-<div class="lefto">
-  <img src="https://meme.xyz/uploads/posts/t/l-31270-undercover-cop-at-a-festival-starter-pack.jpg" 
-  alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
-</div>
-
-kinda a list with a principal text element.
-
-  <dl>
-    <dt>Coffee</dt>
-    <dd>- black hot drink</dd>
-    <dd>- black hot drink</dd>
-    <dt>Milk</dt>
-    <dd>- white cold drink</dd>
-  </dl>  
-
-or in other case table-dark
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-Here is my view and I hope it will be yours as well while being here in my own designed development path.
-ok so, we can divide a text in columns.
-=======
   <head>
     <title>
 
@@ -146,7 +87,6 @@ Indented list with -
       <dd>- white cold drink</dd>
 
 Columns of text.
->>>>>>> 649a378a38e7b986be9b10f09b942c08fd609a5c
 
   div {
     column-count: 3;

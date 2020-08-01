@@ -38,8 +38,6 @@ open cultural default
 ok so, the ZIP for the open center 08003.
 Carrer del Rec
 
-<<<<<<< HEAD
-=======
 #migracode >qDYq9Dq
 
 wLSiVsz3oN4i
@@ -168,4 +166,3 @@ ok so about the SQL exercise,
    where suppliers.country = 'China';
 
 -- 
->>>>>>> 649a378a38e7b986be9b10f09b942c08fd609a5c
