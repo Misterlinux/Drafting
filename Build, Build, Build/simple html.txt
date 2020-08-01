@@ -5,6 +5,7 @@ and about the meta data or just add the class text-uppercase to the tag.to put i
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- random meta to set the zoom in screen -->
 
 then if you have to load the css external files you can.
 
@@ -15,6 +16,7 @@ then if you have to load the css external files you can.
 
 if you want to select a class within a class just remember to use the dot.
 
+<<<<<<< HEAD
     .cd-slider-nav .nav-link:focus {
         background-color: #1a2d4b;
     }
@@ -72,15 +74,93 @@ or in other case table-dark
 
 Here is my view and I hope it will be yours as well while being here in my own designed development path.
 ok so, we can divide a text in columns.
+=======
+  <head>
+    <title>
+
+    </title>
+    <!-- here data for the machine-->
+  </head>
+  <body>
+
+  </body>
+
+</html>
+
+<div> is between the oldest tags.
+
+Selectors {
+  properties: values;
+}
+
+<!-- this is a comment, text not code -->
+
+how to style in the tag simply:
+<div>
+  <img src="https://pack.jpg" 
+  alt="IMAGE ALT TEXT HERE" width="240" height="200" border="3" /></a>
+</div>
+
+html tends to adapts itself at screens.
+
+Selectors {
+  properties: values !important;
+}
+not used but ultimate priority.
+
+<table style="width:80%">
+  <tr> <!--here we get the columns titles -->
+    <th colspan="2">This is</th> <!-- TH for darken -->
+    <th>where we</th> 
+  </tr>
+  <tr>  <!-- each and every has the tr -->
+    <td>Jill</td> <!-- here we get for row elements -->
+    <td>Smith</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+about spacing, [colspan(occupies col space for more TD)]
+
+List:
+
+<ul>/<ol> <!-- to have dt in list -->
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>/</ol>
+
+Indented list with -
+
+    <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+
+Columns of text.
+>>>>>>> 649a378a38e7b986be9b10f09b942c08fd609a5c
 
   div {
     column-count: 3;
     column-rule-style: dotted;
+<<<<<<< HEAD
     column-rule-color: lightblue;
+=======
+    column-rule-color: lightblue;    ]        column-rule: 1px solid lightblue;
+>>>>>>> 649a378a38e7b986be9b10f09b942c08fd609a5c
     column-rule-width: 1px;
     column-width: 300px;
   }
 
+<<<<<<< HEAD
 we also get a -style proposition, complesitory. selector
 and if you want to work them all togheter.
 
@@ -228,15 +308,85 @@ as a starting point to then add the _n (and you cant change the order of n and +
 
 html: structural information,
 CSS hojas de estiloen cascada.
+=======
+
+------------------------
+
+ok so, elements for limited space, 
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+to treat the text space as a background and give it a gradient.
+
+header > a {
+  background-clip: text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background:-webkit-linear-gradient(#eee,green);
+}
+
+*,:after, :before  
+used to modyfied everything or modifications
+
+-to set up a line fo code as a endpoint.
+<a id="confirmacion">
+
+-and to link it:
+<a href="#confirmacion">
+
+  </hr> para raya negra en orizontal
+  <hr> para simple espacio
+  <br> (break)
+
+padding, border, margin
+
+pseudo selectors (:) to work under conditions
+[:link /visited / hover / active]
+
+h1{
+-text-align: center
+}
+
+
+
+
+--------------------------
+
+Some text I got here.
+
+INFORMACI&Oacute;N
+virgulilla n
+vaina
+
+
+
+
+------------------------------
+
+TRaining the Flex:
+ok so, we already start with a container, 
+to alter elements to fill space, 
+
+for starters, the parent has to have:
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+that allow flex to the internal.
+also, DIRECTION of elements.
+
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+
+
+>>>>>>> 649a378a38e7b986be9b10f09b942c08fd609a5c
 
 ---------------------------------
 
-NAVBAR, without using font awesome:
-
-
-    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
-        &#9776;
-    </button>
 
 and to see its function in the script
 
