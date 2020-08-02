@@ -10,7 +10,3 @@ to start my Vue blog
 
 > npm run
 
-npm audit fix
-
-used to "fix" I guess
-
