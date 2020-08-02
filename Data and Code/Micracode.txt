@@ -117,5 +117,9 @@ Profesores:
 -
 
 
-
+ok so, fork is not git clone
+in case of bigger repositories use the fork to get your version you
+are free to modify and then
+git clone
+eso para ejercicios, 
 

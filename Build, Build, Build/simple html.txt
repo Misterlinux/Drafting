@@ -99,6 +99,16 @@ Columns of text.
   }
 
 
+<-- to check better -->
+
+<head>
+To get a font <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+or icon     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+
+
+
 ------------------------
 
 ok so, elements for limited space, 
@@ -314,3 +324,8 @@ Breadcrumb and link
         </ol>
 
 (carousek and modal later)
+
+I understand perfectly, https://github.com/garbanv?tab=repositories where is
+the repository with the https://github.com/CodeYourFuture/Databases-Homework done?
+
+

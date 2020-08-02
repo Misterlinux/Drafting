@@ -115,7 +115,7 @@ boostrap can define colors in the classes.
 	  overflow: hidden;
 	  position: fixed;       ]	<!-- setting position on top and anti-scroll -->
   	  top: 0; / bottom: 0;
-  	  (Position: sticky;)	<!-- to get the fixed after the scroll -->
+  	  (Position: sticky;)	<!-- to get the fixed after the scroll and it NEEDS the top:fixed distance from-->
 	}
 
 	li {
@@ -190,4 +190,50 @@ https://github.com/mariarosa2006?tab=repositories
 Rafael Chiti
 
 Final project
+
+FRamework, specific guidlines with componenets (re usable code)
+Helpers additional code.
+
+grid layout and stuff
+
+bootstrap both css and javascript, 
+
+
+
+
+
+<!still testing -->
+
+ok so with these you get different aliigment
+
+	 .top-navigation > .content {
+	     height: 4rem;
+	 }
+	 .top-navigation .logo {
+	     height: 10rem;
+	 }
+
+[ok so, here]
+
+ok so, about an image, if working with % width > height if you want to make it bigger
+dont use % if planning for dimentions
+
+ok so, background as space and 2 images:
+
+body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-repeat: no-repeat, no-repeat;
+  background-color: #cccccc;
+}
+
+ok so, setting 2 images, limited to 1 with back-up background
+
+     background-position: center ; 
+
+ok so about the scroll (actually works only when height given is less than
+the normal image or area used by text
+
+	overflow: visible - hidden - scroll - auto
+
+what is half?
 
