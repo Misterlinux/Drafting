@@ -180,6 +180,26 @@ ok so, the element is still a <li> that encloses the drop:
 
 ok so navbar are a list of links, 
 
+also setting up
+
+if you need a html tag area to be color to have stuff inside just 
+
+    background-color: #fff;
+    overflow: hidden;
+
+ok so, navbar nut also text in the lower that needs margin top justa add
+
+  overflow: auto
+
+to avoid having to rebalance the whole (during first exercise page)
+ok so, after losing 30 mins I noticed the 
+
+  padding-inline-start: 40px;
+
+that probably gives a left space for every list , will check later
+
+
+
 
 
 -------------------------
