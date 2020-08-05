@@ -64,3 +64,25 @@ fucili d'assalto attemt by o'route while she kept restorant open and weps in ful
 
 so, refugees from syria at the borders of greece, after turks died in bombardment on rebels
 in syria, 
+
+from lega to league, the old lega cannot dissapear for the debt on the rembors
+and also some still on the idea of federalismo nord and vs the nationalism with sud.
+started from liga lombarda 1989 with bossi in both camera and senato, senatur.
+settled with 10% afterwards, contro il barbarossa e il carrocio.
+maroniani vs bossiani, and helped by first salvini, all the rites just changed 
+with more general christian, with also internal with zaia in veneto.
+
+altare della patria in 1911 when mussolini stil socialista.
+by repeating mottos and accepting and showing gfts from skinheads veneti for example.
+provocations for attentios, like having a beard and a earing and also showing tibet vs chinese
+even if removed in 2015 and never again about tibet.like borghezio that
+at 19Y was stopped for treath letter by neofascist group, started also with alliance in
+center italy to try to move league with alt right votes, with salvini limiting maroni and
+pusing alt right, invited in manifestations and thanked by speaker.
+the league gained from it but not sociali, berlusconi came back after.
+but flushing them even after the noi-con-salvini 8container presented in south)
+with controll sending the old league when the new were arrested nullifing the locals,
+using them to work on field due to low tesseramenti and giving them positions on municipio.
+bossi used to referr to berlusconi as alt right and costola by d alema, 
+obtaining some reform for more autonomy, also by various crysis that allowed him ez topics.
+at south is still by dirigenti esterni, 
