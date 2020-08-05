@@ -146,17 +146,9 @@ ok so, to read data, the callback function has the second argument (the file bei
 	    console.log(file);
 	});
 
-<<<<<<< HEAD
-ok so, fork is not git clone
-in case of bigger repositories use the fork to get your version you
-are free to modify and then
-git clone
-eso para ejercicios, 
-=======
 ok so, __dirname (Node global object) path to the directory
 
 buffer format Buffer: 7b 0a 20 20 20 20 22 31 34 36 37 33 39 30 33 35 36 32 39 31 22 3a 20 22 54
 to readable:
 	just file.toString()
->>>>>>> 2e03e926345f148a1b482a067b9836fec6e32f79
 

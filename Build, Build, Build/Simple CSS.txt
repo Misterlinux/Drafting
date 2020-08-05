@@ -1,6 +1,7 @@
 some CSS always usefull.
 
 in our case for the biggest wrapper we got to:
+To center a div /wrapper (or just a display:block element)
 
   margin: 0 auto;
 
@@ -217,6 +218,120 @@ Helpers additional code.
 grid layout and stuff
 
 bootstrap both css and javascript, 
+to load inside html, with grid layout and components.
+
+
+
+
+
+Some Flexing:
+flex-start (at the left)
+flex-end (at the right)
+
+justify-content: center (to move elements (even if no div? or display:)
+
+differences between space-between / space-around.
+
+space-between for the equidistanza.
+
+
+
+
+
+
+check the css-reset:
+https://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/
+
+
+<head> elements to put <link>
+
+largo =Y ancho= X
+
+some properties cannote be reapeated or is hard, to put in same space use
+
+::before {
+	display: block; (always have diaplsy)
+	content= ' ; (even if empty)
+}
+
+area of inline = content just
+area of block: 100% width.
+
+block by default (div, article, h1, p, ul)
+inline for a, span, em, strong, img
+inline-block as x/y as small as possible  can keep up in the same line (input, select, textarea)
+[and have text inside]
+
+Display: Flex (will dispay it as a block)
+and the layout will be flex for childre.n.
+
+the CSS comes with i-nate:
+	body { margin: 8px }
+	div { display: block; }
+	li { display: list-item; }
+you can reset it
+
+selectors:
+to-chhoose > direct-child
+
+
+disabling the zoom on mobile.
+composition - element with this and that article.featured 
+
+specificity (idn if referring to index):
+id = 100
+class (or pseudo class) = 10
+element type = 1
+more specific or last win
+
+avoid using height, 
+margin-bootom / padding top
+inheritance of type attributes from parent-children
+
+ok so if from index.html to a ../img/image.jpg 
+if folder in same.
+
+BOILERPLATE
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+
+    <title>Hello world!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello world!</h1>
+    </header>
+
+    <main>
+
+    </main>
+    <footer>	</footer>
+  </body>
+</html>
+
+/* reset */
+	html {
+	  box-sizing: border-box;
+	}
+	*,
+	*::before,
+	*::after {
+	  box-sizing: inherit;
+	}
+	body {
+	  margin: 0;
+	}
+
+
+
+
+
 
 
 
@@ -255,5 +370,9 @@ the normal image or area used by text
 
 	overflow: visible - hidden - scroll - auto
 
-what is half?
+sometimes you dont even need the inline to set elements in line, just:
 
+     width: 33.3333333%;
+     float: right;
+
+here was done for images 
