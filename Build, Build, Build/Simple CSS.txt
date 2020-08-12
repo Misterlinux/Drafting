@@ -201,6 +201,24 @@ that probably gives a left space for every list , will check later
 
 
 
+Tareas para Sabado:
+-Revisar la creacion de formularios: https://learn.shayhowe.com/html-css/building-forms/
+https://marksheet.io/html-forms.html.
+-Ejercicio: https://github.com/Migracode-Barcelona/html-css-git-exercises/tree/master/week3/1-website
+se basa en la creacion de una estructura para imagenes y texto, den importancia al espacio
+entre los elementos y las diferentes secciones de la pagina y el codigo html.
+-Puntos extra si en un repository separado Y en Github Pages.
+
+Importante:
+Cualquier problema, #homework-question y #one-to-ones estan a vuestra disposicion, y yo tambien (solo cuando necesario)
+
+
+
+
+ok so for interactivity:
+https://marksheet.io/html-forms.html
+and some form part:
+https://marksheet.io/html-forms.html
 
 
 -------------------------
@@ -234,6 +252,53 @@ differences between space-between / space-around.
 
 space-between for the equidistanza.
 
+
+margin: x , y; (if same values repeated)
+
+custom border on custom height image height:
+  <div>
+    <img  id="logo" style="width: 180px; height: 80px;" src="imagenes/zaquiel marcaZM.png">
+  </div>
+
+  #logo{
+      border: 3px solid red;
+      float: left;
+  }
+
+ok so, easier way to get the border on custom image.
+
+ok so, some Boilerplate for navbar:
+
+<nav class="menu">
+  <ul>
+    <li><a href="https://zaquiel.com/">Ropa</a></li>
+    <li><a href="https://zaquiel.com/">Accesorios</a></li>
+    <li><a href="https://zaquiel.com/">Aseo</a></li>
+    <li><a href="https://zaquiel.com/">Recursos</a></li>
+  </ul>
+</nav>
+
+.menu{
+    height: 70px;
+    border: 5px solid silver;
+    float: right;                   ---]  height and line-height to set up the text of options
+    line-height: 40px;
+    font-size: 18px;
+    background: gold;
+}
+
+.menu ul li{
+    list-style: none;
+    float: right;                   --]  to remove the dots and spacing on them
+    padding-right: 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 25px;             --]  to remove effects on text 
+    border: 5px solid red;
+    color: white;
+}
 
 
 
@@ -330,6 +395,105 @@ BOILERPLATE
 
 
 
+FAST CSS.
+
+header tag and flex-container
+nav with span inside
+div and span
+
+even if <link /> autoclosed always
+
+<nav>
+  no effect on the <span>
+</nav>
+
+what does flex-container do?
+
+remember
+
+body{
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+header{
+    z-index: 1;
+    BORDER-bottom: 1px solid seashell;
+    align-items: center;
+    Position: fixed;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav{
+    flex-grow: 1; /* gives the element all the avaiable space*/
+    text-align: right;
+}
+
+a{
+    text-decoration: underline;
+}
+
+
+text at center with image as background
+
+.main{
+    width: 1200px;        ] first set just to set center (margin: auto) on images below
+    margin: auto;
+}
+
+#imma{
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+}
+
+#imma .contenuto{
+    margin: auto;
+    color: white;
+    background-color: black;
+    width: 70%;
+}
+
+
+for the colletion of images
+
+#vendendo{
+    height: 600px;
+    margin: auto;           ] auto to get at the center I guess
+}
+
+
+.items img{
+    display: block;       ] the text is better as <span> and dont use % on width (it tends to look bad)
+    margin: 10px;
+    width: 300px;
+}
+
+
+columns with image in background
+
+
+#listando .collo{
+    margin: auto;
+    width: 95%;
+}
+
+#listando .collo div{
+    font-size: 20px;
+    display: flex; /* from x to y */
+    flex-direction: column;
+    FLEX-BASIS: 220px;
+    justify-content: center;
+}
+
+
+about the footer
 
 
 
