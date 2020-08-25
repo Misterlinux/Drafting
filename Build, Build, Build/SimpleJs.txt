@@ -1,0 +1,47 @@
+here the JS.
+
+using NodeJs to run .js from the terminal:
+
+	node _____.js
+
+ok so, Const/Let to Declare variables
+
+	let variable = "element"; [remember the ;]
+	console.log(variable) ----------------------> ["element"]
+
+String Data type as sequence of characters, "quotemarks for the computer"
+
+string interpolation (excluding the variable + "some text" +)
+
+	const greeting = `${greetingStart}, my name is ${name}`;
+
+
+
+function : bloque de codigo que genera un valor.
+
+for and while work for negative numbers.
+
+
+BOOLEAR:
+
+-even having 2 variables can get you the boolear values.
+	
+	var moreStudentsThanMentors = studentCount > mentorCount;
+	console.log("Are there more students than mentors?", moreStudentsThanMentors);
+	---> "Are there" True 
+
+	[not having interpolattion with + " " makes it return a result not the string]
+
+----------
+
+ok so, in case you wanted to have a boolean value as the end in an if/else.
+
+	if (htmlLevel > 5 && cssLevel > 5){
+	  cssAndHtmlAbove5 = true;
+	}
+	else{
+	  cssAndHtmlAbove5 = false;
+	}
+
+no need for parenthesis.
+
