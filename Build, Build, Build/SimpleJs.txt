@@ -1,0 +1,348 @@
+here the JS.
+
+using NodeJs to run .js from the terminal:
+
+	node _____.js
+
+ok so, Const/Let to Declare variables
+
+	let variable = "element"; [remember the ;]
+	console.log(variable) ----------------------> ["element"]
+
+String Data type as sequence of characters, "quotemarks for the computer"
+
+string interpolation (excluding the variable + "some text" +)
+
+	const greeting = `${greetingStart}, my name is ${name}`;
+
+
+
+function : bloque de codigo que genera un valor.
+
+for and while work for negative numbers.
+
+
+BOOLEAR:
+
+-even having 2 variables can get you the boolear values.
+	
+	var moreStudentsThanMentors = studentCount > mentorCount;
+	console.log("Are there more students than mentors?", moreStudentsThanMentors);
+	---> "Are there" True 
+
+	[not having interpolattion with + " " makes it return a result not the string]
+
+----------
+
+ok so, in case you wanted to have a boolean value as the end in an if/else.
+
+	if (htmlLevel > 5 && cssLevel > 5){
+	  cssAndHtmlAbove5 = true;
+	}
+	else{
+	  cssAndHtmlAbove5 = false;
+	}
+
+no need for parenthesis.
+
+---------
+
+length property on array or strings.
+
+	scores.length
+	scores[3] = values[2]
+
+also, interchangeble array elements and possible to add them
+in case of overshooting, empty elements in array.
+
+functions inside a method, a "callback function"
+
+	const numbers = [1, 2, 3];
+	const numbersDoubled = numbers.map(function (number) {
+	  return number * 2;
+	});
+
+we define the elements of an array with the .map [method], how we do so its done with 
+a function, no need for name and EACH element (defined in number) will receive the 
+operations before the return.
+
+	const numbers = [1, 2, 3];
+	const numbersDoubled = numbers.map((number) => {
+	  return number * 2;
+	});
+
+	const primo = numbers.map((name) => name * 2)
+
+which can go further as not having to call function, nor name, nor parentesis nor return
+
+
+ok so, we change the function, we keep the llves and paremtesis.
+
+.forEach() doesnt create a new array, just affects.
+
+	const names = ["Daniel", "mozafar", "irina"];
+
+	names.forEach(function (name, index) {
+	  console.log(index + ": " + name);
+	});
+
+ok so, the names array will be modifyed, and it seems that in functions like
+that already have index for arraysm and name ....
+REMEMBER, we can use the .foreach to loop trought elements and check/modify them
+and with the ARROW as FUNCTION:
+
+	arr.forEach((y) => (y > 5) ? console.log("Maybe") : console.log("indeed"));
+
+about the filter.() 
+
+	const testScores = [90, 50, 100, 66, 25, 80, 81];
+
+	function isHighScore(score) {
+	  return score > 80;
+	}
+
+	const highTestScores = testScores.filter(isHighScore);
+
+we defined the array, a function that will define the filter(___)
+we create a new array that contains, the ARRAY under the filter method
+
+same thing as .find():
+
+	const longName = names.find(isLongName);
+
+	console.log(longName);
+
+same process as before but it only returns the first element in function.
+
+and too chain multiple functions.
+Here some exemples:
+
+	function capitalise(str) {
+	  return str.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');  
+	};
+
+to lower the case as a return in a FUNCTION , to then split and map on Every values
+to THEN function on the 
+
+
+
+you can use the [] to get:
+
+	nameOfastring[0] = "first_letter"
+
+also to exit the code:
+
+	pairsByIndex.map((item) => {
+	  return (item === null) ? process.exit(1) : item;
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+ok so, re-passing the old js:
+
+we use the .concat to CREATE new array with added alement and stuff:
+
+	const concavo = (scores.concat("concavo").sort().slice(2,5).join(" and "))
+
+ok so, we add (concat) new element and new array, AND we sort the new array with the new element
+AND we take only 3 elements (the 2nd included and the 5 not) and with .join it stops being 
+and array and just becomes a string.
+
+
+existence is paramether of truth:
+
+	console.log(scores.includes("indeed"));
+
+will just return true.
+
+ok so, before continuing, the difference between .forEach and .map
+
+	function checko(mas){
+	  return mas.forEach( (ull) => {
+	    if (ull == "indeed"){
+	      console.log(ull == "indeed")
+	    }
+	    else{
+	      console.log("not yet")
+	    }
+	  })
+	}
+
+	console.log(checko(scores))
+
+.forEach doesnt return use, and doesnt change or create a new array with the results, it cannot return a new
+array and so you cant use the methods .filter().
+just call the function to get the console.log
+
+ok, some context to the returns of the .map
+
+	function mosto(lil){
+	  return lil.map( (ops) => {
+	    if(ops > 20){
+	      return console.log("its a number")
+	    }
+	    else{
+	      return console.log("not yet")
+	    }
+	  })
+	}
+
+	mosto(scores)
+
+if the console.log is at the Return we wont get an array, just sone strings on the terminal
+but if:
+
+	return "its a number"
+
+	console.log( mosto(scores) )
+
+we get an array with the results
+
+ok so, return on return and function on elements.
+
+	function thearr(mint){
+	  return mint.find( (arr) => {
+	    return arr[0] == "e" && arr.length < 7
+	  })
+	}
+
+	var indeed = thearr(listan)
+	console.log(indeed);
+
+ok, we define function name, (here with no = ) we use the .find (to get the first one)
+with ANOTHER function that sets condition
+
+we can also use it to anylize the array:
+
+	function finnone(tuk){
+	  return tuk.map( (tin) => {
+	    return tin.length
+	  })
+	}
+
+	console.log(finnone(listan)) 
+
+and we get an ARRAY of the results and with:
+
+	function finalin(finn){
+	  return finn.forEach( (fiona) => {
+	    console.log(fiona.length > 5 && fiona.length < 7)
+	  })
+	}
+
+	finalin(listan)
+
+here we dont get an array, just a list of the results of the conditions inside the functions
+
+ok, the some is straightforward:
+
+	function nullifing(ind){
+	  return ind == [0,4]
+	}
+
+	console.log(pairsByIndex.some(nullifing))
+
+we just get true/false
+
+ok, a little of abstraction:
+we create a new array and here the differences
+
+	var pairsByIndex = pairsByIndexRaw.filter((n) => n % 2 !== 0 && typeof n !== `string` && n.length > 1);
+
+	var pairsByIndex = pairsByIndexRaw.filter(function verdaderoyfalso (hello){
+	   if( hello != null && hello.length == 2)
+	    {
+	   		return true;
+	    }
+	  }
+	)
+
+we have a filter with an arrow function here, but what does it return? this is an old question but 
+just to know, the condition being inside is the equivalent to the if and the RETURN true
+this is the validence it needs to do the .map after (being an array and all)
+
+	var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
+
+	var students = ["Islam", "Lesley", "Harun", "Rukmini"];
+	var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
+
+	var pairs = pairsByIndex.map(function(indexes) {
+	  var student = students[indexes[0]];//
+	  var mentor = mentors[indexes[1]];//
+	  return [student, mentor];
+	});
+
+	console.log(pairs);
+
+we are applying arrays (the 2 elements) inside the function, we create a "var student" which will take the
+combination of the current and take the FIRST number and take the name within, while the second does the same
+on a different array and with the other number, then we create an array that will be put in the new OTHER ARRAY
+created by map, with the combinations
+
+how to shorten up the functions after the .map
+
+	function maybe(m){
+	    return m * 100;
+	}
+	var numbers = numbers.map(maybe)
+
+	var numeron = numbers.map(function forse(f){ return f * 10});
+
+	var mero = numbers.map((l) => {return l *2} ) 
+
+	var ultimo = numbers.map( (o) => o * 5)
+
+removing the return, function, or names.
+
+and functions with conditionals inside:
+
+	arr.forEach(function(y){
+		  if(y > 5){
+		    console.log("maybe not");
+		  }
+		  else{
+		    console.log("indeeding");
+		  }
+		}
+	);
+
+	arr.forEach((y) => (y > 5) ? console.log("Maybe") : console.log("indeed"));
+
+we first use the forEach, the condition and the results.
+
+ok, capitalize the first letter:
+
+	function capitalis(str) {
+	  var name = str.toLowerCase().split();
+	  var newName = [];
+	  for (i = 0; i < name.length; i++) {
+	    newName.push(name[i].charAt(0).toUpperCase() + name[i].slice(1));
+	  }
+	  return newName.join(' ');
+	}
+
+we split every space as a letter, create an empty array in which to put the return
+of the loop for, that passes trought each of the SPLITed and does the thing
+You plobably dont even need the .slice()
+
+	function capitali(str) {
+	  let arrStr = str.toLowerCase().split("");
+	  arrStr[0] = arrStr[0].toUpperCase();
+	  return arrStr.join("");
+	}
+
+we just split after the lowercase we set an upper and join
+OR to even shorter, we use the map to check all
+
+	function capitalise(str) {
+	  return str.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');  
+	};

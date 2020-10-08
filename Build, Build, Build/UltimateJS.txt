@@ -1,0 +1,161 @@
+ok more syntax on js.
+
+var created for all the file/archive, and if exported or used, used
+let const just on the keys/ corchetes, different scopes
+
+const som = x
+x.push(4)
+
+fetch, not with arrays, with .com
+to get the API
+and calling it.
+
+what about the callback.
+ftaer fetching , wih the .then
+
+ok so, on destructuring:
+
+let array = [elements]
+
+elements[one, duo, tirdo] = array
+one sera como una variable con el valor definido con su posicion [0] en el array definido antes
+
+and we can also call the name it has if the array is like.
+
+let array = [1: 200, vnz: 300]
+you can
+
+const{vnz} = array
+return vnz * 3 / 2
+
+and if you want to re-name:
+
+const{ vnz: other}
+return other * 3 / 2
+
+y para multiples:
+
+const{ vnz: {vnz, sec}}
+
+y si lo modificas es limitado y no cambia el array, solo lo copia
+
+	function defaultParameter(name = "none"){
+	  return name;
+	}
+
+ok so, about the default option, is where we set an option in the paramether
+if the function is called without
+
+para decostruir with arrow function
+
+	 const destructuring = (obj) => {
+	 const { cyf } = obj
+	 	return cyf;
+	 }
+
+
+	${(a + b).ToString()}
+
+
+
+
+ES6, allow also for an easier concatenation:
+
+	return "Hello " + name
+	return `Hello ${name} `
+
+and also for the arrow function.
+
+dafault argument that allow functions with less paramether to work, inda
+
+Objects are a way to model data, 
+with properties which are data about the object
+
+methods are about the actions that the object can perform (with function indside)
+
+
+hola = [1,2,3]
+
+novo = [...hola, 20]
+
+hola == [1,2,3,20]
+I guess its the push.
+
+.prototype
+
+
+
+
+
+
+
+ok, I would like to remember you how to create objects with parameters (classes)
+also constructor is a method
+
+	class Polygon {
+	  constructor(height, width) {
+	    this.name = "Polygon";
+	    this.height = height;
+	    this.width = width;					//we need the constructor(){} to create objects and properties
+	  }
+	  sayName() {
+	    return "Hi, I am a " + this.name;   //this are functions but not in the object
+	  }										
+	  showDescription() {
+	    return `Aquí iría la descripción de un poligono `;	//this is just a string without .this
+	  }
+	}
+
+	let p = new Polygon(300, 400);		//we use the new to create a new object/class
+
+	console.log('The area of this polygon is ' + p.name + " with also " + p.width + p.width, p.sayName() );
+
+at the end, we can create variablew with objects to use.
+also we get how to use the super and the get:
+
+	class Rectangle extends Polygon {
+	  constructor(height, width) {
+	    super(height, width);
+	    this.name = "Rectangle";					//we create a new class AND we give it the old properties setting
+	    this.sides = 4;						   		//it as SUPERior (it has the width/height properties and super is required)
+	    //this.area = this.height * this.width;		//adding stuff also
+	  }
+	  get area() {
+	    return this.width * this.height;			//we set the property as result of operation (not a function)
+	  }
+	}
+
+	let r = new Rectangle(50, 60);
+	console.log('The area of this polygon is ' + r.area, r.sayName() );
+
+
+ok, some about the super:
+
+	class Cat {
+	  constructor(name) {
+	    this.name = name;
+	  }
+	  
+	  speak() {
+	    console.log(`${this.name} makes a noise.`);
+	  }
+	}
+								//we set up a class, with the speak method
+								// we get a new class and give it as child from Cat
+	class Lion extends Cat {	//BUT its not enought, we re-create the method and 
+	  speak() {					//link to it the .speck() from its Cat
+	    super.speak();
+	    console.log(`${this.name} roars.`);
+	  }
+	}
+
+	let l = new Lion('Fuzzy');
+	l.speak(); 					//it gets 2 console logs 
+	// Fuzzy makes a noise.
+	// Fuzzy roars.
+
+Ok so, to loop and slice every element of a string:
+
+	const combineArrays = (arr1, arr2) => [...arr2,...arr1];
+
+what is code? set of rules and instructions for the computer, 

@@ -243,14 +243,37 @@ to load inside html, with grid layout and components.
 
 
 Some Flexing:
-flex-start (at the left)
-flex-end (at the right)
+
+Justify-content:
+
+  flex-start (at the left)
+  flex-end (at the right)
+  center
+  space-between     (space between elements)
+  space around      (space around the element)
+
+Justify-content for X for Y use Align-items:
+
+  baseline (every element inside has same x (linee of base))
+
+flex-diretion (positioning in)
+
+  row (line -reverse to right )
+  column 
+
+ok each element as a value order and to move to left just -(number)
+
+
+
+
 
 justify-content: center (to move elements (even if no div? or display:)
 
 differences between space-between / space-around.
 
 space-between for the equidistanza.
+
+
 
 
 margin: x , y; (if same values repeated)
@@ -497,7 +520,7 @@ about the footer
 
 
 
-
+flex
 
 
 
@@ -540,3 +563,5 @@ sometimes you dont even need the inline to set elements in line, just:
      float: right;
 
 here was done for images 
+
+

@@ -152,3 +152,48 @@ buffer format Buffer: 7b 0a 20 20 20 20 22 31 34 36 37 33 39 30 33 35 36 32 39 3
 to readable:
 	just file.toString()
 
+
+Week-Teams:
+
+also check that code can influence the terminal.
+
+
+HOW TO DO the concatenate
+
+alt+39
+
+
+
+pillars , open education for the others
+job placements, community building, 
+
+right tecnology , also mostly pragmatic.
+
+focusing on react
+
+hackr rank ?? and instructor
+
+elements of react and adding value
+
+team but also sharing on asking
+
+goverments support sometimes, 
+
+do the call and cofee
+
+small companies dont have egineers and back office
+
+
+
+ya no hay problemas tecnicos, es mas interpersonales.
+different and teamwork, showing your value trought confidence
+capital umano, 
+
+glassdoor.com
+si te mienten pues dicelo, 
+
+pablo dors
+
+https://www.42madrid.com/
+
+curso agile, 

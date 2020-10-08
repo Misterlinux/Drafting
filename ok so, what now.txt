@@ -43,3 +43,11 @@ we can use brackets like:
 	\w {__-__} (qualifiers on what and how much repeat with MIN-MAX with the first element as what to)
 
 /////////////////
+
+
+ok so, article about the OCC stuff.
+a theme, metting new people, getting to the real code, there is code and code.
+there is code and then there is who does the code
+about the code and who needs it
+Code varies on who uses it
+a c(ODE) 

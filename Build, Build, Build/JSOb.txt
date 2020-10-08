@@ -1,0 +1,1041 @@
+JSOb.txt
+
+	let object: {
+		primo: "uno",
+		secondo: "secondo",
+	}
+
+object literal, propiedades/keys , values y comas, ademas los dos puntos.
+to set up a new property you dont need any prepart (like let and stuff)
+
+	object.property = "newvalue"
+
+ok, you can access the data inside the object with this.name_Of_Property.
+
+	let athlete = {
+	  sayHi: function () {
+	    return "Hi everybody! " + (this.goldMedals - 20) ;
+	  },
+	  goldMedalds = 21,
+	   varied: this.goldMedals - 13,
+	};
+
+naming = athlete.sayHi();
+
+Functions inside, which are set as properties have no names and can be called outside by 
+calling the right order.
+To reference peoperties inside the object by the function they have to be in the same level
+(which mean not inside another object).
+
+	let athlete = {
+	  name: "Usain Bolt",
+	  goldMedals: 25,
+	  working: {
+	    sayHi: function () {
+	      return console.log("Hi everybody! " + (this.numero - 20)),
+	      this.name = this.goldMedals + " indeed"
+	    },
+	    numero: 200,
+	  },
+	  lost: true,
+	  varied: this.goldMedals - 13,
+	};
+
+varied/this.goldMedals returns undefined (it seems we cannot use it to re-defina values) and also
+it cannot call it coz in the different level.
+
+functions with arguments can be called.
+
+	options: function(yui){
+	  if (yui == "maybe"){
+	    return console.log("ok this can work");
+	  }
+	  else{
+	    return console.log("you know what, nevermind")
+	  }
+	},
+
+	athlete.working.options("maybe");
+
+and then used with the correct path.
+
+objects can be put into an array and then be used in functions as such.
+
+	let tertero = {
+	  min: "valoring",
+	  less: 39,
+	}
+
+	let stringato = [firsto, segundo, tertero]
+
+	function namendo(lol){
+	  return lol.less <= 34;
+	}
+
+	console.log(stringato.filter(namendo));
+
+here, you will get the objects as an array as result(lol hasnt to be the name but the PROPERTY
+has to be)
+
+Objects have methods to get the Object.keys and .values (INSIDE) them.
+
+	console.log(Object.keys(tertero), Object.values(tertero));
+
+and to loop on the elements inside the object:
+
+	for (const key in tertero){
+	  console.log(`${key}: ${tertero[key]}`); 
+	}
+
+like the FOR loop, define KEY (fixed) as index INside the tertero(object)
+to then show the {key} and the property with {object.[key]}
+
+ok so, to turn an object int an array and still giving them the element:
+
+	const arrai = Object.keys(tertero); //this gets the keys as an array to be filter
+
+	arrai.forEach((key) => {
+	    console.log(`${key} and the values as "${tertero[key]}"  `)
+	  }
+	)
+
+Starting Objects with var:
+
+	var product1 = {
+  		id: 1,
+  		name: "Toaster X56 Plus",
+  		price: 12.98,
+  		stock: 105,
+	};
+
+pushing as last element in an empty/or not array [] a paramether:
+
+    friends: ["John", "Nina"],
+    makeFriend: function(add){
+      this.friends.push(add);
+    }
+
+filters to arrow functions to operation on paramether and anonim:
+
+	let numbersPer100 = numbers.map(el => el*100);
+
+capitalizing only the first element:
+
+	function capitalise(str) {
+	  return str.charAt(0).toUpperCase(0) + str.slice(1);
+	}
+
+	function capitalise(str) {
+	  let arrStr = str.split("");
+	  arrStr[0] = arrStr[0].toUpperCase();
+	  return arrStr.join("");
+	}
+
+the slice is to take take the part from 1 to __ (in this case I guess it just glue the no (0))
+
+
+
+ok so, array filters and conditions.
+
+	writers.filter(person => person.alive === true).
+			forEach(person => console.log(`Hi, my name is ${person.firstName} ${person.lastName}. I am ${person.age} years old, and work as a ${person.occupation}.`));
+
+ok, we .filter for the fundamental condition, but if you want to print the modified you have to use .forEach
+
+
+
+
+
+
+about the different ways to result the barcelona present. 
+
+	let barcelonaWorkers2 = mentors.filter(non => non.job.city == "Barcelona");
+	barcelonaWorkers2.map(ul =>console.log("ok here you got it", ul.firstName) );
+
+ok so, with the first we just get the OBJECTS with the said value.
+and then we get inside each element and we console.log the value we want.
+instead of just printing the objects.
+
+	console.log(`here the list of working `, barcelonaWorkers2);
+
+ALTERNATIVE, we use the .forEach to console.log their values
+
+	let barcelonaWorkers2 = mentors.filter(non => non.job.city == "Barcelona")
+								   .forEach(pot => console.log(`hello their name is ${pot.firstName}`) );
+
+remember that you have to get it closer to an array (with the filter) to use the .
+I mean we filter just to have 1 value filter that we can console log easily
+
+ok so, about conditions and how to pass around the if.
+
+	mentors.forEach(mentor => {
+	  if (mentor.job.city === "Barcelona" && mentor.skills.includes("React")){
+	    console.log(`1) Hi, my name is ${mentor.firstName} ${mentor.lastName}. I work in Barcelona and i know React.`);
+	  }
+	});
+
+we just use the filter:
+
+	mentors.filter(mas => mas.job.city == "Barcelona" && mas.skills.includes("React") ).forEach(mint => console.log(`hello this is the ${mint.firstName}`) );
+
+
+ok so, we can create the .find method with a function inside to return inside the array a value.
+item is the objects.
+
+	mentors.forEach((item) => {
+	  if (item.job.city === 'Barcelona' && item.skills.find((s) => { return s === 'React'; })) {
+	    console.log(`"Hi, my name is ${item.firstName} ${item.lastName}. I work in Barcelona and i know React."`);
+	  }
+	});
+
+and like before we get the filter for conditions the .find gets a function with a return.
+
+	mentors.filter( ita => ita.job.city == "Barcelona" && ita.skills.find( (R) => {return R == "React"} )).forEach(por => console.log(`ok so, we got the ${por.firstName}`));
+
+ok, now how to filter in objects:
+
+	for(a of mentors){
+	  if(a.job.city==="Barcelona" && a.skills.find( (J) => { return J == "React"; } )){
+	console.log("Hi, my name is "+ a.firstName + a.lastName+"." +"I work in Barcelona and i know Reacting.")
+	  }
+	};
+
+ok so, in a list of objects (an arrays of objects [mentors]) we "filter" trought it
+with the for(__ of mentors) we use the a for the objects inside.
+to then put the conditions and stuff.
+
+ok so eve for the a.filter (wont work);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ queryselector to find elements from html.
+
+ document.querySelector("#title");
+
+
+ also we working with the DOM, the:
+
+	<script src="myfirstscript.js"></script>
+
+will be inside the <body> and happen as soon as the script, 
+an entire .js file can be put inside the <script>
+
+	<script src="myfirstscript.js"></script>
+
+opening operating functions using elements inside the html:
+
+	var myButton = document.querySelector("#myButton");
+	myButton.addEventListener("click", sayHi);
+
+	function sayHi() {
+	    var title = document.querySelector("#title");
+	    var name = document.querySelector("#name");
+    	title.innerText = "Hello " + name.value; 
+
+and also linking elements to functions, we set variables and add(an)EventListener("event", function)
+USING css selectors to get the first element with the .querySelector and querySelectorAll to get all of them
+KINDA like an array but nor really, to do so use.
+
+	let elementArray = Array.from(document.querySelectorAll("div"));
+
+remember to check 
+
+
+document.getElementById("content").innerText = "Hello"
+ in console.
+
+
+
+
+	for (lol of mentors){
+	  if(lol.job.city==="Barcelona" && lol.skills.find( (J) => { return J == "React"; } )) {
+	    lol.class="Jun1"
+	    lol.skills.push("SQL")
+	    console.log("ok so the dude " + lol.firstName + " knows " + lol.skills)
+	  }
+	};
+
+if the property is alone you can just change it with the = :
+
+	lol.class="Jun1"
+	lol.skills.push("SQL")
+
+but if its a part of an array you just .push, anyway I guess you can choose between the 
+.includes and the .find
+
+	mentors.forEach(mentori =>{
+	  if(mentori.job.city === "Barcelona" && mentori.skills.includes("React")  ) {
+	    mentori.class = "Jun1";
+	    mentori.skills.push("SQL");
+	    console.log('2)', mentori);
+	  }
+	});
+
+ok so:
+
+	mentors.forEach(min => min.addSkill = function(newSkill){
+	  this.skills.push(newSkill)
+	});
+
+	mentors.forEach(skill => skill.addSkill("AngularJS"));
+	mentors[0].addSkill('Pmagic eye');
+
+	console.log('3)', mentors);
+
+we create a function about the object elements as "min", we create a property as a function
+with .addSkill and we define it with the attribute that will be pushed in the property skills
+
+then to do everywhere we use the .addSkill [its like the name of the function]
+or just doing it for 1 element
+
+and in case you want to do it with a simple function:
+
+	function addSkill(mentors,newSkill){
+	  return mentors.forEach(skill => skill.skills.push(newSkill));
+	  //your code here
+	}
+
+	addSkill(mentors, 'Angular');
+	console.log('4)', mentors);
+
+we create a function and return the forEach with a function to push the attribute
+
+ok so, we create a function with the object and the to be remuved
+
+	function removeSkill(mentors,newSkill){
+	  return mentors.forEach(skill => skill.skills.splice(skill.skills.indexOf(newSkill),1));
+	}
+
+	removeSkill(mentors, 'Angular');
+	console.log('5', mentors);
+
+we return the result for checking all the objects in which the skills gets spliced
+from the index of the attribute and the rest
+
+ok so:
+
+	function mentorWithMoreSkills(mentors){
+	  let maxSkills = Math.max.apply(null,mentors.map(skill => skill.skills.length));
+	  return mentors.filter(skill => skill.skills.length === maxSkills).map(min => min.firstName);
+	}
+
+	console.log(`6) The mentor with more nunmber of skills is ${ mentorWithMoreSkills(mentors) }`);
+
+ok so, we create a function and a variable with the max between all (map) and
+(createAnarray I guess with apply or something) the max between the .lenght on the mentors
+we return the object which has the .lenght as max on every element first names.
+then we put the name only in the console log.
+
+ok so:
+
+	mentors.forEach(skill => skill.addStudentLik = function(num)
+	  {
+	    this.studentLikes = this.studentLikes + num
+	  }
+	);
+	mentors.forEach(nin => nin.addStudentLik(3));
+
+	console.log('7 maybe', mentors);
+
+ok so, we create a new property .addStudentLik and a paramether
+that we have to use later and apply to then have it printed
+
+
+
+------- ok so, in the js -> html
+
+ok so, we get an array in the js.
+
+	let people = [
+	  { name: "Chris", job: "Teacher" },
+	  { name: "Joanna", job: "Student" },
+	  { name: "Boris", job: "Prime Minister" }
+	];
+
+	exerciseOne(people);
+
+ok, so, this test wil have a function and the array in it as attribute
+
+function exerciseOne(arraypeople){
+	let content = document.queryselector.id("#content")
+		//variable taking from the DOCUMENT querySELECTOR which one? ("CSS")
+	arraypeople.map( (item) => {
+			//ok so for each name
+		let title1 = document.createElement("h1")
+			//now, this create a tag in the html
+		title1.innerText = item.name
+			//we fill the CREATEDELEMENT with the property of the array as TEXT
+		content.appendChild(title1)
+			//appending as a child of af another element
+
+		let title2 = document.createElement("h1")
+			//can repeat any tag as html
+		title2.innerText = item.job
+			//how to repeat? you cant append repeated BUT just createElement
+		content.appendChild(title2)
+	})
+}
+
+OK so, it seems we use the content as something more general but if inside another tag
+new array:
+
+	let shopping = ["Milk", "Break", "Eggs", "A Dinosaur", "Cake", "Sugar", "Tea"];
+	exerciseTwo(shopping);
+
+	function exerciseTwo(shopping){
+		let ulist = document.createElement("ul")
+		//creating the space
+		let cont = document.querySelector("#content")
+		//targetting the space
+		//now we need to use the map 
+
+		shopping.forEach( (item) =>
+			let lilist = document.createElement("li")
+			//we now create the space
+			lilist.innerText = item
+
+			ulist.appendChild(lilist);
+			//getting the li inside the ul
+		)
+		//getting the ul in the #content
+
+
+	}
+
+Let first = document.querySelector("#content")
+let second = document.createElement("h2")
+second.innerText = "indeed"
+
+first.appendChild(second)
+
+where, what tag, which text inside
+
+ok so, when entering big tags you just name them:
+
+	document.querySelector("body")
+
+ok so,, how to loop an image, we createElement as img tag
+then one of the "property" with the .src and we link it to
+a property of the array element with a src element
+
+    let image=document.createElement("img")
+    image.src= ele.imgsource
+
+ok so, in case you want to modify an createElement inside the function
+based on array properties just add the .style.namePro also remember to use always
+the comillas
+
+    if(ele.alreadyRead===true){
+      paragr.style.backgroundColor = "yellow"
+      paragr.style.fontSize = "20px"
+    }
+    else if(ele.alreadyRead===false){
+      paragr.style.backgroundColor="green"
+    }
+
+
+	 function exerciseThree(books) {
+	  let cont=document.querySelector("body")
+	  let unlist=document.createElement("ol")
+	  
+	  books.forEach((ele)=>{
+	    let paragr=document.createElement("p")
+	    paragr.innerText = ele.author + " " + ele.title
+	    
+	    //just innertext with the properties
+
+	    let image=document.createElement("img")
+	    image.src=ele.imgsource
+	    image.style.height = "500px"
+	    image.style.width = "500px"
+
+	    //here you are modifying the img attributes but if you want to cover the
+	    //more behind you have to focus on the LI
+	   
+	    paragr.style.backgroundColor = ele.alreadyRead ? "green" : "red";
+	    
+	    //here we link a style property to the conditional and it doesnt even need an equal
+
+	    let listies=document.createElement("li")
+
+	    listies.appendChild(paragr)
+	    paragr.appendChild(image)
+	    unlist.appendChild(listies)
+	    //paragr.className=blueberry
+	  });
+	  
+	  //I guess the last append gos outside
+
+	  cont.appendChild(unlist)
+
+	};
+
+we devide a page in html elements, the DOM object, a rapprentation for
+the javascript to work coz it cannot see directly the html
+
+	<html>
+	  <body>
+	    <h1>Welcome!</h1>
+	    <p>Hello world!</p>
+	  </body>
+	</html>
+
+	let document = {
+	  body: {
+	    h1: "Welcome",
+	    p: "Hello world!",
+	  },
+	};
+
+but to interact you use the <script src=" .js"> in the html
+to add events after the querySelector("tag")
+
+	let myButton = document.querySelector("#myButton");
+	myButton.addEventListener("click", alertSomething);
+
+	function alertSomething() {
+	  alert("Something");
+	}
+
+here we havent createElement, we just linked an event to a ID with teh alert
+or to modify the style.
+
+	let myElement = document.querySelector("#myElement");
+	myElement.style.backgroundColor = "red";
+
+creating elements and putting in the DOM:
+
+	let paragraph = document.createElement("p");
+	myElement.appendChild(paragraph);
+
+we first used the .map , properties of the DOM element .
+we could give it a class name.
+
+	let container = document.querySelector("#myContainer");
+	container.className = "largeBlock";
+
+ok so, we get the input after a click after selecting teh query:
+
+	let updateTitleBtn = document.querySelector("#updateTitleBtn");
+
+	updateTitleBtn.addEventListener("click", function () {
+	  let inputBox = document.querySelector("#titleInput");
+	  let title = inputBox.value;
+
+	  let titleElement = document.querySelector("#lessonTitle");
+	  titleElement.innerText = title;
+	  inputBox.value = title;
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ok so, some more notes on the code
+we select the buttons and set up the colors to function later
+
+	let blueButton = document.querySelector('#blueBtn');
+	let orangeButton = document.querySelector('#orangeBtn');
+	let greenButton = document.querySelector('#greenBtn');
+
+	let paletaDeColores = {
+	    blue:{
+	        jumbotron : `#588fbd`,
+	        donate : `#ffa500`,
+	        volunteer : {
+	            background : 'black',
+	            text : 'white'
+	        }
+	    },
+	    orange:{
+	        jumbotron : `#f0ad4e`,
+	        donate : `#5751fd`,
+	        volunteer : {
+	            background : '#31b0d5',
+	            text : 'white'
+	        }
+	    },
+	    green:{
+	        jumbotron : `#87ca8a`,
+	        donate : `black`,
+	        volunteer : {
+	            background : '#8c9c08',
+	            text : 'white'
+	        }
+	    }
+	}
+
+ok so, paletaDeColores is an array with objects inside to use in functions later
+function para cambiar color, (aun no linked to the click button)
+
+	function changeBgdColor(colorOfButton){
+	    let divJumbotron = document.querySelector('.jumbotron');
+	    divJumbotron.style.backgroundColor = paletaDeColores[colorOfButton].jumbotron;
+
+//this function will receive the color of the button pressed, in a variables we dont... use later
+
+	    let buttons = document.querySelectorAll('.buttons a');
+
+//modyfing all the links of the button with elements of the array, also, remeber that when
+//selecting a queryselectorAll you have still to select the specifi one, kinda of
+
+	    buttons[0].style.backgroundColor = paletaDeColores[colorOfButton].donate;
+	    buttons[1].style.backgroundColor = paletaDeColores[colorOfButton].volunteer.background;
+	    buttons[1].style.color = paletaDeColores[colorOfButton].volunteer.text;
+	}
+
+//and the HTML class created in the javascript is ADDed an EVENT that works after the click
+//and will give the result of the FUNCTION changeBgColor as it received the "VALUE" that changes
+//background color and stuff
+
+	blueButton.addEventListener('click', ()=> changeBgdColor('blue'));
+	orangeButton.addEventListener('click', ()=> changeBgdColor('orange'));
+	greenButton.addEventListener('click', ()=> changeBgdColor('green'));
+
+ok now for the form
+
+	const submitButton = document.querySelector('.row div form button');
+	const formEmail = document.getElementById('exampleInputEmail1');
+	const formName = document.getElementById('example-text-input');
+	const formDescribe = document.getElementById('exampleTextarea');
+	let errorsCounter = 0;
+
+//ok we have a variable for the button at the end and for each form 
+//also a counter for later, also const is different from let...? well not
+
+	function validationText(text){   
+	    return text.length > 0 ? true : false;
+	}
+
+//we proceed the functions to check if the name exist or the email has @
+
+	function validationAt(email){
+	    return email.includes('@') ? true : false;
+	}
+
+// function to style the borders after the submit (but this happens after)
+
+	function borderOK(){
+	    formEmail.style.border = '1px solid rgba(0,0,0,.15)';
+	    formName.style.border = '1px solid rgba(0,0,0,.15)';
+	    formDescribe.style.border = '1px solid rgba(0,0,0,.15)';
+	    document.forms[0].reset();
+	}
+
+//also document.forms[0].reset(), about the forms, its not a variable
+
+	function checkAll(){
+	    let atPresent = validationAt(formEmail.value) ? true : false;
+	    atPresent ? console.log("Email OK") : formEmail.style.border = '1px solid red';
+
+//ok so we take the formEmail from the variable create in getElement by Id in the form
+
+	    let namePresent = validationText(formName.value) ? true : false;
+	    namePresent ? console.log("Name OK") : formName.style.border = '1px solid red';
+
+//also returning the console log gives for granted the presence, coz we are using the function that
+//return true alredy in base of the value
+
+	    let describePresent = validationText(formDescribe.value) ? true : false;
+	    describePresent ? console.log("Describe OK") : formDescribe.style.border = '1px solid red'
+
+//also we use the same validationText for both coz the text being present is a simple function
+//ALSO remember that the function being linked to the validation of this one is the BORDER
+
+	    let isAllOK = atPresent && isEmailTextPresent && namePresent && describePresent ? true : false;
+	    isAllOK ? borderOK() : console.warn('Hay Errores!');
+
+//if all is true, in a variable, we return all the results from this function 
+
+	    return isAllOK;
+	}
+
+// función para ejecutar checkAll y mostrar alert de gracias
+
+function alertOk(){
+    let name = formName.value;
+
+//ok we take the name coz here that variable doesnt work
+
+    let allOK = checkAll() ? true: false;
+
+//we check if the past function was allright and put it as a variable and conditions
+
+    allOK ? alert(`Muchas gracias ${name} por registrate!!`) : errorsCounter ++;
+
+//we access the alert if the past function went allright or we add the counters
+
+    if (!allOK && errorsCounter < 3) {
+        console.warn(`Error, ¡${errorsCounter}º aviso!`);
+    } else if (!allOK && errorsCounter === 3) {
+        seriousAlert() 
+    }
+
+//we check the errors or if the past function didnt work
+
+    return allOK;
+}
+
+
+function seriousAlert(){
+    confirm(`Error, ¡${errorsCounter}º aviso! \nPara añadir un párrafo ES NECESARIO QUE INTRODUZCAS TEXTO EN EL FORMULARIO! \nGracias.`);
+    errorsCounter = 0;
+}
+
+// interacción con el botón submit, in alertOk() we link all the forms from past functions
+// after the click on the button set in the variable set
+
+submitButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    alertOk();
+});
+
+
+ok do, lets see the shorten version:
+
+
+
+
+
+
+ok so, functions express:
+
+	const body = document.querySelector('body')
+	setTimeout( () => body.style.backgroundColor = 'cyan', 5000 )
+
+setTimeout takes 2 arguments , the function of what to change and the time stamp
+ok, now we see hwo to intermittente:
+
+	const changeColorInterval = setInterval(() => {
+	    const numeroAleatorio = Math.random() > .5
+	    body.style.backgroundColor = numeroAleatorio ? 'cyan' : 'blue'
+	}, 2000)
+	console.log(changeColorInterval)
+
+ok so, setInterval() => { , } with a function as first argument and time in the second
+anyway its a loop, kinda, and we use a random number to check evry time one of 2 
+between 0 and 1
+
+having an array of objects and a setTimeout that acts the functions that loops trought then one time only
+
+	function showMovies(){
+	  const allmovies = document.getElementById('all-movies');
+
+	  movies.forEach(movie=>{
+	    let movieInfo = document.createElement("p");
+	    movieInfo.innerText =`${movie.title} - ${movie.director}`;
+	    movieInfo.classList = 'movie';
+	    allmovies.appendChild(movieInfo);
+	  })
+	 const moviesNumber = document.getElementById('movies-number');
+	 moviesNumber.innerText = movies.length;
+	}
+
+	setTimeout( listMovies, 2000);
+
+we put the functions inside setTimeout without the () and with classList we give it the
+class at the tag, also the .length has to be used from the principal array
+
+ok so, mini function to add elements from another array:
+
+	function addMovies(movie) {
+	  movies.push(movie);
+	}
+
+	setTimeout(addMovies(myMovies[0]), 1000);
+
+the attribute is the array, we push in the original movies.push()
+
+ok so, syncrhonous for all actions on a program while sync is for multiple at same time.
+ashync:
+
+	console.log("First action");
+	setTimeout(function () {
+	  console.log("Second action");
+	}, 1000);
+	console.log("Third action");
+
+most in js are async, the setTimeout is the delay on the function:
+
+	// Separate function definition
+	function myCallbackFunction() {
+	  console.log("Hello world!");
+	}
+	setTimeout(myCallbackFunction, 1000);
+
+	// Inline function
+	setTimeout(function () {
+	  console.log("Hello world!");
+	}, 500);
+
+request response between the client and server, 
+
+ok so, a timer with customozable time and a audio.
+
+	function setAlarm() {
+	  let alarmValue = parseInt(document.getElementById('alarmSet').value)
+	  changeOutputText(alarmValue)
+	}
+
+with the first click after putting the number of seconds in it, we change the counter, anyway we 
+put there the pure number of the value inside 
+ALSO REMEMBER: that partseInt gets the () for the inside, the document. and the .value when 
+getting content from the ID
+
+	function changeOutputText(time) {
+	  const outputText = document.getElementById('timeRemaining')
+	  outputText.innerText = 'Time Remaining: 00:' + (time < 10 ? `0${time}` : time)
+
+	  if (time > 0) {
+	    setTimeout(() => changeOutputText(--time), 1000)
+	  } else {
+	    playAlarm();
+	  }
+	}
+
+this function gets the parteInt time from before, gets the timeRemaining in the zone
+puts the passed time there in the space and eachSeconds (with setTimeout) to reduce the time
+each second or play the alarm if 0
+
+then to do the things:
+
+	var audio = new Audio("alarmsound.mp3");
+
+	function setup() {
+	  document.getElementById("set").addEventListener("click", () => {
+	    setAlarm();
+	  });
+
+	  document.getElementById("stop").addEventListener("click", () => {
+	    pauseAlarm();
+	  });
+	}
+
+	function playAlarm() {
+	  audio.play();
+	}
+
+	function pauseAlarm() {
+	  audio.pause();
+	}
+
+	window.onload = setup;
+
+play audio set with new Audio .PLAY()
+to stop an audio .PAUSE()
+we bind the bottons in a function by getting the ID AND an event for the click for the 
+function we created before
+
+also something for the setup
+
+ok some optimitation:
+
+	parseInt(document.getElementById("alarmSet").value) = document.getElementById("alarmSet").valueAsNumber;
+
+ok so, we set up a timer with 
+
+#viernes
+
+
+
+repassing the objects start-up:
+
+	let person = {
+	    name: "Alice",
+	    friends: ["John", "Nina"],
+	    makeFriend: function(add){
+	      this.friends.push(add);
+	    }
+	};
+
+	person.makeFriends("dude")
+
+ok so, we call the propery of the object with the argument that will
+influence the .friends property
+
+
+lets see the slideshow.js
+
+learn how to prhase problemsolving
+knowing where to go and what
+more in knowing what tecnology kinda wanting to work with
+recurso de presentacion
+adaptar curricolum
+
+no especialista, 
+
+Ricardo collado telefonica
+no PEROs
+you are in front of a person. 
+habala sobre a empresa, 
+rubencodesido@gmail.com
+ruben garcia codecido 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ok so, slideshow images with bottons, from js to html:
+
+	 <div class = "slide">
+     	<img src = "" width = "640px">
+  	 </div>
+
+	let img = document.querySelector(".slide img")
+	img.setAttribute("src",images[0])
+	let currentslide = 0
+	let autorotation = 0
+
+ok so, we first select the tag with the .querySelector ans 
+setAttribute of the first image and we set the counters.
+
+ok some other way,
+
+let pictures = ["img/kitten1.jpg",
+"https://immagini.alvolante.it/sites/default/files/news_galleria/2019/09/mini-elettrica-francoforte-2019-5.jpg",
+"img/kitten3.jpg",
+"https://immagini.alvolante.it/sites/default/files/news_galleria/2019/09/mini-elettrica-francoforte-2019-5.jpg"];
+
+array for the images:
+
+	let getBtnForward = document.querySelector("#forward");
+	getBtnForward.addEventListener("click", getImageForward);
+
+get the botton and function after the "click", AFTER creating the class and .addEventListening
+
+	let getImage=document.querySelector("#slidePic");
+	getImage.setAttribute("src", pictures[0])
+
+get image in ID as the first image,
+and to move the click on the images
+
+	let currentEllement = 0;
+	function getImageForward(){ 
+	    currentEllement = currentEllement+1;
+	    if(currentEllement>pictures.length-1){
+	        currentEllement=0;
+	    }
+	    getImage.setAttribute("src" , pictures[currentEllement])
+	 }   
+
+and the same for the back botton.
+for the auto option, its really simple, an event , we create the interval that we would need 
+to stop it later, we set the Function and set the variable as the setInterval....
+anyway we repeat the function with 1 sec
+
+	let getBtnAutoBack= document.querySelector("#auto-backwards")
+	getBtnAutoBack.addEventListener("click", getAutoImageBack)
+	let interval;
+	function getAutoImageBack(){
+	    interval=setInterval(
+	        getImageBack,1000
+	    )
+	}
+
+ok so, we set the botton to stop, we just clearInterval()
+
+	let getBtnStop= document.querySelector("#stop");
+	getBtnStop.addEventListener("click", getStop)
+
+	function getStop(){
+	    clearInterval(interval)
+	}
+
+ok so, to CLEAR an interval you need to set a variable with the setinterval
+
+ok so, now lets check another version:
+
+	let img = document.querySelector(".slide img")
+	img.setAttribute("src",images[0])
+
+after we do the array and set the fort image in the tag.
+2 counters.
+
+	let currentslide = 0
+	let autorotation = 0
+
+seting all bottons and the events.
+
+	let BtnautoForward =document.querySelector("#autoforward")
+
+	BtnForward.addEventListener("click",goforward )
+
+we use the variable to set a movement, in this case autorotation:
+
+	function goautobackward(){
+	    rotator = setInterval (gobackward, 3000)
+	    autorotation = 1
+	}
+
+and to stop:
+
+	function gostop(){
+	    if (autorotation === 1){
+		    clearInterval(rotator) 
+		    autorotation = 0
+	    }
+	} 
+
+its the same but we dont need the extra variable.
+
+in theory to stop the setInterval:
+
+	parar.addEventListener("click", () => {
+	    stop();
+	})
+
+in another the src is set with the counter and the array.
+
+	imgs.src=imagesarr[currentimageindex]
+
+adding everything in the same add.eventlistener:
+
+	next.addEventListener("click", function(){
+	    currentimageindex=currentimageindex+1
+	    if(currentimageindex>=imagesarr.length){
+	        currentimageindex=0
+	    }
+	    imgs.src=imagesarr[currentimageindex]
+	})
+
+if he names the function he could have used it instead of repeating it.
+

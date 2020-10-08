@@ -31,6 +31,12 @@ To create a local server:
 Intalling Express and having it in the .Json file
 -npm install express --save
 
+Tareas.
+
+-Ejercicios Week3-Homework-A-D-E-F-G-H
+
+
+
 Added as dependency.
 After creating server.js in folder to start the server:
 -node app.js
@@ -194,3 +200,12 @@ sudo -i -u postgres this gets you into.....postgre I dont know yet
 
 *39wZg8TLY*q passwords
 5432
+
+
+--------------
+
+cache, 
+
+Ramin for now (monday day off, except from 19/ wed mercoledi also, gio after 19, friday and sab after 15)
+ali (friday and saturday after 12)
+
